@@ -89,7 +89,9 @@
 
   <body>
     <header>
-      <h1 id="site-title" onclick="returnToLandingPage()">Persian Dictionary</h1>
+      <h1 id="site-title" onclick="returnToLandingPage()">
+        Persian Dictionary
+      </h1>
       <p id="site-subtitle">Search in Persian or English</p>
     </header>
 
@@ -366,12 +368,14 @@
         <div class="pronunciation-wrapper hidden">
           <h3>Persian Pronunciation Guide for English Speakers</h3>
           <p>
-            Persian has five basic vowel signs (niqqud) and a relatively small
-            set of consonants, some of which do not exist in English. This guide
-            uses IPA and notes important pronunciation distinctions between
-            <strong>Modern Israeli Persian</strong> (the standard today) and
-            <strong>traditional/liturgical Persian</strong>. Examples are shown
-            with Persian script, niqqud (vowel points), and transliteration.
+            Persian is written in a modified Arabic script and has six vowel
+            sounds and about thirty consonants. Several consonants have no
+            direct English equivalent, and short vowels are often not written.
+            This guide follows the pronunciation of
+            <strong>Modern Iranian Persian</strong> (Tehrani standard), with
+            occasional notes on
+            <strong>Classical or Dari</strong> pronunciation. Examples are shown
+            with Persian script, transliteration, and IPA.
           </p>
 
           <table class="pronunciation-table">
@@ -386,132 +390,149 @@
             <tbody>
               <!-- VOWELS -->
               <tr>
-                <td data-label="Persian Letter">ַ (pataḥ)</td>
-                <td data-label="Pronunciation Symbol">/a/</td>
-                <td data-label="Example (Persian)">בַּיִת [ˈbajit] "house"</td>
-                <td data-label="Similar English Sound">Like "a" in "father"</td>
+                <td data-label="Persian Letter">َ (zammeh a)</td>
+                <td data-label="Pronunciation Symbol">/æ/</td>
+                <td data-label="Example (Persian)">مَن [mæn] “I”</td>
+                <td data-label="Similar English Sound">Like “a” in “cat”</td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">ֵ (tsere)</td>
+                <td data-label="Persian Letter">ِ (kasreh e)</td>
                 <td data-label="Pronunciation Symbol">/e/</td>
-                <td data-label="Example (Persian)">סֵפֶר [ˈsefer] "book"</td>
-                <td data-label="Similar English Sound">
-                  Between "bait" and "bet" (without glide)
-                </td>
+                <td data-label="Example (Persian)">دِل [del] “heart”</td>
+                <td data-label="Similar English Sound">Like “e” in “bed”</td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">ִ (ḥiriq)</td>
-                <td data-label="Pronunciation Symbol">/i/</td>
-                <td data-label="Example (Persian)">מִי [mi] "who"</td>
-                <td data-label="Similar English Sound">
-                  Like "ee" in "machine"
-                </td>
-              </tr>
-              <tr>
-                <td data-label="Persian Letter">ֹ (ḥolam)</td>
+                <td data-label="Persian Letter">ُ (żammeh o)</td>
                 <td data-label="Pronunciation Symbol">/o/</td>
-                <td data-label="Example (Persian)">יוֹם [jom] "day"</td>
-                <td data-label="Similar English Sound">Like "o" in "story"</td>
+                <td data-label="Example (Persian)">خُشک [xoʃk] “dry”</td>
+                <td data-label="Similar English Sound">Like “o” in “story”</td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">וּ (shuruq)</td>
-                <td data-label="Pronunciation Symbol">/u/</td>
-                <td data-label="Example (Persian)">שׁוּק [ʃuk] "market"</td>
-                <td data-label="Similar English Sound">Like "oo" in "food"</td>
+                <td data-label="Persian Letter">ی</td>
+                <td data-label="Pronunciation Symbol">/iː/</td>
+                <td data-label="Example (Persian)">سیب [siːb] “apple”</td>
+                <td data-label="Similar English Sound">Like “ee” in “see”</td>
+              </tr>
+              <tr>
+                <td data-label="Persian Letter">و</td>
+                <td data-label="Pronunciation Symbol">/uː/ or /v/ (context)</td>
+                <td data-label="Example (Persian)">
+                  نور [nuːr] “light” / ولی [væli] “but”
+                </td>
+                <td data-label="Similar English Sound">
+                  “oo” in “food” / “v” in “very”
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Persian Letter">آ</td>
+                <td data-label="Pronunciation Symbol">/ɒː/</td>
+                <td data-label="Example (Persian)">مادر [mɒːdær] “mother”</td>
+                <td data-label="Similar English Sound">Like “a” in “father”</td>
               </tr>
 
               <!-- CONSONANTS -->
               <tr>
-                <td data-label="Persian Letter">ח (ḥet)</td>
+                <td data-label="Persian Letter">خ</td>
+                <td data-label="Pronunciation Symbol">/x/</td>
+                <td data-label="Example (Persian)">خوب [xuːb] “good”</td>
+                <td data-label="Similar English Sound">
+                  Scottish “loch” (no English equivalent)
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Persian Letter">غ / ق</td>
                 <td data-label="Pronunciation Symbol">
-                  /χ/ or /ħ/ (traditional)
+                  /ɣ/ (Tehran) or /q/ (Classical)
                 </td>
-                <td data-label="Example (Persian)">חַג [χag] "holiday"</td>
+                <td data-label="Example (Persian)">غذا [ɣæˈzɒː] “food”</td>
                 <td data-label="Similar English Sound">
-                  Scottish "loch" (no English equivalent)
+                  French “r” or Arabic “ghayn”
                 </td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">כ/ך (khaf)</td>
-                <td data-label="Pronunciation Symbol">/χ/</td>
-                <td data-label="Example (Persian)">כָּל [kol] "all"</td>
-                <td data-label="Similar English Sound">As above</td>
-              </tr>
-              <tr>
-                <td data-label="Persian Letter">ק (qof)</td>
-                <td data-label="Pronunciation Symbol">/k/</td>
-                <td data-label="Example (Persian)">קָטָן [kaˈtan] "small"</td>
-                <td data-label="Similar English Sound">
-                  Like "k" in "kite" but deeper in the throat
-                </td>
-              </tr>
-              <tr>
-                <td data-label="Persian Letter">ע (ʿayin)</td>
+                <td data-label="Persian Letter">ع</td>
                 <td data-label="Pronunciation Symbol">
-                  /ʔ/ or silent in Modern Persian
+                  [ʔ] or [ʕ] (often silent)
                 </td>
-                <td data-label="Example (Persian)">עֵץ [ets] "tree"</td>
+                <td data-label="Example (Persian)">عشق [ʔeʃq] “love”</td>
                 <td data-label="Similar English Sound">
-                  Glottal stop (like the break in "uh-oh")
+                  Glottal stop (“uh-oh”)
                 </td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">ר (resh)</td>
-                <td data-label="Pronunciation Symbol">[ʁ] or [r]</td>
-                <td data-label="Example (Persian)">רוֹשׁ [ʁoʃ] "head"</td>
+                <td data-label="Persian Letter">ر</td>
+                <td data-label="Pronunciation Symbol">/ɾ/ or /r/</td>
+                <td data-label="Example (Persian)">رنگ [ræŋ] “color”</td>
                 <td data-label="Similar English Sound">
-                  French "r" or Spanish "r"; not English "r"
+                  Single tap like Spanish “pero”
                 </td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">שׁ (shin) / שׂ (sin)</td>
+                <td data-label="Persian Letter">ش / س</td>
                 <td data-label="Pronunciation Symbol">/ʃ/ vs /s/</td>
                 <td data-label="Example (Persian)">
-                  שֵׁם [ʃem] "name" / שָׂר [sar] "prince"
+                  شب [ʃab] “night” / سَر [sær] “head”
                 </td>
                 <td data-label="Similar English Sound">
-                  "sh" in "shoe" vs "s" in "see"
+                  “sh” in “shoe” vs “s” in “see”
                 </td>
               </tr>
               <tr>
-                <td data-label="Persian Letter">צ (tsadi)</td>
-                <td data-label="Pronunciation Symbol">/ts/</td>
-                <td data-label="Example (Persian)">צָרִיךְ [tsaˈrix] "need"</td>
-                <td data-label="Similar English Sound">Like "ts" in "cats"</td>
+                <td data-label="Persian Letter">ژ</td>
+                <td data-label="Pronunciation Symbol">/ʒ/</td>
+                <td data-label="Example (Persian)">ژاله [ʒɒːle] “dew”</td>
+                <td data-label="Similar English Sound">“s” in “measure”</td>
+              </tr>
+              <tr>
+                <td data-label="Persian Letter">چ</td>
+                <td data-label="Pronunciation Symbol">/tʃ/</td>
+                <td data-label="Example (Persian)">چای [tʃɒːj] “tea”</td>
+                <td data-label="Similar English Sound">“ch” in “chair”</td>
+              </tr>
+              <tr>
+                <td data-label="Persian Letter">ج</td>
+                <td data-label="Pronunciation Symbol">/dʒ/</td>
+                <td data-label="Example (Persian)">جام [dʒɒːm] “cup”</td>
+                <td data-label="Similar English Sound">“j” in “jam”</td>
+              </tr>
+              <tr>
+                <td data-label="Persian Letter">ق / غ distinction</td>
+                <td data-label="Pronunciation Symbol">merged /ɣ/ (modern)</td>
+                <td data-label="Example (Persian)">طاق [tɒːɣ] “arch”</td>
+                <td data-label="Similar English Sound">
+                  Voiced “kh” sound deep in the throat
+                </td>
               </tr>
             </tbody>
           </table>
 
           <h4>Stress in Persian</h4>
           <p>
-            In Modern Persian, stress usually falls on the last syllable of a
-            word, but many common words preserve older patterns with penultimate
-            stress. Unlike Spanish, Persian does not use written accents to mark
-            stress. Examples: <strong>בַּיִת</strong> [ˈbajit] (penultimate),
-            <strong>לָכוּד</strong> [laˈχud] (final).
+            In Modern Persian, stress normally falls on the
+            <strong>last syllable</strong> of a word, except for many verb forms
+            and some common words (e.g. <strong>مادر</strong> [ˈmɒːdær]). Stress
+            is not shown in writing and is less contrastive than in English.
           </p>
 
           <h4>Dialect Notes at a Glance</h4>
           <p>
-            <strong>Modern Israeli Persian:</strong> Standard in schools/media;
-            guttural ע and ח often weakened.<br />
-            <strong>Sephardic tradition:</strong> Historical basis of modern
-            pronunciation; clear distinction of vowels.<br />
-            <strong>Ashkenazi Persian:</strong> Still used in prayer; stress
-            often moves to penultimate syllable; some vowel shifts (e.g. kamatz
-            → /o/).<br />
-            <strong>Mizrahi traditions:</strong> Preserve pharyngeal sounds [ħ,
-            ʕ] for ח and ע.
+            <strong>Tehrani Persian:</strong> Standard in Iran; /ɣ/ and /q/
+            merged; short vowels more centralized.<br />
+            <strong>Dari Persian:</strong> Spoken in Afghanistan; keeps clearer
+            /a/ and /o/ contrasts; more rolled /r/.<br />
+            <strong>Tajik Persian:</strong> Written in Cyrillic; final vowels
+            more open; /w/ sound for some “v”.<br />
+            <strong>Classical Persian:</strong> Older literary standard;
+            distinct /q/ and /ɣ/; longer vowel durations.
           </p>
 
           <h4>Helpful Symbols and Conventions</h4>
           <p>
-            IPA brackets [ ] indicate detailed sounds. Slashes / / indicate
-            phonemes. Persian spelling does not always reflect vowel quality,
-            since most vowels are not written without niqqud. Letters ב, ג, ד,
-            כ, פ, ת may have a "hard" [b g d k p t] or "soft" [v ɣ ð χ f θ] form
-            historically, but only ב/כ/פ remain distinct today (as [v], [χ],
-            [f]).
+            IPA brackets [ ] show exact sounds. Slashes / / show phonemes. Short
+            vowels (a, e, o) are usually omitted in writing and must be learned
+            from context. Persian letters with dots (ب پ ت ث ج چ...) mark
+            distinct sounds, and three letters (پ چ ژ) are unique to Persian and
+            not found in Arabic.
           </p>
         </div>
       </div>
@@ -570,6 +591,7 @@
           <option value="japanese">Japanese</option>
           <option value="latin">Latin</option>
           <option value="norwegian">Norwegian</option>
+          <option value="persian">Persian</option>
           <option value="spanish">Spanish</option>
           <option value="thai">Thai</option>
         </select>
