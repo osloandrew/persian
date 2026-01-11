@@ -2,63 +2,112 @@ English,CEFR,gender,word,wordAudio,pronunciation,sentenceAudio,example,sentenceT
 "water, juice",A1,noun,آب,X,âb,X,آب تمیز است.,The water is clean.
 juice,A1,noun,آب میوه,X,âbmive,X,آب میوه شیرین است.,The juice is sweet.
 climate,A2,noun,آب و هوا,X,âb-o-havâ,X,آب و هوای امروز گرم است.,Today's weather is hot.
-waterfall,B1,noun,آبشار,X,âbšâr,,,
+waterfall,B1,noun,آبشار,X,âbšâr,X,آبشار بعد از باران خیلی پرآب شد و صدایش از دور شنیده می‌شد.,"The waterfall got very full after the rain, and its sound could be heard from far away."
 blue,A1,adjective,آبی,X,âbi,X,دریا آبی است.,The sea is blue.
+person,A1,noun,آدم,X,âdam,X,او آدم خوب است.,He is a good person.
+"yeah, yes",A1,adverb,آره,X,âre,X,آره، خوب است.,"Yeah, it’s good."
 "free, liberal",A2,adjective,آزاد,X,âzâd,X,من آزاد هستم.,I am free.
-freedom,B1,noun,آزادی,X,âzâdi,,,
+freedom,B1,noun,آزادی,X,âzâdi,X,مردم برای آزادی گاهی هزینهٔ سنگینی می‌دهند.,People sometimes pay a heavy cost for freedom.
+easy,A2,adjective,آسان,X,âsân,X,این کار آسان است.,This is easy.
+"ease, convenience",B1,noun,آسانی,X,âsâni,X,با این برنامه‌ریزی، کارها با آسانی بیشتری پیش می‌رود.,"With this planning, things go more smoothly."
 "cook, chef",A2,noun,آشپز,X,âšpaz,X,آشپز در رستوران کار می‌کند.,The cook works in the restaurant.
-kitchen,B1,noun,آشپزخانه‌ای,X,âšpaz-xâne,,,
+kitchen,B1,noun,آشپزخانه‌ای,X,âšpaz-xâne,X,برای خانهٔ جدید چند وسیلهٔ آشپزخانه‌ای لازم داریم.,For the new house we need a few kitchen items.
 Germany,A1,noun,آلمان,X,âlmân,X,آلمان کشور بزرگی است.,Germany is a big country.
+"come, arrive",A1,verb,آمدن,X,âmadan,X,من الان می‌آیم.,I’m coming now.
 that,A1,adjective,آن,X,ân,X,آن کتاب قشنگ است.,That book is beautiful.
 there,A1,adverb,آنجا,X,ânjâ,X,آنجا یک درخت است.,There is a tree there.
+they,A1,pronoun,آن‌ها,X,ân-hâ,X,آن‌ها اینجا هستند.,They are here.
+"slow, quiet",A2,adjective,آهسته,X,âheste,X,لطفاً آهسته صحبت کن.,Please speak slowly.
+"song, voice",A2,noun,آواز,X,âvâz,X,من آواز او را دوست دارم.,I like his singing.
+sing,A2,verb,آواز خواندن,X,âvâz xândan,X,او در حمام آواز می‌خواند.,He sings in the bathroom.
+bring,A2,verb,آوردن,X,âvardan,X,می‌توانی یک لیوان آب برای من بیاوری؟,Can you bring me a glass of water?
 room,A1,noun,اتاق,X,otâq,X,اتاق من بزرگ نیست.,My room is not big.
 bus,A1,noun,اتوبوس,X,otobus,X,اتوبوس دیر آمد.,The bus is late.
+"cheap, inexpensive",A2,adjective,ارزان,X,arzân,X,این مغازه ارزان است.,This shop is cheap.
 "of, from",A1,preposition,از,X,az,X,من از تهران هستم.,I am from Tehran.
 horse,A2,noun,اسب,X,asb,X,اسب سفید سریع می‌دود.,The white horse runs fast.
 Islam,A2,noun,اسلام,X,eslâm,X,اسلام دین بزرگی است.,Islam is a great religion.
-Islamic,B1,adjective,اسلامی,X,eslâmi,,,
+Islamic,B1,adjective,اسلامی,X,eslâmi,X,او معماری اسلامی را دوست دارد و هر بار به مسجد نگاه می‌کند، جزئیات تازه‌ای می‌بیند.,"He likes Islamic architecture, and every time he looks at the mosque, he notices new details."
 name,A2,noun,اسم,X,esm,X,اسم او رضا است.,His name is Reza.
-sign,B1,noun,اشاره,X,ešâre,,,
+sign,B1,noun,اشاره,X,ešâre,X,با یک اشاره فهمیدم که باید ساکت بمانم.,"With a single gesture, I understood that I needed to stay quiet."
 if,A2,conjunction,اگر,X,agar,X,اگر باران بیاید، نمی‌رویم.,"If it rains, we will not go."
+now,A1,adverb,الان,X,alân,X,الان در خانه هستم.,I’m at home now.
 God,A2,noun,الله,X,allâh,X,الله یکتا است.,Allah is one.
 today,A1,noun,امروز,X,emruz,X,امروز جمعه است.,Today is Friday.
-human,B1,adjective,انسانی,X,ensâni,,,
+tonight,A1,adverb,امشب,X,emšab,X,امشب به سینما می‌روم.,Tonight I’m going to the cinema.
+human,B1,adjective,انسانی,X,ensâni,X,کمک کردن به دیگران یک رفتار انسانی است، حتی وقتی کسی از تو تشکر نمی‌کند.,"Helping others is a human act, even when no one thanks you."
 English,A1,noun,انگلیسی,X,engelisi,X,من انگلیسی یاد می‌گیرم.,I am learning English.
 "he, she",A1,pronoun,او,X,u,X,او در خانه است.,He is at home.
 first,A2,adjective,اول,X,avval,X,او شاگرد اول کلاس است.,He is a first-grade student.
 Iran,A1,noun,ایران,X,irân,X,ایران زیباست.,Iran is beautiful.
+Iranian,A1,noun,ایرانی,X,irâni,X,او یک ایرانی است.,He is an Iranian.
+Iranian,A1,adjective,ایرانی,X,irâni,X,غذا ایرانی است.,The food is Iranian.
+"stand, stand up",A2,verb,ایستادن,X,istâdan,X,لطفاً اینجا بایست.,Please stand here.
 station,A2,noun,ایستگاه,X,istgâh,X,ایستگاه قطار دور است.,The train station is far away.
+bus stop,A2,noun,ایستگاه اتوبوس,X,istgâh-e otobus,X,ایستگاه اتوبوس نزدیک خانه است.,The bus stop is near the house.
+"he, she, you, they",A2,pronoun,ایشان,X,išân,X,ایشان معلم ما هستند.,He is our teacher.
 this,A1,pronoun,این,X,in,X,این ماشین من است.,This is my car.
 here,A1,adverb,اینجا,X,injâ,X,اینجا مدرسه است.,This is the school.
-"time, instance",B1,noun,بار,X,bâr,,,
-recognize,C,verb,بازشناختن,X,bâzšenâxtan,,,
+with,A1,preposition,با,X,bâ,X,من با دوستم می‌آیم.,I’m coming with my friend.
+"time, instance",B1,noun,بار,X,bâr,X,این بار می‌خواهم زودتر تصمیم بگیرم تا وقت تلف نشود.,This time I want to decide sooner so that time isn’t wasted.
+open,A1,adjective,باز,X,bâz,X,در باز است.,The door is open.
+open,A2,verb,باز شدن,X,bâz šodan,X,درِ مغازه ساعت هشت باز می‌شود.,The shop opens at eight o’clock.
+open,A2,verb,باز کردن,X,bâz kardan,X,من در را باز می‌کنم.,I open the door.
+market,A2,noun,بازار,X,bâzâr,X,بازار امروز خیلی شلوغ است.,The market is very crowded today.
+recognize,C,verb,بازشناختن,X,bâzšenâxtan,X,در میان انبوه گزارش‌ها، او تنها با دیدن یک خطِ آشنا، دست‌خطِ همکارش را بازشناخت.,"Amid the mass of reports, he recognized his colleague’s handwriting just by seeing one familiar line."
+"excuse me, I'm sorry",A1,interjection,ببخشید,X,bebaxšid,X,ببخشید، اینجا کجاست؟,"Excuse me, where is this?"
 child,A1,noun,بَچه,X,bačče,X,بَچه می‌خندد.,The child is laughing.
 bad,A1,adjective,بد,X,bad,X,غذا بد است.,The food is bad.
 brother,A1,noun,برادر,X,barâdar,X,برادر من کوچک است.,My brother is small.
-survive,C,verb,برزیستن,X,barzistan,,,
+"for, to",A1,preposition,برای,X,barâ-ye,X,این کتاب برای تو است.,This book is for you.
+survive,C,verb,برزیستن,X,barzistan,X,در آن زمستانِ بی‌رحم، خانواده با اندک نان و امیدی لاغر برزیست.,"In that merciless winter, the family survived on a little bread and a thin hope."
+rice,A1,noun,برنج,X,berenj,X,من برنج می‌خورم.,I eat rice.
+"big, large, great",A1,adjective,بزرگ,X,bozorg,X,خانه بزرگ است.,The house is big.
+"tall, high",A2,adjective,بلند,X,boland,X,آن پسر قدِ بلند دارد.,That boy is tall.
+raise,A2,verb,بلند کردن,X,boland kardan,X,او دستش را بلند کرد.,He raised his hand.
+yes,A1,adverb,بله,X,bale,X,بله، مرسی.,"Yes, thanks."
+"to, at",A1,preposition,به,X,be,X,من به مدرسه می‌روم.,I’m going to school.
 be,A2,verb,بودن,X,budan,X,او معلم است و خوشحال بودن را دوست دارد.,He is a teacher and likes to be happy.
-desert,B1,noun,بیابان,X,biyâbân,,,
-non-religious,B2,adjective,بی‌دین,X,bi-din,,,
-innocent,B1,adjective,بی‌گُناه,X,bi-gonâh,,,
+desert,B1,noun,بیابان,X,biyâbân,X,در بیابان پیدا کردن آب سخت است و آدم باید همیشه آماده باشد.,"In the desert, finding water is hard, and you always have to be prepared."
+awake,A1,adjective,بیدار,X,bidâr,X,من بیدار هستم.,I’m awake.
+"wake up, awaken",A2,verb,بیدار شدن,X,bidâr šodan,X,من ساعت شش بیدار شدم.,I woke up at six o’clock.
+wake up,A2,verb,بیدار کردن,X,bidâr kardan,X,مادر من مرا بیدار کرد.,My mother woke me up.
+non-religious,B2,adjective,بی‌دین,X,bi-din,X,او خودش را بی‌دین می‌داند، اما می‌گوید اخلاق برایش جدی‌تر از هر برچسبی است.,"He considers himself non-religious, but says morality matters to him more than any label."
+innocent,B1,adjective,بی‌گُناه,X,bi-gonâh,X,او بی‌گُناه بود، اما کسی حرفش را باور نکرد.,"He was innocent, but nobody believed what he said."
 sick,A2,adjective,بیمار,X,bimâr,X,پدرم بیمار است.,My father is sick.
 hospital,A2,noun,بیمارستان,X,bimârestân,X,بیمارستان بزرگ و تمیز است.,The hospital is big and clean.
-king,B1,noun,پادشاه,X,pâdešâh,,,
-Persia,B1,noun,پارس,X,pârs,,,
-worship,B2,verb,پرستیدن,X,parastidan,,,
+nose,A1,noun,بینی,X,bini,X,بینی من کوچک است.,My nose is small.
+"foot, leg",A1,noun,پا,X,pâ,X,پاهای من خسته است.,My legs are tired.
+king,B1,noun,پادشاه,X,pâdešâh,X,پادشاه قول داد مالیات را کم کند، ولی بعد نظرش عوض شد.,"The king promised to lower taxes, but then he changed his mind."
+Persia,B1,noun,پارس,X,pârs,X,در کتاب تاریخ خواندم که پارس در دوره‌های مختلف نام‌های دیگری هم داشته است.,In a history book I read that Persia has had other names in different periods too.
+father,A1,noun,پدر,X,pedar,X,پدر من اینجا است.,My father is here.
+worship,B2,verb,پرستیدن,X,parastidan,X,بعضی‌ها به جای پرستیدن خدا، پول یا قدرت را پرستیدن می‌کنند، بی‌آنکه متوجه باشند.,"Some people, instead of worshipping God, worship money or power without realizing it."
+ask,A2,verb,پرسیدن,X,porsidan,X,می‌توانم یک سؤال بپرسم؟,May I ask a question?
+bird,A1,noun,پرنده,X,parande,X,آن پرنده سفید است.,That bird is white.
+"boy, son",A1,noun,پسر,X,pesar,X,او یک پسر است.,He is a boy.
 police,A2,noun,پلیس‎,X,polis,X,پلیس در خیابان ایستاده است.,The police are standing on the street.
+five,A1,numeral,پنج,X,panj,X,من پنج کتاب دارم.,I have five books.
 pedestrian,A2,adjective,پیاده,X,piyâde,X,من پیاده به خانه رفتم.,I walked home.
 old,A2,adjective,پیر,X,pir,X,پیرمرد لبخند زد.,The old man smiled.
+"until, up to",A2,preposition,تا,X,tâ,X,من تا فردا در تهران می‌مانم.,I’m staying in Tehran until tomorrow.
+egg,A1,noun,تخم مرغ,X,toxm-e morġ,X,من تخم مرغ می‌خورم.,I eat eggs.
 translation,A2,noun,ترجمه,X,tarjome,X,من ترجمه فارسی را دوست دارم.,I like the Persian translation.
-you,A1,pronoun,تو,X,to,X,تو کجا هستی؟,Where are you?
+Tehran,A1,noun,تهران,X,tehrân,X,تهران در ایران است.,Tehran is in Iran.
+"you, you (informal)",A1,pronoun,تو,X,to,X,تو کجا هستی؟,Where are you?
+toilet,A1,noun,توالت,X,tovâlet,X,توالت آنجا است.,The toilet is there.
+tourist,A2,noun,توریست,X,turist,X,او یک توریست از فرانسه است.,He is a tourist from France.
+touristy,A2,adjective,توریستی,X,turisti,X,اینجا خیلی توریستی است.,It’s very touristy here.
 place,A1,noun,جا,X,jâ,X,اینجا جا نیست.,There is no room here.
 interesting,A2,adjective,جالب,X,jâleb,X,این فیلم جالب است.,This movie is interesting.
+"soul, life",A2,noun,جان,X,jân,X,جان من، بیا اینجا.,"My dear, come here."
 new,A1,adjective,جدید,X,jadid,X,خانه جدید است.,The house is new.
 sentence,A1,noun,جمله,X,jomle,X,او جمله را نوشت.,He wrote the sentence.
-republic,B1,noun,جمهوری,X,jomhuri,,,
-republican,B2,noun,جمهوری‌خواه,X,jomhuri-xâh,,,
+republic,B1,noun,جمهوری,X,jomhuri,X,در جمهوری رئیس‌جمهور را مردم انتخاب می‌کنند، نه یک خانواده.,"In a republic, people choose the president, not a single family."
+republican,B2,noun,جمهوری‌خواه,X,jomhuri-xâh,X,در آن دوره، جمهوری‌خواه‌ها می‌خواستند نقش پادشاه را کامل حذف کنند و ساختار تازه‌ای بسازند.,"In that period, the republicans wanted to completely remove the king’s role and build a new structure."
 world,A2,noun,جهان,X,jahân,X,جهان بزرگ و زیباست.,The world is big and beautiful.
 young,A1,adjective,جوان,X,javân,X,او جوان است.,He is young.
 tea,A1,noun,چای,X,čây,X,من چای دوست دارم.,I like tea.
+eye,A1,noun,چشم,X,čašm,X,چشم من آبی است.,My eye is blue.
 how,A1,adverb,چطور,X,četowr,X,تو چطور هستی؟,How are you?
 "how many, how much",A1,determiner,چند,X,čand,X,چند کتاب داری؟,How many books do you have?
 what,A1,pronoun,چه,X,če,X,چه روزی است؟,What day is it?
@@ -68,76 +117,117 @@ thing,A1,noun,چیز,X,čiz,X,این چیز خوبی است.,This is a good thin
 something,A1,noun,چیزی,X,čizê,X,چیزی در کیف نیست.,There is nothing in the bag.
 "what is, what's",A1,verb,چیست,X,čist,X,این چیست؟,What is this?
 "condition, health",A2,noun,حال,X,hâl,X,حال تو چطور است؟,How are you?
-"haram, forbidden",B1,adjective,حرام,X,harâm,,,
-bastard,C,noun,حرام‌زاده,X,harâm-zâde,,,
-"halal, permissible",B1,adjective,حلال,X,halâl,,,
+"haram, forbidden",B1,adjective,حرام,X,harâm,X,این کار در دین ما حرام است، پس انجامش نمی‌دهم.,"This is forbidden in our religion, so I won’t do it."
+bastard,C,noun,حرام‌زاده,X,harâm-zâde,X,در دادگاه، قاضی به او اخطار داد که به‌جای گفتن «حرام‌زاده»، دربارهٔ رفتارِ طرف مقابل حرف بزند.,"In court, the judge warned him that instead of saying “bastard,” he should talk about the other party’s behavior."
+"talk, speak",A2,verb,حرف زدن,X,harf zadan,X,من نمی‌توانم الان حرف بزنم.,I can’t talk now.
+"halal, permissible",B1,adjective,حلال,X,halâl,X,روی بسته نوشته بود که این گوشت حلال است.,On the package it said that this meat is halal.
+"bathroom, bath",A1,noun,حمام,X,hammâm,X,حمام در خانه است.,The bathroom is in the house.
 house,A1,noun,خانه,X,xâne,X,خانه من بزرگ است.,My house is big.
+house,A1,noun,خانه,X,xâne,X,خانه من کوچک است.,My house is small.
 "god, lord",A1,noun,خدا,X,xodâ,X,خدا مهربان است.,God is kind.
+tired,A2,adjective,خسته,X,xaste,X,امروز خیلی خسته هستم.,I’m very tired today.
+sleep,A2,verb,خوابیدن,X,xâbidan,X,من دیشب خوب خوابیدم.,I slept well last night.
 want,A1,verb,خواستن,X,xâstan,X,من آب می‌خواهم.,I want water.
 read,A1,verb,خواندن,X,xândan,X,من کتاب می‌خوانم.,I am reading a book.
+"you're welcome, please",A1,interjection,خواهش می‌کنم,X,xâheš mi-konam,X,خواهش می‌کنم.,You’re welcome.
 "good, nice",A1,adjective,خوب,X,xub,X,روز خوب است.,It's a good day.
 eat,A1,verb,خوردن,X,xordan,X,من سیب می‌خورم.,I am eating an apple.
 happy,A1,adjective,خوشحال,X,xoš-hâl,X,او خوشحال است.,He is happy.
 tasty,A1,adjective,خوش‌مزه,X,xoš-maze,X,این غذا خوش‌مزه است.,This food is delicious.
+street,A1,noun,خیابان,X,xiyâbân,X,این خیابان بزرگ است.,This street is big.
 "very, many",A1,adverb,خیلی,X,xeyli,X,من خیلی خسته‌ام.,I am very tired.
 give,A2,verb,دادن,X,dâdan,X,او کتاب را به من داد.,He gave me the book.
 have,A1,verb,داشتن,X,dâštan,X,من یک ماشین دارم.,I have a car.
 hot,A2,adjective,داغ,X,dâğ,X,چای داغ است.,The tea is hot.
 know,A2,verb,دانستن,X,dânestan,X,من جواب را می‌دانم.,I know the answer.
-knowledge,B1,noun,دانش,X,dâneš,,,
+knowledge,B1,noun,دانش,X,dâneš,X,دانش بدون تمرین کم‌کم فراموش می‌شود.,Knowledge fades little by little without practice.
 student,A1,noun,دانِشجو,X,dânešju,X,او دانشجو است.,He is a student.
 university,A1,noun,دانشگاه,X,dânešgâh,X,دانشگاه بزرگ است.,The university is big.
+"girl, daughter",A1,noun,دختر,X,doxtar,X,او یک دختر است.,She is a girl.
 door,A1,noun,در,X,dar,X,در بسته است.,The door is closed.
 "in, at",A1,preposition,در,X,dar,X,کتاب در کیف است.,The book is in the bag.
+"long, tall",A2,adjective,دراز,X,derâz,X,این خیابان خیلی دراز است.,This street is very long.
 about,A2,preposition,درباره,X,darbâre,X,او درباره کارش حرف زد.,He talked about his work.
 tree,A1,noun,درخت,X,deraxt,X,درخت سبز است.,The tree is green.
-lesson,A1,noun,درس,X,dars,X,من درس دارم.,I have lessons.
+"lesson, lecture",A1,noun,درس,X,dars,X,من درس دارم.,I have lessons.
+study,A2,verb,درس خواندن,X,dars xândan,X,من هر روز در خانه درس می‌خوانم.,I study at home every day.
+"hand, arm",A1,noun,دست,X,dast,X,دست من سرد است.,My hand is cold.
+"restroom, bathroom, toilet, sink",A1,noun,دستشویی,X,dastšuyi,X,دستشویی کجاست؟,Where is the bathroom?
+minute,A2,noun,دقیقه,X,daġiġe,X,یک دقیقه صبر کن.,Wait a minute.
+nose,A2,noun,دماغ,X,damâġ,X,دماغ من گرفته است.,My nose is congested.
+ten,A1,numeral,ده,X,dah,X,من ده کتاب دارم.,I have ten books.
+mouth,A1,noun,دهان,X,dahân,X,دهان من باز است.,My mouth is open.
+two,A1,numeral,دو,X,do,X,من دو دوست دارم.,I have two friends.
 friend,A1,noun,دوست,X,dôst,X,او دوست من است.,He is my friend.
 government,A2,noun,دولت,X,dowlat,X,دولت جدید شروع به کار کرد.,The new government has started working.
 see,A1,verb,دیدَن,X,didan,X,من تو را دیدم.,I saw you.
 yesterday,A1,adverb,دیروز,X,diruz,X,دیروز باران آمد.,It rained yesterday.
+"other, another",A2,adjective,دیگر,X,digar,X,من یک اتاق دیگر می‌خواهم.,I want another room.
 religion,A2,noun,دین,X,din,X,دین موضوع مهمی است.,Religion is an important issue.
-president,B2,noun,رئیس‌جمهور,X,ra'is-jomhur,,,
+president,B2,noun,رئیس‌جمهور,X,ra'is-jomhur,X,رئیس‌جمهور در سخنرانی‌اش گفت که کشور به اصلاحات واقعی نیاز دارد، نه شعارهای کوتاه.,"In his speech, the president said the country needs real reforms, not short slogans."
 object marker,A1,particle,را,X,râ,X,من کتاب را خواندم.,I read the book.
+restaurant,A1,noun,رستوران,X,restorân,X,رستوران اینجا است.,The restaurant is here.
+"go, leave",A1,verb,رفتن,X,raftan,X,من به خانه می‌روم.,I’m going home.
 day,A1,noun,روز,X,ruz,X,امروز روز خوبی است.,Today is a nice day.
 newspaper,A1,noun,روزنامه,X,ruznâme,X,من روزنامه می‌خوانم.,I am reading the newspaper.
 "language, tongue",A1,noun,زبان,X,zabân,X,من زبان فارسی بلدم.,I know Persian.
-sign language,B1,noun,زبان اشاره,X,zabân-e ešâre,,,
-linguistics,B2,noun,زبان‌شناسی,X,zabân-šenâsi,,,
+sign language,B1,noun,زبان اشاره,X,zabân-e ešâre,X,دوستم زبان اشاره یاد می‌گیرد تا با برادر ناشنوایش راحت‌تر صحبت کند.,My friend is learning sign language so he can talk more easily with his deaf brother.
+linguistics,B2,noun,زبان‌شناسی,X,zabân-šenâsi,X,او زبان‌شناسی را انتخاب کرد چون می‌خواست بفهمد چرا زبان‌ها این‌قدر شبیه هم هستند و در عین حال فرق دارند.,He chose linguistics because he wanted to understand why languages are so similar and yet different.
 time,A2,noun,زمان,X,zamân,X,در زمان قدیم مردم ساده‌تر بودند.,"In the old days, people were simpler."
 "woman, wife",A1,noun,زن,X,zan,X,زن در خانه است.,The woman is at home.
 "feminine, womanly",A2,adjective,زنانه,X,zanâna,X,این کیف زنانه است.,This is a woman's bag.
 life,A1,noun,زندگی,X,zendegi,X,زندگی زیباست.,Life is beautiful.
-biography,B1,noun,زندگی‌نامه,X,zendegi-nâme,,,
-life,B2,noun,زیست,X,zist,,,
-live,B2,verb,زیستن,X,zistan,,,
+live,A1,verb,زندگی کردن,X,zendegi kardan,X,من اینجا زندگی می‌کنم.,I live here.
+biography,B1,noun,زندگی‌نامه,X,zendegi-nâme,X,من زندگی‌نامهٔ او را خواندم و فهمیدم چرا این‌قدر سخت‌کوش است.,I read his biography and understood why he is so hardworking.
+"much, a lot, many",A1,adjective,زیاد,X,ziyâd,X,من زیاد آب می‌نوشم.,I drink a lot of water.
+life,B2,noun,زیست,X,zist,X,در گزارش نوشت که زیستِ مردمِ آن منطقه به آب و هوا و کشاورزی وابسته است.,In the report he wrote that the life of the people in that region depends on the climate and agriculture.
+live,B2,verb,زیستن,X,zistan,X,گاهی آدم فقط زیستن را ادامه می‌دهد، بدون این‌که بداند برای چه چیزی می‌جنگد.,Sometimes a person just keeps living without knowing what they are fighting for.
+"hour, clock, watch",A1,noun,ساعت,X,sâ'at,X,ساعت چند است؟,What time is it?
 year,A1,noun,سال,X,sâl,X,من بیست سال دارم.,I am twenty years old.
+green,A1,adjective,سبز,X,sabz,X,این چای سبز است.,This tea is green.
+"hard, difficult",A2,adjective,سخت,X,saxt,X,این درس سخت است.,This lesson is hard.
+head,A1,noun,سر,X,sar,X,سر من درد دارد.,My head hurts.
 soldier,A2,noun,سرباز,X,sarbâz,X,سرباز در مرز ایستاده است.,The soldier is standing at the border.
 cold,A1,adjective,سرد,X,sard,X,سوپ سرد نیست.,The soup is not cold.
+"fast, quick",A2,adjective,سریع,X,sari',X,او خیلی سریع می‌دود.,He runs very fast.
 white,A1,adjective,سفید,X,sefid,X,دیوار سفید است.,The wall is white.
 dog,A1,noun,سگ,X,sag,X,سگ کوچک است.,The dog is small.
 hello,A1,interjection,سلام,X,salâm,X,سلام!,Hello!
-movie theater,A1,noun,سینما,X,sinamâ,X,ما به سینما می‌رویم.,We are going to the cinema.
+heavy,A2,adjective,سنگین,X,sangin,X,این کیف خیلی سنگین است.,This bag is very heavy.
+heaviness,B1,noun,سنگینی,X,sangini,X,سنگینی هوا قبل از باران همیشه من را بی‌حوصله می‌کند.,The heaviness in the air before rain always makes me irritable.
+three,A1,numeral,سه,X,se,X,من سه کتاب دارم.,I have three books.
+black,A1,adjective,سیاه,X,siyâh,X,سگ سیاه است.,The dog is black.
+"movie theater, cinema",A1,noun,سینما,X,sinamâ,X,ما به سینما می‌رویم.,We are going to the cinema.
 king,A2,noun,شاه,X,šâh,X,شاه در قصر زندگی می‌کرد.,The king lived in the palace.
 night,A1,noun,شب,X,šab,X,شب تاریک است.,The night is dark.
-become,A1,verb,شُدَن,X,šodan,X,هوا سرد شد.,The weather has become cold.
+"become, get",A1,verb,شُدَن,X,šodan,X,هوا سرد شد.,The weather has become cold.
 wine,A2,noun,شراب,X,šarâb,X,شراب قرمز روی میز است.,There is red wine on the table.
+six,A1,numeral,شش,X,šeš,X,من شش کتاب دارم.,I have six books.
 "you all, you",A1,pronoun,شما,X,šomâ,X,شما کجا هستید؟,Where are you?
 "know, be familiar with",A2,verb,شِناخْتَن,X,šenâxtan,X,من او را شناختم.,I recognized him.
 city,A1,noun,شهر,X,šahr,X,شهر بزرگ است.,The city is big.
-town,B1,noun,شهرک,X,šahrak,,,
+town,B1,noun,شهرک,X,šahrak,X,آن‌ها به یک شهرک نزدیک تهران رفتند چون اجاره آنجا کمتر بود.,They went to a town near Tehran because the rent there was lower.
 "fun, joke",A2,noun,شوخی,X,šôxi,X,او همیشه شوخی می‌کند.,He always jokes.
+husband,A1,noun,شوهر,X,šowhar,X,او شوهر من است.,He is my husband.
+lion,A2,noun,شیر,X,šir,X,در باغ‌وحش یک شیر دیدیم.,We saw a lion at the zoo.
+milk,A1,noun,شیر,X,šir,X,من شیر می‌نوشم.,I drink milk.
 morning,A1,noun,صبح,X,sobh,X,صبح زود بیدار شدم.,I woke up early in the morning.
 food,A1,noun,غذا,X,ğazâ,X,غذا آماده است.,The food is ready.
 Persian,A1,noun,فارسی,X,fârsi,X,من فارسی یاد می‌گیرم.,I am learning Persian.
 France,A2,noun,فرانسه,X,farânse,X,من به فرانسه سفر کردم.,I traveled to France.
 French,A2,adjective,فرانسوی,X,farânsavi,X,دوست من فرانسوی است.,My friend is French.
+tomorrow,A1,adverb,فردا,X,fardâ,X,فردا می‌آیم.,I’ll come tomorrow.
 sell,A2,verb,فروختن,X,foruxtan,X,او ماشینش را فروخت.,He sold his car.
+airport,A2,noun,فرودگاه,X,forudgâh,X,فرودگاه از اینجا دور است.,The airport is far from here.
+pepper,A2,noun,فلفل,X,felfel,X,لطفاً فلفل را به غذا اضافه کن.,Please add pepper to the food.
+understand,A2,verb,فهمیدن,X,fahmidan,X,من این جمله را نمی‌فهمم.,I don’t understand this sentence.
 elephant,A1,noun,فیل,X,fil,X,فیل بزرگ است.,The elephant is big.
-movie,A1,noun,فیلم,X,film,X,من فیلم دیدم.,I watched a movie.
+"movie, film",A1,noun,فیلم,X,film,X,من فیلم دیدم.,I watched a movie.
+red,A1,adjective,قرمز,X,qermez,X,این کارت قرمز است.,This card is red.
 coffee,A1,noun,قهوه,X,qahve,X,من قهوه می‌نوشم.,I am drinking coffee.
-"do, make",A1,verb,كَردَن,X,kardan,X,من کار می‌کنم.,I work.
+"do, make",A1,verb,كَردَن,X,kardan,X,من این کار می‌کنم,I do this.
 work,A1,noun,کار,X,kâr,X,او کار کرد.,He worked.
+work,A1,verb,کار کردن,X,kâr kardan,X,من کار می‌کنم.,I work.
 card,A2,noun,کارت,X,kârt,X,کارت من در کیف است.,My card is in my wallet.
 "café, cafe",A1,noun,کافه,X,kâfe,X,ما در کافه هستیم.,We are in a cafe.
 computer,A1,noun,کامپیوتر,X,kâmpyuter,X,کامپیوتر روشن است.,The computer is on.
@@ -145,18 +235,35 @@ book,A1,noun,کتاب,X,ketâb,X,کتاب روی میز است.,The book is on t
 where,A1,adverb,کجا,X,kojâ,X,تو کجا می‌روی؟,Where are you going?
 country,A1,noun,کشور,X,kešvar,X,ایران کشور زیبایی است.,Iran is a beautiful country.
 word,A1,noun,کلمه,X,kalame,X,کلمه جدید را یاد بگیر.,Learn a new word.
-universe,B2,noun,کیهان,X,keyhân,,,
+few,A1,adjective,کم,X,kam,X,من کم می‌خورم.,I eat little.
+"short, low",A1,adjective,کوتاه,X,kutâh,X,این جمله کوتاه است.,This sentence is short.
+"small, little",A1,adjective,کوچک,X,kučak,X,اتاق من کوچک است.,My room is small.
+when,A1,adverb,کی,X,key,X,تو کی می‌آیی؟,When are you coming?
+universe,B2,noun,کیهان,X,keyhân,X,در مستند گفتند که کیهان شاید خیلی بزرگ‌تر از چیزی باشد که ما تصور می‌کنیم.,In the documentary they said the universe might be much bigger than we imagine.
 cow,A1,noun,گاو,X,gâv,X,گاو در مزرعه است.,The cow is in the field.
+"put, place, let, allow",A2,verb,گذاشتن,X,gozâštan,X,کتاب را روی میز بگذار.,Put the book on the table.
+expensive,A2,adjective,گران,X,gerân,X,این هتل خیلی گران است.,This hotel is very expensive.
 cat,A1,noun,گربه,X,gorbe,X,گربه خوابیده است.,The cat is sleeping.
+"take, get, catch",A2,verb,گرفتن,X,gereftan,X,من اتوبوس را از ایستگاه گرفتم.,I took the bus from the stop.
 "warm, hot",A1,adjective,گرم,X,garm,X,چای گرم است.,The tea is hot.
-"sin, crime",B1,noun,گناه,X,gonâh,,,
+"pricy, expensive",A2,adjective,گرون,X,gerun,X,این کافه خیلی گرون است.,This café is very pricey.
+converse,B1,verb,گفتگو کردن,X,goftogu kardan,X,بهتر است قبل از تصمیم گرفتن، با هم گفتگو کنیم و همهٔ گزینه‌ها را ببینیم.,It’s better to talk it through together before deciding and look at all the options.
+"say, tell",A1,verb,گفتن,X,goftan,X,او می‌گوید: سلام.,He says: Hello.
+"sin, crime",B1,noun,گناه,X,gonâh,X,او از گناهی که کرده بود پشیمان شد و از همه عذرخواهی کرد.,He regretted the sin he had committed and apologized to everyone.
 ear,A1,noun,گوش,X,guš,X,گوش من درد می‌کند.,My ears hurt.
 listen,A1,verb,گوش کردن,X,guš kardan,X,من به موسیقی گوش می‌کنم.,I am listening to music.
 meat,A1,noun,گوشت,X,gušt,X,گوشت تازه است.,The meat is fresh.
 beef,A1,noun,گوشت گاو,X,gušt-e gâv,X,من گوشت گاو نمی‌خورم.,I don't eat beef.
+please,A1,interjection,لطفاً,X,lotfan,X,لطفاً در را باز کن.,Please open the door.
+we,A1,pronoun,ما,X,mâ,X,ما اینجا هستیم.,We are here.
 mother,A1,noun,مادر,X,mâdar,X,مادر من مهربان است.,My mother is kind.
+snake,A1,noun,مار,X,mâr,X,یک مار در بیابان است.,There is a snake in the desert.
+yogurt,A1,noun,ماست,X,mâst,X,من ماست می‌خورم.,I eat yogurt.
+"stay, remain",A2,verb,ماندن,X,mândan,X,من دو روز در هتل می‌مانم.,I’m staying at the hotel for two days.
+"moon, month",A1,noun,ماه,X,mâh,X,یک ماه اینجا هستم.,I have been here for a month.
 fish,A1,noun,ماهی,X,mâhi,X,من ماهی دوست دارم.,I like fish.
-muscle,B1,noun,ماهیچه,X,mâhiče,,,
+muscle,B1,noun,ماهیچه,X,mâhiče,X,بعد از ورزش، ماهیچه‌های پایم درد گرفت.,"After exercising, the muscles in my legs started to hurt."
+"subway, metro, underground",A1,noun,مترو,X,metro,X,من با مترو می‌روم.,I go by metro.
 example,A1,noun,مثال,X,mesâl,X,این یک مثال است.,This is an example.
 school,A1,noun,مدرسه,X,madrase,X,مدرسه نزدیک خانه است.,The school is near the house.
 man,A1,noun,مرد,X,mard,X,مرد در خیابان است.,The man is on the street.
@@ -164,21 +271,36 @@ people,A1,noun,مردم,X,mardom,X,مردم خوشحال‌اند.,People are ha
 thanks,A1,interjection,مرسی,X,mersi,X,مرسی!,Thank you!
 "taste, flavor",A2,noun,مزه,X,maze,X,این غذا مزه خوبی دارد.,This food tastes good.
 teacher,A1,noun,معلم,X,mo'allem,X,معلم در کلاس است.,The teacher is in the classroom.
+"store, shop",A1,noun,مغازه,X,maġâze,X,این مغازه باز است.,This shop is open.
 I,A1,pronoun,من,X,man,X,من دانشجو هستم.,I am a student.
 fruit,A1,noun,میوه,X,mive,X,میوه روی میز است.,The fruit is on the table.
+"fruit seller, fruit-seller, fruitmonger",A2,noun,میوه‌فروش,X,mêve-forôš,X,میوه‌فروش نزدیک مدرسه است.,The fruit seller is near the school.
 name,A1,noun,نام,X,nâm,X,نام من علی است.,My name is Ali.
+bread,A1,noun,نان,X,nân,X,من نان می‌خورم.,I eat bread.
+"sit, sit down",A2,verb,نشستن,X,nešastan,X,لطفاً بنشین.,Please sit down.
+salt,A1,noun,نمک,X,namak,X,در غذا نمک هست.,There is salt in the food.
+nine,A1,numeral,نه,X,noh,X,من نه کتاب دارم.,I have nine books.
+"not, no",A1,adverb,نه,X,na,X,نه، مرسی.,"No, thanks."
 drink,A1,verb,نوشیدن,X,nušidan,X,من آب می‌نوشم.,I drink water.
-transliteration,B2,noun,نویسه‌گردانی,X,nevise-gardâni,,,
+transliteration,B2,noun,نویسه‌گردانی,X,nevise-gardâni,X,برای این پروژه، نویسه‌گردانیِ نام‌ها باید یکسان باشد تا خواننده گیج نشود.,"For this project, the transliteration of names has to be consistent so the reader doesn’t get confused."
 "is not, there is not",A1,verb,نیست,X,nêst,X,او اینجا نیست.,He is not here.
 hotel,A1,noun,هتل,X,hotel,X,هتل بزرگ است.,The hotel is big.
 "every, each",A1,adjective,هر,X,har,X,هر روز می‌خوانم.,I read every day.
+eight,A1,numeral,هشت,X,hašt,X,من هشت کتاب دارم.,I have eight books.
+seven,A1,numeral,هفت,X,haft,X,من هفت کتاب دارم.,I have seven books.
+week,A1,noun,هفته,X,hafte,X,یک هفته اینجا هستم.,I have been here for a week.
+"also, too",A1,adverb,هم,X,ham,X,من هم می‌آیم.,I’m coming too.
+"everyone, everybody",A1,pronoun,همه,X,hame,X,همه اینجا هستند.,Everyone is here.
+all,A2,adjective,همهٔ,X,hame-ye,X,همهٔ مردم اینجا هستند.,All the people are here.
 "weather, air",A1,noun,هوا,X,havâ,X,هوا سرد است.,The weather is cold.
 nothing,A1,pronoun,هیچ,X,hič,X,هیچ کس اینجا نیست.,No one is here.
 nowhere,A1,adverb,هیچ‌جا,X,hič-jâ,X,هیچ‌جا باز نیست.,Nothing is open.
 and,A1,conjunction,و,X,"va, o",X,من و تو دوست هستیم.,You and I are friends.
 but,A1,conjunction,ولی,X,vali,X,او خسته است ولی می‌خندد.,He is tired but laughing.
+"you, you (formal)",B1,pronoun,وی,X,vey,X,وی گفت که فردا دیرتر می‌آید و جلسه را باید عقب بیندازیم.,He said he would come later tomorrow and that we should postpone the meeting.
+or,A1,conjunction,یا,X,yâ,X,چای یا قهوه؟,Tea or coffee?
 one,A1,numeral,یک,X,yek,X,من یک کتاب دارم.,I have a book.
-unit,B2,noun,یکا,X,yekâ,,,
+unit,B2,noun,یکا,X,yekâ,X,در فیزیک، هر کمیت را با یک یکا اندازه می‌گیرند تا مقایسه ممکن شود.,"In physics, every quantity is measured with a unit so comparison is possible."
 once,A2,adverb,یکبار,X,yekbâr,X,من فقط یکبار آنجا رفتم.,I only went there once.
-unique,B2,adjective,یکتا,X,yektâ,,,
-monotheism,B2,noun,یکتاپرستی,X,yektâparasti,,,
+unique,B2,adjective,یکتا,X,yektâ,X,هر زبان راه‌های یکتایی برای گفتن احساسات دارد، حتی وقتی معنی‌ها نزدیک‌اند.,"Every language has unique ways of expressing feelings, even when the meanings are close."
+monotheism,B2,noun,یکتاپرستی,X,yektâparasti,X,او دربارهٔ یکتاپرستی خواند و دید که این ایده چگونه نگاه مردم به جهان را تغییر داد.,He read about monotheism and saw how this idea changed people’s view of the world.
