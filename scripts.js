@@ -2451,9 +2451,10 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
         return regex.test(r.eksempel);
       } else {
         // For other parts of speech, ensure the word starts a word
+        const safe = variation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         const regexStartOfWord = new RegExp(
-          `(^|[^\\wčćđšžČĆĐŠŽ])${variation}($|[^\\wčćđšžČĆĐŠŽ])`,
-          "i"
+          `(^|[^\\p{L}\\p{N}_])${safe}($|[^\\p{L}\\p{N}_])`,
+          "iu"
         );
         return regexStartOfWord.test(r.eksempel);
       }
@@ -2483,7 +2484,13 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
           pos === "interjection" ||
           pos === "numeral"
             ? new RegExp(`(^|\\s)${variation}($|[\\s.,!?;])`, "gi")
-            : new RegExp(`(^|[^\\wčćđšžČĆĐŠŽ])${variation}`, "i");
+            : new RegExp(
+                `(^|[^\\p{L}\\p{N}_])${variation.replace(
+                  /[.*+?^${}()|[\]\\]/g,
+                  "\\$&"
+                )}($|[^\\p{L}\\p{N}_])`,
+                "iu"
+              );
         return regex.test(sentence);
       });
 
