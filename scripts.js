@@ -1461,7 +1461,7 @@ function makeDefinitionClickable(defText) {
   function wrapToken(token) {
     // Håndter sammensatte ord med parentes, som (språk)gruppe eller språk(gruppe)
     const complexParenMatch = token.match(
-      /^([\p{L}\p{M}\-']*)\(([[\p{L}\p{M}\-']+)\)([\p{L}\p{M}\-']*)([.,;!?]*)$/u
+      /^([\p{L}\p{M}\u200C\-']*)\(([\p{L}\p{M}\u200C\-']+)\)([\p{L}\p{M}\u200C\-']*)([.,;!?]*)$/u
     );
     if (complexParenMatch) {
       const [, before, inside, after, punctuation] = complexParenMatch;
@@ -1491,7 +1491,7 @@ function makeDefinitionClickable(defText) {
 
     // Opprinnelig logikk for alt annet
     const match = token.match(
-      /^(\()?(?<prefix>[[\p{L}\p{M}\-']+)?(\))?(?<base>[\p{L}\p{M}\-']+)?([:.,;!?]*)$/u
+      /^(\()?(?<prefix>[[[\p{L}\p{M}\u200C\-']+)?(\))?(?<base>[\p{L}\p{M}\u200C\-']+)?([:.,;!?]*)$/u
     );
 
     if (!match || !match.groups) return token;
