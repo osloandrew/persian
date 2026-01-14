@@ -1820,289 +1820,119 @@ function getCefrColor(cefrLevel) {
   }
 }
 
+/**
+ * Generates a comprehensive set of Persian word variations for search indexing.
+ * Covers nouns, adjectives, and all major verb tenses (Past, Present, Subjunctive, Future).
+ */
 function generateWordVariationsForSentences(word, pos) {
-  // Purpose: cast a wide net for surface-form matching in Persian example sentences.
-  // NOTE: This is NOT a full morphological engine—it's a high-coverage heuristic set.
+  const v = new Set([word]);
+  const w = String(word || "").trim();
+  const zwnj = "\u200C";
 
-  const v = new Set([word]); // always include lemma/base as given
-  const w = String(word || "").toLowerCase();
-
-  // --- IRREGULAR EXCEPTIONS ---
-  // Hard-coded lists for the most common irregulars
-  const irregulars = {
-    biti: [
-      "sam",
-      "si",
-      "je",
-      "smo",
-      "ste",
-      "su",
-      "bio",
-      "bila",
-      "bilo",
-      "bili",
-      "bile",
-    ],
-    htjeti: [
-      "ću",
-      "ćeš",
-      "će",
-      "ćemo",
-      "ćete",
-      "će",
-      "htio",
-      "htjela",
-      "htjeli",
-    ],
-    moći: [
-      "mogu",
-      "možeš",
-      "može",
-      "možemo",
-      "možete",
-      "mogu",
-      "mogao",
-      "mogla",
-      "mogli",
-    ],
-    ići: [
-      "idem",
-      "ideš",
-      "ide",
-      "idemo",
-      "idete",
-      "idu",
-      "išao",
-      "išla",
-      "išli",
-    ],
-    doći: [
-      "dođem",
-      "dođeš",
-      "dođe",
-      "dođemo",
-      "dođete",
-      "dođu",
-      "došao",
-      "došla",
-      "došli",
-    ],
-    dati: ["dam", "daš", "da", "damo", "date", "daju", "dao", "dala", "dali"],
-    jesti: [
-      "jedem",
-      "jedeš",
-      "jede",
-      "jedemo",
-      "jedete",
-      "jedu",
-      "jeo",
-      "jela",
-      "jeli",
-    ],
-    vidjeti: [
-      "vidim",
-      "vidiš",
-      "vidi",
-      "vidimo",
-      "vidite",
-      "vide",
-      "vidio",
-      "vidjela",
-      "vidjeli",
-    ],
-    teći: [
-      "tečem",
-      "tečeš",
-      "teče",
-      "tečemo",
-      "tečete",
-      "teku",
-      "tekao",
-      "tekla",
-      "tekli",
-    ],
-    čovjek: ["ljudi"], // irregular plural
-    dijete: ["djeca", "djeteta", "djeci", "djecu"],
-    otac: ["očevi", "oca", "ocu", "ocem"],
-    majka: ["majke", "majci", "majkom"],
+  // Comprehensive map of common infinitives to irregular Present Stems
+  const irregularPresentStems = {
+    آمدن: "آ",
+    آوردن: "آور",
+    ارزیدن: "ارز",
+    افتادن: "افت",
+    افراشتن: "افراز",
+    افروختن: "افروز",
+    افزودن: "افزا",
+    انداختن: "انداز",
+    اندوختن: "اندوز",
+    ایستادن: "ایست",
+    باختن: "باز",
+    باریدن: "بار",
+    بافتن: "باف",
+    بردن: "بر",
+    بستن: "بند",
+    بودن: "باش",
+    پختن: "پز",
+    پذیرفتن: "پذیر",
+    توانستن: "توان",
+    جستن: "جو",
+    چیدن: "چین",
+    خاستن: "خیز",
+    خریدن: "خر",
+    خفتن: "خواب",
+    خواستن: "خواه",
+    خوردن: "خور",
+    دادن: "د",
+    داشتن: "دار",
+    دانستن: "دان",
+    دوختن: "دوز",
+    دویدن: "دو",
+    دیدن: "بین",
+    رفتن: "رو",
+    ریختن: "ریز",
+    زدن: "زن",
+    زیستن: "زی",
+    ساختن: "ساز",
+    سوختن: "سوز",
+    شستن: "شو",
+    شکستن: "شکن",
+    شناختن: "شناس",
+    شنیدن: "شنو",
+    شدن: "شو",
+    فروختن: "فروش",
+    کردن: "کن",
+    کشتن: "کش",
+    گذاشتن: "گذار",
+    گذشتن: "گذر",
+    گرفتن: "گیر",
+    گفتن: "گو",
+    مردن: "میر",
+    نشستن: "نشین",
+    نمودن: "نما",
+    نوشتن: "نویس",
+    یافتن: "یاب",
   };
 
-  if (irregulars[w]) {
-    irregulars[w].forEach((f) => v.add(f));
-  }
+  if (pos === "verb") {
+    // 1. Handle Compounds: Split by space or ZWNJ
+    const parts = w.split(/[ \u200C]/);
+    const auxiliary = parts.pop();
+    const preVerb = parts.length > 0 ? parts.join(" ") + " " : "";
 
-  // --- crude stems for Persian (heuristic, not full morphology) ---
-  let verbStem = w;
-  let adjStem = w;
-  let nounStem = w;
+    // 2. Derive Stems
+    let pastStem = auxiliary.endsWith("ن") ? auxiliary.slice(0, -1) : auxiliary;
+    let presStem = irregularPresentStems[auxiliary] || pastStem;
 
-  // --- VERBS ---
-  // infinitive -ti → bare stem
-  if (verbStem.endsWith("ti")) {
-    verbStem = verbStem.replace(/ti$/, ""); // učiti → uči-
-  }
-  // catch a few irregular infinitives (just broaden recall, not perfect)
-  if (/ći$/.test(w)) {
-    // ići, doći, moći → strip -ći
-    verbStem = w.replace(/ći$/, "");
-  }
-  if (/jeti$/.test(w)) {
-    // htjeti → htje- (approximate)
-    verbStem = w.replace(/jeti$/, "je");
-  }
+    const suffixes = ["م", "ی", "د", "یم", "ید", "ند"];
 
-  // --- ADJECTIVES ---
-  if (/(an|en|in)$/.test(adjStem)) {
-    // važan → važn, sretan → sretn, jedinstven → jedinstven
-    adjStem = adjStem.replace(/(an|en|in)$/, "n");
-  } else if (/(ak|ek|ik)$/.test(adjStem)) {
-    // težak → tešk-, lagan → lagan/lag-, velik → velik/velik-
-    adjStem = adjStem.replace(/(ak|ek|ik)$/, "k");
-  } else if (/d$/.test(adjStem)) {
-    // mlad → mlad- (don’t strip vowel)
-    adjStem = adjStem;
-  } else {
-    // regular endings: mali/mala/malo, dobar/dobra/dobro
-    adjStem = adjStem.replace(/(i|a|o|e)$/, "");
-  }
+    // 3. Past & Present Continuous (mi- prefix)
+    suffixes.forEach((s, i) => {
+      const pastSfx = i === 2 ? "" : s; // 3rd-person singular past is empty
+      const presSfx = s;
 
-  // --- NOUNS ---
-  // default: strip final vowel (žena → žen-, selo → sel-)
-  nounStem = w.replace(/(a|o|e|i)$/, "");
+      // Past: raftam, miraftam
+      v.add(preVerb + pastStem + pastSfx);
+      v.add(preVerb + "می" + zwnj + pastStem + pastSfx);
 
-  // special noun patterns
-  if (/ac$/.test(w)) {
-    // otac → očev-, mladić/vojnik handled elsewhere
-    nounStem = w.replace(/ac$/, "c");
-  }
-  if (/ik$/.test(w)) {
-    // vojnik → vojnici
-    nounStem = w.replace(/ik$/, "k");
-  }
-  if (/ost$/.test(w)) {
-    // mladost → mladost(i)
-    nounStem = w; // leave whole, since stem doesn’t shorten
-  }
-  if (/et$/.test(w)) {
-    // dijete → djece (irregular, approximate only)
-    nounStem = w.replace(/et$/, "ec");
-  }
+      // Present: miravam
+      v.add(preVerb + "می" + zwnj + presStem + presSfx);
 
-  if (pos === "noun") {
-    // Frequent noun endings across genders (sg/pl, common cases).
-    // This is purposely redundant across genders to maximize recall.
-    [
-      "a", // gen sg (žena → žene; selo → sela (also nom/acc pl neuter))
-      "e", // nom/acc pl fem; voc sg masc; acc sg fem
-      "i", // dat sg fem; nom pl masc
-      "u", // loc sg; acc sg masc/neut (many)
-      "o", // nom sg neuter (selo)
-      "om", // instr sg masc/neut
-      "em", // dat/loc sg masc (soft stems)
-      "ama", // dat/loc/instr pl fem
-      "ima", // dat/loc/instr pl masc/neut
-      "ovi", // nom pl masc (grad → gradovi)
-      "evima", // dat/loc/instr pl masc alt pattern
-      "ovima", // dat/loc/instr pl masc alt (gradovima)
-      "ih", // gen pl (many paradigms)
-    ].forEach((end) => v.add(nounStem + end));
-  } else if (pos === "adjective") {
-    // Core agreement + oblique + degrees.
-    // Key fix: include neuter sg "-o" (e.g., selo je malo).
-    [
-      "i", // masc pl (dobri)
-      "a", // fem sg (dobra)
-      "e", // fem pl (dobre)
-      "o", // neut sg (dobro)  ← critical fix for "malo"
-      "og", // gen/acc (anim) masc sg (dobrog)
-      "ega", // alt gen/acc masc sg (dobroga)
-      "om", // dat/loc masc/neut sg (dobrom)
-      "oj", // dat/loc fem sg (dobroj)
-      "im", // dat/loc/inst pl (dobrim)  ← adjectives take -im (not -ima)
-      "ih", // gen pl (dobrih)
-    ].forEach((end) => v.add(adjStem + end));
+      // Subjunctive: beravam (be- prefix)
+      const subPrefix = presStem.startsWith("آ") ? "بی" : "ب";
+      v.add(preVerb + subPrefix + presStem + presSfx);
+    });
 
-    // Special case: adjectives ending in -an / -en / -in
-    // These often keep the whole "an/en/in" before endings.
-    if (/(an|en|in)$/.test(w)) {
-      ["a", "o", "i", "e", "og", "ega", "om", "oj", "im", "ih"].forEach(
-        (end) => {
-          v.add(w.replace(/(an|en|in)$/, "$1") + end);
-        }
-      );
+    // 4. Perfect Tense (Participle + am/i/ast...)
+    const perfSuffixes = ["ه‌ام", "ه‌ای", "ه است", "ه‌ایم", "ه‌اید", "ه‌اند"];
+    perfSuffixes.forEach((s) => v.add(preVerb + pastStem + s));
+
+    // 5. Future Tense (خواه + suffix + pastStem)
+    const futAux = ["خواهم", "خواهی", "خواهد", "خواهیم", "خواهید", "خواهند"];
+    futAux.forEach((p) => v.add(preVerb + p + " " + pastStem));
+  } else if (pos === "noun" || pos === "adjective") {
+    // 6. Noun/Adjective variations
+    v.add(w + zwnj + "ها"); // Plural
+    v.add(w + "ی"); // Indefinite
+
+    if (pos === "adjective") {
+      v.add(w + "تر"); // Comparative
+      v.add(w + "ترین"); // Superlative
     }
-
-    // Comparative patterns (cover common alternations)
-    v.add(adjStem + "ji");
-    v.add(adjStem + "iji");
-    v.add(adjStem + "ši"); // e.g., lak → lakši (irregular class)
-
-    // Superlative = "naj-" + comparative
-    v.add("naj" + adjStem + "ji");
-    v.add("naj" + adjStem + "iji");
-    v.add("naj" + adjStem + "ši");
-  } else if (pos === "verb") {
-    // PRESENT: cover all three theme-vowel classes (-a-, -e-, -i-)
-    // 1sg
-    v.add(verbStem + "m"); // generic (if theme vowel already present)
-    v.add(verbStem + "am"); // radim/radam (cover -a- class)
-    v.add(verbStem + "em"); // pišem (-e- class)
-    v.add(verbStem + "im"); // učim (-i- class)
-    // 2sg
-    v.add(verbStem + "š");
-    v.add(verbStem + "aš");
-    v.add(verbStem + "eš");
-    v.add(verbStem + "iš");
-    // 3sg
-    v.add(verbStem); // some lemmatizers yield bare stem—keep it
-    v.add(verbStem + "a");
-    v.add(verbStem + "e");
-    v.add(verbStem + "i");
-    // 1pl
-    v.add(verbStem + "mo");
-    v.add(verbStem + "amo");
-    v.add(verbStem + "emo");
-    v.add(verbStem + "imo");
-    // 2pl
-    v.add(verbStem + "te");
-    v.add(verbStem + "ate");
-    v.add(verbStem + "ete");
-    v.add(verbStem + "ite");
-    // 3pl
-    v.add(verbStem + "u");
-    v.add(verbStem + "ju");
-    v.add(verbStem + "e");
-    v.add(verbStem + "aju");
-
-    // PAST (L-participle) — cover gender/number
-    v.add(verbStem + "o"); // masc sg (radio/jeo pattern varies by lemma, but -o helps matching)
-    v.add(verbStem + "la"); // fem sg
-    v.add(verbStem + "lo"); // neut sg
-    v.add(verbStem + "li"); // masc/mixed pl
-    v.add(verbStem + "le"); // fem pl
-    v.add(verbStem + "la"); // neut pl
-
-    // IMPERATIVE (common shapes)
-    v.add(verbStem + "j"); // dođi-type often surfaces as -j after palatalization
-    v.add(verbStem + "jte"); // pl
-    v.add(verbStem + "i"); // piši / uči
-    v.add(verbStem + "imo"); // pišimo
-    v.add(verbStem + "ite"); // pišite
-    v.add(verbStem + "aj"); // -ati class: radi → radi / (radi!) ~ rad(i)/rad(i)!; many -aj imperatives surface
-    v.add(verbStem + "ajte"); // -ajte
-
-    // FUTURE I (periphrastic) — keep separated with space
-    ["ću", "ćeš", "će", "ćemo", "ćete", "će"].forEach((aux) =>
-      v.add(w + " " + aux)
-    );
-
-    // CONDITIONAL (bih/bi/bismo/biste/bi)
-    ["bih", "bi", "bismo", "biste", "bi"].forEach((aux) =>
-      v.add(w + " " + aux)
-    );
-  } else {
-    // other POS: just return base
-    v.add(word);
   }
 
   return Array.from(v);
