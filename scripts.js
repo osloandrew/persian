@@ -616,9 +616,17 @@ async function search(queryOverride = null) {
   )
     .toLowerCase()
     .trim()
-    .normalize("NFD") // Decomposes characters into base + mark
-    .replace(/\p{M}/gu, ""); // Removes the mark (vowel)
+    // 1. Standardize Kaf and Yeh (Arabic to Persian)
+    .replace(/\u0643/g, "\u06a9") // Arabic Kaf -> ک
+    .replace(/[\u064a\u0649]/g, "\u06cc") // Arabic Yeh/Alif Maqsura -> ی
 
+    // 2. Convert Heh + Hamza (ۀ) to standard Heh (ه)
+    // This handles the other common way 'mahe' is written
+    .replace(/\u06c0/g, "\u0647")
+
+    // 3. Remove specific short vowels (Harakaat) and Ezafe
+    // This targets: Fatha, Damma, Kasra, Tanwin, and Sukun
+    .replace(/[\u064b-\u0652\u0654\u0670]/g, "");
   document.getElementById("search-bar").dataset.originalQuery = originalQuery; // 👈 this line
   // Try to find a base form in the dataset
   const variations = generateInexactMatches(originalQuery);
