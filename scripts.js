@@ -611,9 +611,13 @@ function generateInexactMatches(query) {
 }
 // Perform a search based on the input query and selected POS
 async function search(queryOverride = null) {
-  const originalQuery =
-    queryOverride ||
-    document.getElementById("search-bar").value.toLowerCase().trim();
+  const originalQuery = (
+    queryOverride || document.getElementById("search-bar").value
+  )
+    .toLowerCase()
+    .trim()
+    .normalize("NFD") // Decomposes characters into base + mark
+    .replace(/\p{M}/gu, ""); // Removes the mark (vowel)
 
   document.getElementById("search-bar").dataset.originalQuery = originalQuery; // 👈 this line
   // Try to find a base form in the dataset
@@ -1457,7 +1461,7 @@ function makeDefinitionClickable(defText) {
   function wrapToken(token) {
     // Håndter sammensatte ord med parentes, som (språk)gruppe eller språk(gruppe)
     const complexParenMatch = token.match(
-      /^([\p{L}\-']*)\(([\p{L}\-']+)\)([\p{L}\-']*)([.,;!?]*)$/u
+      /^([\p{L}\p{M}\-']*)\(([[\p{L}\p{M}\-']+)\)([\p{L}\p{M}\-']*)([.,;!?]*)$/u
     );
     if (complexParenMatch) {
       const [, before, inside, after, punctuation] = complexParenMatch;
@@ -1487,7 +1491,7 @@ function makeDefinitionClickable(defText) {
 
     // Opprinnelig logikk for alt annet
     const match = token.match(
-      /^(\()?(?<prefix>[\p{L}\-']+)?(\))?(?<base>[\p{L}\-']+)?([:.,;!?]*)$/u
+      /^(\()?(?<prefix>[[\p{L}\p{M}\-']+)?(\))?(?<base>[\p{L}\p{M}\-']+)?([:.,;!?]*)$/u
     );
 
     if (!match || !match.groups) return token;
