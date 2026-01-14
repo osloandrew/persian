@@ -1572,9 +1572,25 @@ function displaySearchResults(results, query = "") {
     const normalizedWord = result.ord.toLowerCase().trim();
 
     // Highlight the word being defined (result.ord) in the example sentence
-    const highlightedExample = result.eksempel
-      ? highlightQuery(result.eksempel, query || result.ord.toLowerCase())
-      : "";
+    let highlightedExample = "";
+    if (result.eksempel) {
+      const wordForms = generateWordVariationsForSentences(
+        result.ord,
+        result.pos
+      );
+      wordForms.sort((a, b) => b.length - a.length);
+      const cleanExample = result.eksempel.replace(
+        /<span[^>]*>(.*?)<\/span>/gi,
+        "$1"
+      );
+      const pattern = wordForms
+        .map((f) => f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+        .join("|");
+      const highlightRegex = new RegExp(`(${pattern})`, "gu");
+      highlightedExample = cleanExample.replace(highlightRegex, (match) => {
+        return `<span style="color: #3c88d4;">${match}</span>`;
+      });
+    }
 
     // Determine whether to initially hide the content for multiple results
     const multipleResultsExposedContent = defaultResult
@@ -1829,7 +1845,6 @@ function generateWordVariationsForSentences(word, pos) {
   const w = String(word || "").trim();
   const zwnj = "\u200C";
 
-  // Comprehensive map of common infinitives to irregular Present Stems
   const irregularPresentStems = {
     آمدن: "آ",
     آوردن: "آور",
@@ -1844,6 +1859,7 @@ function generateWordVariationsForSentences(word, pos) {
     باختن: "باز",
     باریدن: "بار",
     بافتن: "باف",
+    فهمیدن: "فهم",
     بردن: "بر",
     بستن: "بند",
     بودن: "باش",
@@ -1889,49 +1905,55 @@ function generateWordVariationsForSentences(word, pos) {
   };
 
   if (pos === "verb") {
-    // 1. Handle Compounds: Split by space or ZWNJ
     const parts = w.split(/[ \u200C]/);
     const auxiliary = parts.pop();
     const preVerb = parts.length > 0 ? parts.join(" ") + " " : "";
 
-    // 2. Derive Stems
     let pastStem = auxiliary.endsWith("ن") ? auxiliary.slice(0, -1) : auxiliary;
     let presStem = irregularPresentStems[auxiliary] || pastStem;
 
     const suffixes = ["م", "ی", "د", "یم", "ید", "ند"];
 
-    // 3. Past & Present Continuous (mi- prefix)
     suffixes.forEach((s, i) => {
-      const pastSfx = i === 2 ? "" : s; // 3rd-person singular past is empty
-      const presSfx = s;
+      const pastSfx = i === 2 ? "" : s;
 
-      // Past: raftam, miraftam
+      // --- AFFIRMATIVE ---
       v.add(preVerb + pastStem + pastSfx);
       v.add(preVerb + "می" + zwnj + pastStem + pastSfx);
-
-      // Present: miravam
-      v.add(preVerb + "می" + zwnj + presStem + presSfx);
-
-      // Subjunctive: beravam (be- prefix)
+      v.add(preVerb + "می" + zwnj + presStem + s);
       const subPrefix = presStem.startsWith("آ") ? "بی" : "ب";
-      v.add(preVerb + subPrefix + presStem + presSfx);
+      v.add(preVerb + subPrefix + presStem + s);
+
+      // --- NEGATIVE ---
+      // Negative Past (e.g., نرفتم)
+      v.add(preVerb + "ن" + pastStem + pastSfx);
+      // Negative Continuous Past (e.g., نمی‌رفتم)
+      v.add(preVerb + "ن" + "می" + zwnj + pastStem + pastSfx);
+      // Negative Present (e.g., نمی‌روم)
+      v.add(preVerb + "ن" + "می" + zwnj + presStem + s);
+      // Negative Subjunctive/Simple Present (e.g., نروم)
+      v.add(preVerb + "ن" + presStem + s);
     });
 
-    // 4. Perfect Tense (Participle + am/i/ast...)
+    // Perfect Tense (Affirmative & Negative)
     const perfSuffixes = ["ه‌ام", "ه‌ای", "ه است", "ه‌ایم", "ه‌اید", "ه‌اند"];
-    perfSuffixes.forEach((s) => v.add(preVerb + pastStem + s));
+    perfSuffixes.forEach((s) => {
+      v.add(preVerb + pastStem + s);
+      v.add(preVerb + "ن" + pastStem + s);
+    });
 
-    // 5. Future Tense (خواه + suffix + pastStem)
+    // Future Tense (Affirmative & Negative)
     const futAux = ["خواهم", "خواهی", "خواهد", "خواهیم", "خواهید", "خواهند"];
-    futAux.forEach((p) => v.add(preVerb + p + " " + pastStem));
+    futAux.forEach((p) => {
+      v.add(preVerb + p + " " + pastStem);
+      v.add(preVerb + "ن" + p + " " + pastStem); // e.g., نخواهم رفت
+    });
   } else if (pos === "noun" || pos === "adjective") {
-    // 6. Noun/Adjective variations
-    v.add(w + zwnj + "ها"); // Plural
-    v.add(w + "ی"); // Indefinite
-
+    v.add(w + zwnj + "ها");
+    v.add(w + "ی");
     if (pos === "adjective") {
-      v.add(w + "تر"); // Comparative
-      v.add(w + "ترین"); // Superlative
+      v.add(w + "تر");
+      v.add(w + "ترین");
     }
   }
 
@@ -2011,70 +2033,50 @@ function renderSentenceMatchesFromCorpus(rows, query) {
   document.getElementById("results-container").innerHTML = html;
 }
 
-// Highlight search query in text, accounting for Persian characters (å, æ, ø) and verb variations
 function highlightQuery(sentence, query) {
-  if (!query) return sentence; // If no query, return sentence as is.
+  if (!query) return sentence;
 
-  // Always remove any existing highlights by replacing the <span> tags to avoid persistent old highlights
-  let cleanSentence = sentence.replace(
-    /<span style="color: #3c88d4;">(.*?)<\/span>/gi,
-    "$1"
-  );
-
-  // Define a regex pattern that includes Persian characters and dynamically inserts the query
-  const persianLetters = "[\\wčćđšžČĆĐŠŽ]"; // Include Persian letters in the pattern
-  const regex = new RegExp(
-    `(${persianLetters}*${query}${persianLetters}*)`,
-    "gi"
-  );
-
-  // Highlight all occurrences of the query in the sentence
-  cleanSentence = cleanSentence.replace(
-    regex,
-    '<span style="color: #3c88d4;">$1</span>'
-  );
-
-  // Split the query by commas to handle multiple spelling variations
-  const queries = query.split(",").map((q) => q.trim());
-
-  // Highlight each query variation in the sentence
-  queries.forEach((q) => {
-    // Define a regex pattern that includes Persian characters and dynamically inserts the query
-    const regex = new RegExp(`(\\b${q}\\b|\\b${q}(?![\\wčćđšžČĆĐŠŽ]))`, "gi");
-
-    // Highlight all occurrences of the query variation in the sentence
-    cleanSentence = cleanSentence.replace(
-      regex,
-      '<span style="color: #3c88d4;">$1</span>'
+  // 1. Determine the variations to highlight
+  // If query is already an array (from fetchAndRenderSentences), use it.
+  // Otherwise, generate variations from the string.
+  let wordForms = [];
+  if (Array.isArray(query)) {
+    wordForms = query;
+  } else {
+    // Try to find POS to generate accurate variations
+    const entry = results.find((r) =>
+      r.ord.toLowerCase().includes(query.toLowerCase())
     );
+    const pos = entry
+      ? ["masculine", "feminine", "neuter"].some((g) =>
+          (entry.gender || "").toLowerCase().includes(g)
+        )
+        ? "noun"
+        : entry.gender.toLowerCase()
+      : "";
+    wordForms = generateWordVariationsForSentences(query, pos);
+  }
+
+  // 2. Clean the sentence of any existing highlight spans
+  let cleanSentence = sentence.replace(/<span[^>]*>(.*?)<\/span>/gi, "$1");
+
+  // 3. Sort variations by length descending (longest first)
+  wordForms.sort((a, b) => b.length - a.length);
+
+  // 4. Create the Regex pattern using Persian Unicode ranges + ZWNJ (\u200C)
+  // This ensures we match the word correctly regardless of surrounding Persian text
+  const pattern = wordForms
+    .map((f) => f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .join("|");
+
+  // We use \b for word boundaries where possible, but Persian script often requires
+  // checking for the absence of other Persian characters or the presence of ZWNJ.
+  const highlightRegex = new RegExp(`(${pattern})`, "gu");
+
+  // 5. Apply the highlights in one single pass
+  return cleanSentence.replace(highlightRegex, (match) => {
+    return `<span style="color: #3c88d4;">${match}</span>`;
   });
-
-  // Get part of speech (POS) for the query to pass into `generateWordVariationsForSentences`
-  const matchingWordEntry = results.find((result) =>
-    result.ord.toLowerCase().includes(query)
-  );
-  const pos = matchingWordEntry
-    ? ["masculine", "feminine", "neuter"].some((gender) =>
-        matchingWordEntry.gender.toLowerCase().includes(gender)
-      )
-      ? "noun"
-      : matchingWordEntry.gender.toLowerCase()
-    : "";
-
-  // Generate word variations using the external function
-  const wordVariations = generateWordVariationsForSentences(query, pos);
-
-  // Apply highlighting for all word variations in sequence
-  wordVariations.forEach((variation) => {
-    const persianWordBoundary = `\\b${variation}\\b`;
-    const regex = new RegExp(persianWordBoundary, "gi");
-    cleanSentence = cleanSentence.replace(
-      regex,
-      '<span style="color: #3c88d4;">$&</span>'
-    );
-  });
-
-  return cleanSentence; // Return the fully updated sentence
 }
 
 function renderSentencesHTML(sentenceResults, wordVariations) {
@@ -2385,12 +2387,10 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
     pos
   );
 
-  // Apply highlighting for the new word and reset any previous highlighting
+  // Apply highlighting using the entire array of variations at once
+  // This prevents the "overwriting" bug where one highlight deletes the previous one.
   matchingResults.forEach((result) => {
-    wordVariations.forEach((variation) => {
-      const highlightedSentence = highlightQuery(result.eksempel, variation); // Highlight query in sentence
-      result.eksempel = highlightedSentence; // Set the highlighted sentence back
-    });
+    result.eksempel = highlightQuery(result.eksempel, wordVariations);
   });
 
   // Create the sentence content with CEFR labels
