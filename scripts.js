@@ -1893,7 +1893,9 @@ function generateWordVariationsForSentences(word, pos) {
     دیدن: "بین",
     رفتن: "رو",
     ریختن: "ریز",
+    پرسیدن: "پرس",
     زدن: "زن",
+    خواندن: "خوان",
     زیستن: "زی",
     ساختن: "ساز",
     سوختن: "سوز",
@@ -1904,12 +1906,16 @@ function generateWordVariationsForSentences(word, pos) {
     شدن: "شو",
     فروختن: "فروش",
     کردن: "کن",
+    رقصیدن: "رقص",
+    پریدن: "پر",
     کشتن: "کش",
     گذاشتن: "گذار",
     گذشتن: "گذر",
     گرفتن: "گیر",
     گفتن: "گو",
     مردن: "میر",
+    پوشیدن: "پوش",
+    فرستادن: "فرست",
     نشستن: "نشین",
     نمودن: "نما",
     نوشتن: "نویس",
@@ -1922,7 +1928,21 @@ function generateWordVariationsForSentences(word, pos) {
     const preVerb = parts.length > 0 ? parts.join(" ") + " " : "";
 
     let pastStem = auxiliary.endsWith("ن") ? auxiliary.slice(0, -1) : auxiliary;
-    let presStem = irregularPresentStems[auxiliary] || pastStem;
+    let presStem =
+      irregularPresentStems[auxiliary] ||
+      (auxiliary.endsWith("دن") && pastStem.endsWith("د")
+        ? pastStem.slice(0, -1)
+        : auxiliary.endsWith("یدن") && pastStem.endsWith("ید")
+        ? pastStem.slice(0, -2)
+        : pastStem);
+
+    // Imperative (positive)
+    v.add(preVerb + presStem); // نگه دار
+    v.add(preVerb + presStem + "ید"); // نگه دارید (formal/plural)
+
+    // Imperative (negative)
+    v.add(preVerb + "ن" + presStem); // نگه ندار
+    v.add(preVerb + "ن" + presStem + "ید"); // نگه ندارید
 
     const suffixes = ["م", "ی", "د", "یم", "ید", "ند"];
 
