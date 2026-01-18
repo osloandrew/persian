@@ -14,6 +14,7 @@ fire,A1,noun,آتش,X,âtaš,شعله و گرمایی که می‌سوزاند,X
 volcano,B1,noun,آتشفشان,X,âtaš-fešân,,X,گازهای سمی از دهانه‌ی آتشفشان خارج می‌شدند.,Toxic gases were coming out of the volcano's crater.,,
 "wrench, spanner",B1,noun,آچار,X,âčâr,ابزارِ باز و بسته کردن پیچ,X,لوله آب شل شده است و من باید با آچار آن را سفت کنم.,The water pipe is loose and I need to tighten it with a wrench.,,
 end,A1,noun,آخر,X,âxer,,X,اسفند آخرین ماهِ سال است.,March is the last month of the year.,,
+weekend,A2,noun,آخر هفته,X,âxer-e hafte,,X,ما معمولاً در آخر هفته به کوه می‌رویم.,We usually go to the mountains on the weekend.,,
 address,A1,noun,آدرس,X,âdres,نشانیِ خانه یا محل,X,بدون آدرس، بسته به دست تو نمی‌رسد.,"Without an address, the package won’t reach you.",,
 person,A1,noun,آدم,X,âdam,انسان,X,آدم حرف می‌زند، اما سگ فقط پارس می‌کند.,"A person talks, but a dog only barks.",,
 "quiet, calm",A2,adjective,آرام,X,ârâm,وضعیتی که در آن صدای بلند یا آشفتگی وجود ندارد,X,کتابخانه آن‌قدر آرام بود که صدای ورق خوردن کتاب را می‌شنیدم.,The library was so quiet that I could hear the sound of the book's page turning.,,
@@ -29,6 +30,8 @@ easy,A2,adjective,آسان,X,âsân,دارای سختیِ کم,X,این کار �
 sky,A1,noun,آسمان,X,âsmân,فضای بالایِ سرِ ما که در روز آبی دیده می‌شود,X,آسمان آبی است.,The sky is blue.,,
 "cook, chef",A2,noun,آشپز,X,âšpaz,کسی که غذا درست می‌کند,X,آشپز در رستوران کار می‌کند.,The cook works in the restaurant.,,
 kitchen,B1,noun,آشپزخانه‌ای,X,âšpaz-xâne,اتاقی برای پختنِ غذا,X,برای خانهٔ جدید چند وسیلهٔ آشپزخانه‌ای لازم داریم.,For the new house we need a few kitchen items.,,
+"sunlight, sunshine",A2,noun,آفتاب,X,âftâb,,X,نور مستقیم آفتاب از پنجره چشمم را می‌سوزاند.,Direct sunlight from the window burns my eye.,,
+sunny,A1,adjective,آفتابی,X,âftâbi,,X,من هوای آفتابی را برای پیاده‌روی در پارک دوست دارم.,I like the sunny weather for walking in the park.,,
 Africa,A1,noun,آفریقا,X,âfriġâ,قاره‌ای بزرگ در جنوبِ اروپا,X,آفریقا یک قارهٔ بزرگ است.,Africa is a big continent.,,
 South Africa,A2,noun,آفریقای جنوبی,X,âfriqâ-ye jonubi,کشوری در جنوبِ قارهٔ آفریقا,X,آفریقای جنوبی کشور بزرگی است.,South Africa is a big country.,,
 August,A1,noun,آگوست,X,âgost,ماهِ هشتمِ سالِ میلادی,X,آگوست ماهِ هشتِ سال است.,August is the eighth month of the year.,,
@@ -59,11 +62,12 @@ hang,B1,verb,آویزان کردن,X,âvizân kardan,چیزی را از بالا
 ayatollah,B2,noun,آیت‌الله,X,âyato-l-lâh,روحانیِ بلندپایه در تشیع,X,آیت‌الله در پیامش به مسائل فقهی و سیاسی هم‌زمان اشاره کرد.,"In his message, the ayatollah referred to religious and political issues at the same time.",,
 future,B1,noun,آینده,X,âyande,زمانی که هنوز نیامده است و بعداً اتفاق می‌افتد,X,هیچ‌کس نمی‌تواند با اطمینان بگوید که در آینده چه اتفاقی می‌افتد، اما می‌توانیم برای آن برنامه‌ریزی کنیم.,"No one can say with certainty what will happen in the future, but we can plan for it.",,
 verse,B2,noun,آیه,X,âye,بخش کوتاه از متن قرآن,X,این آیه دربارهٔ بخشش است و در نماز هم زیاد خوانده می‌شود.,This verse is about forgiveness and is also read often in prayer.,,
-mirror,A1,noun,آیینه,X,âyine,شیشه‌ای که تصویرِ صورت را نشان می‌دهد,X,آیینه روی دیوارِ حمام است.,The mirror is on the bathroom wall.,,
+mirror,A1,noun,"آیینه, آینه",X,âyine,شیشه‌ای که تصویرِ صورت را نشان می‌دهد,X,آیینه روی دیوارِ حمام است.,The mirror is on the bathroom wall.,,
 cloud,A1,noun,ابر,X,abr,توده‌ای سفید یا خاکستری در آسمان,X,ابر جلوی خورشید است.,A cloud is in front of the sun.,,
 superpower,B2,noun,ابرقدرت,X,abarqodrat,کشوری با نفوذ سیاسی و نظامی بسیار زیاد,X,وقتی یک ابرقدرت تحریم می‌گذارد، اقتصادِ کشورِ هدف فوراً تحت فشار می‌رود.,"When a superpower imposes sanctions, the target country’s economy immediately comes under pressure.",,
 supernova,C,noun,ابرنواختر,X,abar-now-axtar,انفجارِ بسیار درخشانِ پایانِ یک ستاره,X,ابرنواختر گاهی پایانِ یک ستاره است، اما برای اخترشناسی آغازِ داده‌های تازه.,"A supernova is sometimes the end of a star, but for astronomy it is the start of new data.",,
 eyebrow,B1,noun,ابرو,X,abru,,X,او با تعجب، یک ابروی خود را بالا برد.,He raised an eyebrow in surprise.,,
+cloudy,A1,adjective,ابری,X,abri,,X,آسمان به دلیل بارانِ صبح کاملاً ابری است.,The sky is completely cloudy because of the morning rain.,,
 silk,B1,noun,ابریشم,X,"abrišam, abrišom",نخِ طبیعی و گران‌بها,X,این پارچه بسیار نرم و گران‌بها است چون از ابریشم خالص تهیه شده است.,This fabric is very soft and expensive because it is made of pure silk.,,
 room,A1,noun,اتاق,X,otâq,بخشی جدا در خانه با دیوار و در,X,در این اتاق یک چراغ هست.,There is a lamp in this room.,,
 bedroom,A1,noun,اتاق خواب,X,otâq-e xâb,جایی در خانه برای خوابیدن,X,اتاق خواب جایِ خواب است.,A bedroom is a place for sleeping.,,
@@ -82,13 +86,18 @@ respectful,B2,adjective,احترامی,X,ehtarami,نشان‌دهندهٔ احت
 idiotic,B1,adjective,احمق,X,ahmaġ,بسیار نادان و بی‌فکر,X,این تصمیم احمق بود و همه را به دردسر انداخت.,This decision was stupid and got everyone into trouble.,,
 idiot,B1,noun,احمق,X,ahmaġ,شخصِ بسیار نادان,X,به او نگفت احمق، فقط گفت باید بیشتر فکر کنی.,"He didn’t call him an idiot, he just said you should think more.",,
 star,B2,noun,اختر,X,axtar,ستاره,X,در شعر قدیمی، «اختر» نمادِ امید در شب‌های تاریک است.,"In old poetry, a star is a symbol of hope in dark nights.",,
+office,A1,noun,اداره,X,edâre,,X,پدر من هر روز صبح به اداره می‌رود.,My father goes to the office every morning.,,
 post office,A1,noun,اداره پست,X,edâre-ye post,جایی برای فرستادن و گرفتن نامه و بسته,X,بسته را به اداره پست می‌برم.,I take the package to the post office.,,
+inheritance,B2,noun,ارث,X,ers,,X,او پس از مرگ عمویش یک خانه بزرگ در شمال به عنوان ارث دریافت کرد.,He received a large house in the north as inheritance after his uncle's death.,,
 duck,A2,noun,اردک,X,ordak,پرنده‌ای که شنا می‌کند,X,در پارک یک اردک دیدم.,I saw a duck in the park.,,
 "cheap, inexpensive",A2,adjective,ارزان,X,arzân,ارزشِ کم و قیمتِ پایین,X,این مغازه ارزان است.,This shop is cheap.,,
+"value, worth",B1,noun,ارزش,X,arzeš,,X,این ساختمان قدیمی یک ارزش تاریخی بسیار بالا دارد.,This old building has a very high historical value.,,
+valuable,A2,adjective,ارزشمند,X,arzešmand,,X,این الماس قدیمی یک وسیله بسیار ارزشمند است.,This old diamond is a very valuable item.,,
 Europe,A1,noun,اروپا,X,orupâ,قاره‌ای در غربِ آسیا,X,اروپا یک قاره است.,Europe is a continent.,,
 European,A2,adjective,اروپایی,X,orupâyi,مربوط به اروپا,X,او یک شهروند اروپایی است.,He is a European citizen.,,
 "from, of",A1,preposition,از,X,az,حرف اضافه برای نشان دادن مبدأ یا جدا شدن,X,من از تهران می‌آیم.,I’m coming from Tehran.,,
 "through, via, by means of",B1,preposition,از طریق,X,az tariq-e,حرفِ اضافه برای نشان دادنِ مسیر یا راه,X,از طریق اینترنت می‌توانی فرم را پر کنی و بفرستی.,Through the internet you can fill out the form and send it.,,
+marriage,B1,noun,ازدواج,X,ezdevâj,,X,ازدواج آن‌ها چهل سال با موفقیت ادامه یافت.,Their marriage continued successfully for forty years.,,
 horse,A2,noun,اسب,X,asb,حیوانی بزرگ برای سواری,X,اسب سفید سریع می‌دود.,The white horse runs fast.,,
 toy,A1,noun,اسباب بازی,X,asbâb bâzi,چیزی برای سرگرمیِ کودک,X,این اسباب بازی وقتی دکمه‌اش را می‌زنم صدا می‌دهد.,This toy makes a sound when I press its button.,,
 Spain,A1,noun,اسپانیا,X,espâniyâ,کشوری در جنوبِ اروپا,X,اسپانیا در اروپا است.,Spain is in Europe.,,
@@ -99,8 +108,10 @@ Spanish,A1,adjective,اسپانیایی,X,espâniyâyi,مربوط به کشور�
 bone,A2,noun,استخوان,X,ostoxân,چیزی سفت در بدن که بدن را نگه می‌دارد,X,سگ یک استخوان پیدا کرد.,The dog found a bone.,,
 relaxation,A2,noun,استراحت,X,esterâhat,زمان برای آرام شدن و خوابیدن,X,بعد از کار به استراحت نیاز دارم.,"After work, I need to rest.",,
 rest,A2,verb,استراحت کردن,X,esterâhat kardan,کمی خوابیدن یا آرام بودن برای بهتر شدن,X,امروز کمی استراحت می‌کنم.,Today I rest a little.,,
+talent,B1,noun,استعداد,X,este'dâd,,X,او استعداد بزرگی در نواختن ویولن دارد.,She has a great talent for playing the violin.,,
 use,B1,noun,استفاده,X,estefâde,به کار بردنِ یک چیز برای هدف,X,از این برنامه استفادهٔ زیادی می‌کنم.,I use this app a lot.,,
 use,B1,verb,استفاده کردن,X,estefâde kardan,به کار بردنِ یک چیز برای هدف,X,من هر روز از مترو استفاده می‌کنم.,I use the subway every day.,,
+"tea cup, glass, cup",A1,noun,استکان,X,estekân,,X,من چای داغ را در این استکان ریختم.,I poured the hot tea into this tea cup.,,
 Estonian,B2,adjective,استونیایی,X,estuniyâyi,مربوط به استونی,X,من با چند همکار استونیایی کار کرده‌ام و از نظم و دقتشان در پروژه‌ها خوشم می‌آید.,"I have worked with a few Estonian colleagues, and I like their orderliness and precision in projects.",,
 myth,B2,noun,اسطوره,X,osture,داستان کهنِ خیالی که نسل‌به‌نسل نقل می‌شود,X,آن داستان برای مردم اسطوره شد، چون نسل‌به‌نسل تعریفش کردند.,That story became a myth for people because it was told generation after generation.,,
 mythology,C,noun,اسطوره‌شناسی,X,osture-šenâsi,مطالعهٔ روایت‌های کهن و نمادهای فرهنگی,X,اسطوره‌شناسی مرزِ خیال و تاریخ را نشان می‌دهد، نه این‌که یکی را حذف کند.,"Mythology shows the boundary between imagination and history, not that it removes one.",,
@@ -124,10 +135,17 @@ point,B1,verb,اشاره کردن,X,ešâre kardan,با دست یا نگاه ج�
 tear,B1,noun,اشک,X,ašk,مایعِ شوری که هنگامِ غم یا شوق از چشم می‌آید,X,او آن‌قدر غمگین بود که وقتی نامه را خواند، یک قطره اشک از گوشه چشمش روی کاغذ افتاد.,"He was so sad that when he read the letter, a drop of tear fell from the corner of his eye onto the paper.",,
 information,A2,noun,اطلاعات,X,ettelâ'ât,چیزهایی که دربارهٔ یک موضوع می‌دانیم,X,من به اطلاعات بیشتر نیاز دارم.,I need more information.,,
 credit,B1,noun,اعتبار,X,e'tebâr,ارزش مالی در حساب,X,حساب بانکی من اعتبار کافی برای خرید این لپ‌تاپ گران را ندارد.,My bank account doesn't have enough credit to buy this expensive laptop.,,
+protest,B1,noun,اعتراض,X,e'terâz,,X,مردم یک اعتراض علیه قانون جدید برگزار کردند.,The people held a protest against the new law.,,
+protest,B1,verb,اعتراض کردن,X,e'terâz kardan,,X,کارگران به دلیل حقوقِ پرداخت‌نشده خود اعتراض کردند.,The workers protested because of their unpaid salaries.,,
+"strike, labor strike",B2,noun,اعتصاب,X,e'tesâb,,X,کارگران کارخانه برای اعتراض به حقوق کم دست به اعتصاب سراسری زدند.,The factory workers went on a nationwide strike to protest low wages.,,
+hunger strike,B2,noun,اعتصاب غذا,X,e'tesâb-e ġazâ,,X,زندانی برای جلب توجه مسئولان به وضعیت خود شروع به اعتصاب غذا کرد.,The prisoner started a hunger strike to draw the officials' attention to his situation.,,
 often,A2,adverb,اغلب,X,aġlab,در خیلی وقت‌ها,X,من اغلب دیر می‌خوابم.,I often go to sleep late.,,
 opening,B2,noun,افتتاح,X,eftetâh,مراسم آغازِ رسمیِ یک کار یا مکان,X,افتتاح نمایشگاه به‌خاطر تأخیر در حمل آثار یک هفته عقب افتاد و همهٔ برنامه‌ها تغییر کرد.,"The opening of the exhibition was postponed by one week because of a delay in transporting the works, and all the plans changed.",,
+economy,B2,noun,اقتصاد,X,eġtesâd,,X,تورم بالا و بیکاری نشان‌دهنده وضعیت بحرانی اقتصاد در این کشور است.,High inflation and unemployment indicate a critical state of the economy in this country.,,
+economic,B1,adjective,اقتصادی,X,eġtesâdi,,X,بحران اقتصادی باعث کاهش قدرت خرید مردم شد.,The economic crisis caused a decrease in people's buying power.,,
 ocean,A2,noun,اقیانوس,X,oġyânus,دریای بسیار بزرگ,X,اقیانوس خیلی بزرگ است.,The ocean is very big.,,
 October,A1,noun,اکتبر,X,oktobr,ماهِ دهمِ سالِ میلادی,X,اکتبر ماهِ ده است.,October is the tenth month.,,
+oxygen,B1,noun,اکسیژن,X,oksižen,,X,غواصان برای تنفس زیر آب کپسول اکسیژن می‌برند.,Divers carry oxygen tanks for breathing underwater.,,
 if,A2,conjunction,اگر,X,agar,برای شرط گذاشتن,X,اگر باران بیاید، نمی‌رویم.,"If it rains, we will not go.",,
 now,A1,adverb,الان,X,alân,در همین لحظه,X,الان وقتِ ناهار است.,Now it’s lunchtime.,,
 alphabet,A2,noun,الفبا,X,alefbâ,حروفِ یک زبان,X,من الفبای فارسی را یاد می‌گیرم.,I am learning the Persian alphabet.,,
@@ -139,9 +157,12 @@ tonight,A1,adverb,امشب,X,emšab,در شبِ امروز,X,امشب زود م�
 sign,A2,verb,"امضاء کردن, امضا کردن",X,emzâ' kardan,نوشتن نام برای تایید,X,شما باید زیر این نامه را برای تایید امضاء کنید.,You need to sign the bottom of this letter to confirm.,,
 signature,B1,noun,"امضاء, امضا",X,emzâ',اثرِ دست برای تایید سند,X,جعل کردن امضاءی مدیر روی چک، یک جرم بزرگ قانونی است.,Forging a manager's signature on a check is a major crime.,,
 hope,A2,noun,امید,X,omid,حسِ خوب برای آینده,X,من هنوز امید دارم.,I still have hope.,,
+pomegranate,A2,noun,انار,X,anâr,,X,انار یک میوه قرمز با دانه‌های ریز است.,Pomegranate is a red fruit with small seeds.,,
 pliers,B1,noun,انبردست,X,anbordast,ابزارِ گرفتن و بریدن سیم,X,سیم خیلی سفت است؛ از انبردست برای بریدن و خم کردن آن استفاده کن.,The wire is very stiff; use pliers to cut and bend it.,,
 suicide,C,noun,انتحار,X,entehâr,کشتنِ خود,X,پرونده نشان می‌داد که انتحار نه از روی تصمیم ناگهانی، بلکه پس از ماه‌ها فشار روانی رخ داده است.,"The case showed that the suicide was not a sudden decision, but happened after months of psychological pressure.",,
 suicidal,C,adjective,انتحاری,X,entehâri,مربوط به کشتنِ خود,X,روان‌پزشک در گزارش نوشت که افکار انتحاری او جدی است و باید فوراً تحت مراقبت قرار گیرد.,"In the report, the psychiatrist wrote that his suicidal thoughts are serious and that he must be placed under care immediately.",,
+"election, selection, choice, option",B1,noun,انتخاب,X,entexâb,,X,او با رای‌های زیاد در انتخابات ریاست‌جمهوری پیروز شد.,He won the presidential election with many votes.,,
+"choose, elect",A2,verb,انتخاب کردن,X,entexâb kardan,,X,من پیراهن آبی را برای مهمانی انتخاب کردم.,I chose the blue shirt for the party.,,
 "human being, person, human",A2,noun,انسان,X,ensân,موجودی که فکر می‌کند و حرف می‌زند,X,انسان همیشه اشتباه می‌کند.,Human beings always make mistakes.,,
 anthropology,C,noun,انسان‌شناسی,X,ensân-šenâsi,دانشِ مطالعهٔ انسان و فرهنگ‌ها,X,انسان‌شناسی به من یاد داد عادی همیشه محلی است، نه جهانی.,"Anthropology taught me that normal is always local, not universal.",,Duplicate
 human,B1,adjective,انسانی,X,ensâni,مربوط به انسان,X,کمک کردن به دیگران یک رفتار انسانی است، حتی وقتی کسی از تو تشکر نمی‌کند.,"Helping others is a human act, even when no one thanks you.",,
@@ -153,6 +174,7 @@ ring,A2,noun,انگشتر,X,angoštar,,X,او یک انگشتر الماس در 
 English,A1,adjective,انگلیسی,X,englisi,مربوط به انگلستان یا زبانِ آن,X,این کتاب انگلیسی است.,This book is in English.,,
 English,A1,noun,انگلیسی,X,engelisi,زبانِ رسمیِ بریتانیا و چند کشور دیگر,X,من انگلیسی می‌خوانم تا کار پیدا کنم.,I study English so I can find a job.,,
 grape,A1,noun,انگور,X,angur,میوه‌ای کوچک که به خوشه رشد می‌کند,X,انگور را می‌شویم و می‌خورم.,I wash the grapes and eat them.,,
+"stimulate, provoke, instigate, spark",B2,verb,انگیختن,X,angixtan,,X,سخنان پرشور رهبر توانست حس میهن‌پرستی را در دل جوانان برانگیزد.,The leader's passionate words were able to stimulate the sense of patriotism in the hearts of the youth.,,
 "he, she, it",A1,pronoun,او,X,u,ضمیر برای یک نفر یا یک چیز,X,او اینجا، جلوی در است.,"He is here, in front of the door.",,
 Ukraine,A2,noun,اوکراین,X,okrâyn,کشوری در شرقِ اروپا,X,او از اوکراین آمده است.,He came from Ukraine.,,
 first,A2,adjective,اول,X,avval,شمارهٔ یک در ترتیب,X,او شاگرد اول کلاس است.,He is a first-grade student.,,
@@ -178,6 +200,7 @@ this,A1,pronoun,این,X,in,ضمیر برای چیز یا نفر نزدیک,X,ا
 internet,A1,noun,اینترنت,X,internet,شبکه‌ای جهانی برای دیدنِ سایت‌ها,X,من برای دیدن این سایت به اینترنت نیاز دارم.,I need the internet to visit this site.,,
 here,A1,adverb,اینجا,X,injâ,در این محل نزدیک به گوینده,X,اینجا دستشویی است.,The restroom is here.,,
 "like this, like that",A2,adverb,این‌طور,X,intowr,به این شکل یا به آن شکل,X,من این‌طور فکر می‌کنم.,I think like this.,,
+these,A1,pronoun,این‌ها,X,in-hâ,,X,این‌ها کتاب‌های جدید من روی میز هستند.,These are my new books on the table.,,
 with,A1,preposition,با,X,bâ,حرف اضافه برای همراهی,X,من با تاکسی می‌روم.,I go by taxi.,,
 together,A1,adverb,با هم,X,bâ ham,با یکدیگر,X,ما با هم چای می‌خوریم و حرف می‌زنیم.,We drink tea together and talk.,,
 polite,A2,adjective,باادب,X,bâadab,مودب و با احترام,X,او باادب است و سلام می‌کند.,He is polite and says hello.,,
@@ -201,6 +224,7 @@ game,A1,noun,بازی,X,bâzi,کاری برای سرگرمی,X,این بازی �
 play,A1,verb,بازی کردن,X,bâzi kardan,انجام دادن سرگرمی یا مسابقه,X,بعد از مدرسه فوتبال بازی می‌کنم.,After school I play soccer.,,
 player,A2,noun,بازیکن,X,bâzikon,کسی که در بازی یا ورزش بازی می‌کند,X,او بازیکن تیم ما است.,He is a player on our team.,,
 garden,A2,noun,باغ,X,bâġ,زمینی که در آن درختانِ میوه و گل کاشته‌اند,X,ما در باغ خود درختان سیب و گیلاس داریم و هر سال میوه می‌چینیم.,We have apple and cherry trees in our garden and pick fruit every year.,,
+"bacterium, bacteria",B2,noun,باکتری,X,bâkteri,,X,پزشک برای از بین بردن این باکتری عفونی در بدن بیمار آنتی‌بیوتیک تجویز کرد.,The doctor prescribed antibiotics to destroy this infectious bacterium in the patient's body.,,
 "finally, at last",B1,adverb,بالاخره,X,bel-axare,بعد از یک صبر یا زمانِ طولانی,X,پس از سه ساعت انتظار، بالاخره اتوبوس آمد.,"After waiting for three hours, the bus finally arrived.",,
 pillow,A2,noun,بالش,X,bâleš,چیزی نرم که موقع خواب زیرِ سر می‌گذاریم,X,من یک بالش نرم زیر سرم می‌گذارم.,I put a soft pillow under my head.,,
 bank,A1,noun,بانک,X,bânk,جایی برای نگهداری پول,X,من به بانک می‌روم تا کمی پول بگیرم.,I am going to the bank to get some money.,,
@@ -209,9 +233,11 @@ banking,B2,noun,بانکداری,X,bânkdâri,صنعت و عملیاتِ بان�
 "smart, intelligent",A1,adjective,باهوش,X,bâ-huš,دارای هوشِ زیاد,X,او در کلاس باهوش است و جواب می‌دهد.,He is smart in class and answers.,,
 belief,B1,noun,باور,X,bâvar,پذیرفتنِ یک فکر به عنوان درست,X,باورِ من این است که باید راست‌گو باشیم.,My belief is that we should be honest.,,
 believe,B1,verb,باور کردن,X,bâvar kardan,پذیرفتنِ یک فکر به عنوان درست,X,من حرفِ او را باور نمی‌کنم.,I don’t believe what he says.,,
+"have to, must, should",A1,verb,باید,X,bâyad,,X,تو برای سلامتی باید هر روز آب بنوشی.,You must drink water every day for your health.,,
 "excuse me, I'm sorry",A1,interjection,ببخشید,X,bebaxšid,برای عذرخواهی یا جلب توجه,X,ببخشید، دستشویی کجاست؟,"Excuse me, where is the restroom?",,
 child,A1,noun,بَچه,X,bačče,کودک,X,بَچه در تخت خواب است.,The child is in bed.,,
 "merciful, gracious, generous, liberal, forgiving",B1,adjective,بخشنده,X,baxšande,کسی که دیگران را می‌بخشد,X,خداوند بسیار بخشنده است و خطاهای انسان‌ها را می‌بخشد.,God is very forgiving and forgives human mistakes.,,
+forgive,B1,verb,بخشیدن,X,baxšidan,,X,من تو را بابت اشتباهِ دیروزت می‌بخشم.,I forgive you for your mistake yesterday.,,
 bad,A1,adjective,بد,X,bad,خوب نبودن,X,این شیر بد شده است.,This milk has gone bad.,,
 badly veiled,B2,adjective,بدحجاب,X,bad-hejâb,با پوششی که از نظر جامعه نامناسب شمرده می‌شود,X,در رسانه‌ها گاهی به پوشش برخی زنان برچسب بدحجاب می‌زنند و از همین واژه برای داوری اجتماعی استفاده می‌شود.,"In the media, they sometimes label some women’s clothing badly veiled and use that word for social judgment.",,
 body,A1,noun,بدن,X,badan,,X,دست و پا بخش‌هایی از بدن هستند.,Hands and feet are parts of the body.,,
@@ -224,6 +250,8 @@ brother,A1,noun,برادر,X,barâdar,پسرِ پدر و مادر,X,برادر �
 "for, to",A1,preposition,برای,X,barâ-ye,حرف اضافه برای هدف یا گیرنده,X,این هدیه برای بابا است.,This gift is for Dad.,,
 some,B1,adjective,برخی,X,barxi,,X,برخی از دانش‌آموزان به دلیلِ سرماخوردگی غایب هستند.,Some students are absent because of colds.,,
 "carry, take",A1,verb,بردن,X,bordan,,X,من هر روز کیفم را به مدرسه می‌برم.,I take my bag to school every day.,,
+"check, verify, research",B1,noun,بررسی,X,barrasi,,X,این بررسی علمی نشان داد که آب آلوده است.,This scientific research showed that the water is polluted.,,
+"check, examine",B1,verb,بررسی کردن,X,barrasi kardan,,X,پزشک قلب بیمار را با دقت بررسی کرد.,The doctor examined the patient's heart carefully.,,
 survive,C,verb,برزیستن,X,barzistan,زنده ماندن در شرایط سخت,X,در آن زمستانِ بی‌رحم، خانواده با اندک نان و امیدی لاغر برزیست.,"In that merciless winter, the family survived on a little bread and a thin hope.",,
 Brazil,A2,noun,برزیل,X,berezil,کشوری بزرگ در آمریکای جنوبی,X,برزیل کشور بزرگی است.,Brazil is a big country.,,
 snow,A1,noun,برف,X,barf,دانه‌های سفیدِ یخ که از آسمان می‌آید,X,برف روی زمین است و راه لغزنده است.,Snow is on the ground and the road is slippery.,,
@@ -233,6 +261,7 @@ winner,A2,noun,برنده,X,barande,شخصی که در مسابقه یا باز�
 lamb,A2,noun,بره,X,barre,بچهٔ گوسفند,X,بره در مزرعه راه می‌رود.,A lamb walks in the farm.,,
 "big, large, great",A1,adjective,بزرگ,X,bozorg,دارای اندازهٔ زیاد,X,این اتاق برای مهمان بزرگ است.,This room is big for guests.,,
 "biggest, largest, greatest",A2,adjective,بزرگترین,X,bozorg-tarin,از همه بزرگ‌تر,X,این بزرگترین اتاقِ خانه است.,This is the biggest room in the house.,,
+"highway, freeway, motorway",B1,noun,بزرگراه,X,bozorgrâh,,X,این بزرگراه تهران را به شهرهای شمالی وصل می‌کند.,This highway connects Tehran to the northern cities.,,
 "close, shut",A1,verb,بستن,X,bastan,بسته کردنِ در یا درپوش,X,لطفاً در را ببند.,Please close the door.,,
 ice cream,A1,noun,بستنی,X,bastani,خوراکیِ سرد و شیرین,X,در تابستان بستنی می‌خورم.,In summer I eat ice cream.,,
 "package, parcel",A1,noun,بسته,X,baste,چیزِ پیچیده برای فرستادن,X,این بسته از اداره پست آمد.,This package arrived from the post office.,,
@@ -254,6 +283,7 @@ bomb,B1,noun,بمب,X,bomb,وسیلهٔ انفجاری,X,پلیس گفت یک ب
 atomic bomb,B2,noun,بمب اتمی,X,bomb-e atomi,سلاحِ انفجاری با انرژی هسته‌ای,X,تهدید به استفاده از بمب اتمی معمولاً برای ترساندن طرف مقابل است، نه برای حل مسئله.,"Threatening to use an atomic bomb is usually meant to frighten the other side, not to solve the problem.",,
 bomber,C,noun,بمب‌گذار,X,bomb-gozâr,کسی که بمب‌گذاری می‌کند,X,دادستان ادعا کرد بمب‌گذار با انگیزهٔ سیاسی عمل کرده است، اما دفاعیه شواهد را ناکافی دانست.,"The prosecutor claimed the bomber acted with a political motive, but the defense considered the evidence insufficient.",,
 "therefore, so, thus",B1,conjunction,بنابراین,X,benâbar-in,کلمه‌ای برای نشان دادنِ نتیجه,X,او مریض بود، بنابراین نتوانست به دانشگاه بیاید.,"He was sick, so he couldn’t come to university.",,
+dead end,B1,noun,بن‌بست,X,bon-bast,,X,ما به اشتباه وارد یک کوچه بن‌بست شدیم.,We entered a dead end alley by mistake.,,
 "gasoline, gas, petrol",A2,noun,بنزین,X,benzin,سوخت برای ماشین,X,باک ماشین خالی است؛ باید به پمپ‌بنزین برویم و بنزین بزنیم.,The car tank is empty; we need to go to the gas station and fill up with gas.,,
 "purple, violet, violet-colored",A1,adjective,بنفش,X,banafš,دارای رنگِ بنفش,X,بنفش رنگِ گلِ یاس است.,Purple is the color of lilac flowers.,,
 "to, at",A1,preposition,به,X,be,حرف اضافه برای مقصد,X,من به مدرسه می‌روم.,I go to school.,,
@@ -305,6 +335,7 @@ passport,A2,noun,پاسپورت,X,pâsport,دفترچه قانونی برای س
 pasta,A1,noun,پاستا,X,pâstâ,غذای رشته‌ای که از آرد درست می‌شود و در آب پخته می‌شود,X,پاستا را با چنگال می‌خورم.,I eat pasta with a fork.,,
 "answer, response, reply",A2,noun,پاسخ,X,pâsox,جواب برای سؤال,X,جواب تو را می‌خواهم، نه سکوت.,"I want your answer, not silence.",,
 "answer, respond, reply",A2,verb,پاسخ دادن,X,pâsox dâdan,جواب دادن به سؤال,X,لطفاً به سؤال من پاسخ بده.,Please answer my question.,,Duplicate
+heel,B1,noun,پاشنه,X,pâšne,,X,راه رفتن با کفشِ پاشنه بلند برای او سخت است.,Walking with high heel shoes is difficult for her.,,
 "clean, pure",A2,adjective,پاک,X,pâk,تمیز و بدون آلودگی,X,لطفاً آب پاک بنوش.,Please drink clean water.,,
 eraser,A1,noun,پاک‌کن,X,pâk-kon,چیزی برای پاک کردن نوشتهٔ مداد,X,با پاک‌کن اشتباه را پاک می‌کنم.,I erase the mistake with an eraser.,,
 coat,A1,noun,پالتو,X,pâlto,,X,هوا خیلی سرد است؛ پالتوی بلندت را بپوش.,It's very cold; put on your long coat.,,
@@ -316,6 +347,7 @@ blanket,A2,noun,پتو,X,patu,پوششی گرم هنگام خواب,X,هوا س�
 "cook, bake",A2,verb,پختن,X,poxtan,غذا را با گرما آماده کردن,X,امشب برای خانواده‌ام غذا می‌پزم.,Tonight I cook food for my family.,,
 father,A1,noun,پدر,X,pedar,مردی که فرزند دارد,X,پدر من در تهران است.,My father is in Tehran.,,
 grandfather,A1,noun,پدربزرگ,X,pedar-bozorg,پدرِ پدر یا پدرِ مادر,X,پدربزرگ من عینک دارد.,My grandfather has glasses.,,
+accept,B1,verb,پذیرفتن,X,paziroftan,,X,من دعوت شما را برای مهمانی با خوشحالی می‌پذیرم.,I accept your invitation for the party with happiness.,,
 full,A1,adjective,پر,X,por,,X,لیوان پر از آب است و دیگر جا ندارد.,The glass is full of water and there's no more room.,,
 Portugal,A2,noun,پرتغال,X,portoġâl,کشوری در اروپا,X,پرتغال کنار اقیانوس است.,Portugal is by the ocean.,,
 orange,A1,noun,پرتقال,X,porteqâl,میوه‌ای گرد و نارنجی‌رنگ با پوست,X,پرتقال را پوست می‌کنم و می‌خورم.,I peel the orange and eat it.,,
@@ -341,6 +373,7 @@ support,B2,verb,پشتیبانی کردن,X,poštibâni kardan,کمکِ فنی �
 wool,B1,noun,پشم,X,pašm,موی بدنِ گوسفند,X,این پلیور خیلی گرم است چون از پشم گوسفند بافته شده است.,This sweater is very warm because it is made of sheep's wool.,,
 bridge,A1,noun,پل,X,pol,ساختاری روی رودخانه برای عبور,X,پل روی جاده است و ماشین‌ها از آن می‌گذرند.,The bridge is on the road and cars pass over it.,,
 "stair, step",A2,noun,پله,X,pelle,هر یک از سطوحِ سنگی یا چوبی برای بالا رفتن,X,آسانسور شلوغ است، پس ترجیح می‌دهم از پلهها بالا بروم.,"The elevator is crowded, so I prefer to go up the stairs.",,
+escalator,B1,noun,"پله‌برقی, پله برقی",X,pelle-barqi,,X,لطفاً برای رفتن به طبقه دوم از پله‌برقی استفاده کنید.,Please use the escalator to go to the second floor.,,
 police,A2,noun,پلیس‎,X,polis,نیرویِ نگهبانیِ شهر,X,پلیس در خیابان ایستاده است.,The police are standing on the street.,,
 sweater,A2,noun,پلیور,X,poliver,لباسِ گرم برای بالا تنه,X,این پلیور گرم است.,This sweater is warm.,,
 refugee,B2,noun,پناهنده,X,panâhande,پناهجویِ گریخته از جنگ,X,هزاران پناهنده به دلیل جنگ داخلی مجبور به ترک خانه و دیار خود شدند.,Thousands of refugees were forced to flee their homes and lands due to the civil war.,,
@@ -351,6 +384,7 @@ window,A1,noun,پنجره,X,panjare,چارچوبی در دیوار که شیشه
 Thursday,A1,noun,پنجشنبه,X,panj-šanbe,روز پنجمِ هفته در تقویمِ ایرانی,X,پنجشنبه کلاس ندارم.,On Thursday I don’t have class.,,
 cheese,A1,noun,پنیر,X,panir,خوراکی سفید که از شیر درست می‌شود,X,پنیر را روی پیتزا می‌ریزم.,I put cheese on the pizza.,,
 "wide, broad",A2,adjective,پهن,X,pahn,چیزی که عرض و فاصله‌ی دو طرفِ آن زیاد است,X,این میز خیلی پهن است و از درِ کوچک اتاق رد نمی‌شود.,This table is very wide and won't pass through the small room door.,,
+skin,A2,noun,پوست,X,pust,,X,تو باید از این کرم برای پوست خشک استفاده کنی.,You must use this cream for your dry skin.,,
 "wear, dress, put on",A1,verb,پوشیدن,X,pušidan,تن کردن لباس,X,من کلاه می‌پوشم.,I wear a hat.,,
 money,A1,noun,پول,X,pul,اسکناس یا فلزی که برای خریدِ کالا به کار می‌رود,X,من پول دارم.,I have money.,,
 pedestrian,A2,adjective,پیاده,X,piyâde,مربوط به راه رفتن,X,من پیاده به خانه رفتم.,I walked home.,,
@@ -382,11 +416,17 @@ just,A2,adverb,تازه,X,tâze,به همین تازگی,X,من تازه رسی�
 taxi,A1,noun,تاکسی,X,tâksi,ماشینِ کرایه‌ای برای رفتن,X,وقتی دیر است، تاکسی می‌گیرم.,"When it’s late, I take a taxi.",,
 congratulate,A2,verb,تبریک گفتن,X,tabrik goftan,گفتنِ جمله برای شادیِ یک نفر,X,برای تولدت به تو تبریک می‌گویم.,I congratulate you on your birthday.,,
 discrimination,B2,noun,تبعیض,X,tab'iz,تفاوت گذاشتنِ ناعادلانه,X,مبارزه با تبعیض نژادی و جنسیتی یکی از اهداف اصلی سازمان‌های حقوق بشری است.,Fighting racial and gender discrimination is one of the main goals of human rights organizations.,,
+advertisement,B2,noun,تبلیغ,X,tabliġ,,X,شرکت پس از انتشار یک تبلیغ هوشمندانه در شبکه‌های اجتماعی فروش خود را به طور قابل توجهی افزایش داد.,The company increased its sales significantly after releasing a clever advertisement on social media.,,
 "commerce, trade",B1,noun,تجارت,X,tejârat,دادوستدِ کالا,X,تجارت بین دو کشور در این سال‌ها بیشتر شده است.,Trade between the two countries has increased in recent years.,,
 trade,B2,verb,تجارت کردن,X,tejârat kardan,دادوستد انجام دادن,X,او سال‌هاست با کشورهای همسایه تجارت می‌کند.,He has been trading with neighboring countries for years.,,
 "experience, experiment",B1,noun,تجربه,X,tajrobe,اتفاق یا کارِ انجام‌شده برای یادگیری,X,این تجربه به من یاد داد تنها تصمیم نگیرم.,This experience taught me not to decide alone.,,
 "experience, experiment",B1,verb,تجربه کردن,X,tajrobe kardan,چیزی را خودت انجام دادن و یاد گرفتن,X,من این کار را برای اولین بار تجربه کردم.,I experienced this for the first time.,,
+analysis,B2,noun,تحلیل,X,tahlil,,X,گزارش نهایی یک تحلیل جامع از روندهای بازار در طول سال گذشته ارائه داد.,The final report provided a comprehensive analysis of market trends over the past year.,,
+analyze,B2,verb,تحلیل کردن,X,tahlil kardan,,X,کارشناسان اقتصادی باید داده‌های مالی فعلی را برای پیش‌بینی نوسانات آینده تحلیل کنند.,Economic experts must analyze current financial data to predict future fluctuations.,,
+analyst,B2,noun,تحلیلگر,X,tahlilgar,,X,این تحلیلگر سیاسی در اخبار حاضر شد تا نتایج احتمالی معاهده اخیر را توضیح دهد.,This political analyst appeared on the news to explain the potential outcomes of the recent treaty.,,
 bed,A1,noun,تخت,X,taxt,جایی برای خوابیدن,X,تخت در اتاق خواب است.,The bed is in the bedroom.,,
+destruction,B2,noun,تخریب,X,taxrib,,X,تخریب پل تاریخی در طول سیل باعث ناراحتی زیاد مردم محلی شد.,The destruction of the historical bridge during the flood caused great sorrow for the local people.,,
+destroy,B2,verb,تخریب کردن,X,taxrib kardan,,X,آتش سنگین توپخانه می‌تواند دیوارهای مستحکم شهر را در زمان بسیار کوتاهی تخریب کند.,Heavy artillery fire can destroy the fortified walls of the city in a very short time.,,
 "discount, sale",A2,noun,تخفیف,X,taxfif,کم کردنِ قیمتِ کالا,X,چون امروز روز جمعه است، این فروشگاه تخفیف خوبی می‌دهد.,"Since today is Friday, this store is giving a good discount.",,
 egg,A1,noun,تخم مرغ,X,toxm-e morġ,غذایی که از مرغ به دست می‌آید و برای صبحانه هم خورده می‌شود,X,تخم مرغ را برای صبحانه می‌پزم.,I cook eggs for breakfast.,,
 translation,A2,noun,ترجمه,X,tarjome,نوشتنِ معنی از یک زبان به زبان دیگر,X,من ترجمه فارسی را دوست دارم.,I like the Persian translation.,,
@@ -411,14 +451,20 @@ change,B1,verb,تغییر دادن,X,taġyir dâdan,کاری انجام دادن
 almost,B1,adverb,تقریبا,X,taġriban,نزدیک به یک مقدار یا حالت، اما نه کاملاً,X,من تقریباً تمام کتاب را خوانده‌ام و فقط پنج صفحه از فصل آخر باقی مانده است.,I have almost read the whole book and only five pages of the last chapter remain.,,
 "divide, share, split",B1,verb,تقسیم کردن,X,taqsim kardan,یک چیز را به بخش‌ها جدا کردن,X,پول را بین سه نفر تقسیم کردیم تا هیچ‌کس ناراضی نباشد.,We divided the money among three people so that no one would be unhappy.,,
 calendar,A2,noun,تقویم,X,taqvim,دفترِ روزها و ماه‌ها,X,من در تقویم نگاه می‌کنم.,I look at the calendar.,,
+evolution,C,noun,تکامل,X,takâmol,,X,ژنتیک مدرن شواهد بنیادی را برای فرآیند تکامل زیستی ارائه می‌دهد.,Modern genetics provides the fundamental evidence for the process of biological evolution.,,
 shake,B2,verb,تکاندن,X,takândan,تکان دادن برای جدا شدنِ گرد و خاک یا آب,X,بعد از اینکه فرش را تکاند، اتاق خیلی تمیزتر شد.,"After he shook out the carpet, the room became much cleaner.",,
 piece,A2,noun,تکه,X,tekke,قسمتی کوچک از یک چیز,X,یک تکه نان می‌خواهم.,I want a piece of bread.,,
+telescope,B1,noun,تلسکوپ,X,teleskop,,X,من ماه را از داخل این تلسکوپ قوی دیدم.,I saw the moon through this powerful telescope.,,
 "cell phone, mobile, mobile phone",A1,noun,تلفن همراه,X,telefon-e hamrâh,وسیله‌ای برای تماس و پیام,X,تلفن همراه من زنگ می‌زند.,My cell phone is ringing.,,
 television,A1,noun,تلویزیون,X,talwīzyūn,دستگاهی برای دیدن برنامه و فیلم,X,تلویزیون را روشن می‌کنم و فیلم می‌بینم.,I turn on the television and watch a movie.,,
 call,A2,verb,تماس گرفتن,X,tamâs gereftan,با تلفن حرف زدن با یک نفر,X,من فردا با تو تماس می‌گیرم.,I will call you tomorrow.,,
 sight,B1,noun,تماشا,X,tamâšâ,دیدن برای لذت یا بررسی,X,تماشای غروب کنار دریا برایم آرامش‌بخش است.,Watching the sunset by the sea is relaxing for me.,,
 "see, watch",B1,verb,تماشا کردن,X,tamâšâ kardan,نگاه کردن با دقت,X,ما غروب را از بالای پل تماشا کردیم.,We watched the sunset from the top of the bridge.,,
 "stamp, postage stamp",A2,noun,تمبر,X,tambr,چسبِ کوچک برای فرستادنِ نامه,X,من روی پاکت تمبر زدم.,I put a stamp on the envelope.,,
+"concentration, focus",B1,noun,تمرکز,X,tamarkoz,,X,من به دلیل سر و صدا تمرکزم را از دست دادم.,I lost my concentration due to the noise.,,
+"concentrate, focus",B1,verb,تمرکز کردن,X,tamarkoz kardan,,X,تو باید در طول کلاس روی درس خود تمرکز کنی.,You must focus on your lesson during class.,,
+"practice, exercise",A2,noun,تمرین,X,tamrin,,X,من ده تمرین ریاضی برای کلاسم حل کردم.,I solved ten math exercises for my class.,,
+practice,A1,verb,تمرین کردن,X,tamrin kardan,,X,من برای یادگیری زبان فارسی هر روز تمرین می‌کنم.,I practice every day to learn the Persian language.,,
 "clean, neat",A2,adjective,تمیز,X,tamiz,مرتب و بدون کثیفی,X,لطفاً اتاق را تمیز کن.,Please clean the room.,,
 lazy,A2,adjective,تنبل,X,tanbal,کسی که کار نمی‌کند,X,او خیلی تنبل است و تمام روز فقط روی مبل می‌خوابد.,He is very lazy and just sleeps on the sofa all day.,,
 "alone, lonely, single",A1,adjective,تنها,X,tanhâ,,X,من در این خانه‌ی بزرگ تنها زندگی می‌کنم.,I live alone in this big house.,,
@@ -428,20 +474,27 @@ toilet,A1,noun,توالت,X,tovâlet,جایی برای انجام کارهای �
 ball,A1,noun,توپ,X,tup,چیزی گرد برای بازی,X,توپ زیر میز افتاد.,The ball fell under the table.,,
 berry,A2,noun,توت,X,tut,میوهٔ کوچک و گرد و نرم,X,این توت‌ها خیلی شیرین‌اند.,These berries are very sweet.,,
 strawberry,A2,noun,توت فرنگی,X,tut farangi,میوهٔ قرمز با دانه‌های ریز,X,من توت فرنگی دوست دارم.,I like strawberries.,,
+inflation,B2,noun,تورم,X,tavarrom,,X,تورم بالا با گران کردن کالاهای اساسی قدرت خرید شهروندان را کاهش می‌دهد.,High inflation reduces the purchasing power of citizens by making basic goods expensive.,,
 tourist,A2,noun,توریست,X,turist,کسی که برای دیدنِ یک کشور سفر می‌کند,X,او یک توریست از فرانسه است.,He is a tourist from France.,,
 touristy,A2,adjective,توریستی,X,turisti,مربوط به جاهایی که برای مسافرها ساخته شده,X,اینجا خیلی توریستی است.,It’s very touristy here.,,
 "by, through",B1,preposition,توسط,X,tavassot-e,حرفِ اضافه برای نشان دادنِ انجام‌دهنده,X,این گزارش توسط مدیر نوشته شد.,This report was written by the manager.,,
+description,B1,noun,توصیف,X,towsif,,X,او یک توصیف روشن از آن تصادفِ بد ارائه داد.,He provided a clear description of that bad accident.,,
+describe,B2,verb,توصیف کردن,X,towsif kardan,,X,از شاهد خواسته شد تا ظاهر دقیق متهم را برای افسر پلیس توصیف کند.,The witness was asked to describe the exact appearance of the suspect to the police officer.,,
 explanation,B1,noun,توضیح,X,towzih,صحبت برای روشن کردنِ یک مطلبِ سخت,X,معلم یک توضیح ساده برای این درس سخت داد.,The teacher gave a simple explanation for this difficult lesson.,,
 explain,B1,verb,توضیح دادن,X,towzih dâdan,روشن کردنِ یک موضوع برای دیگران,X,می‌شود روش کار با این دستگاه را توضیح بدهید؟,Can you explain how to use this machine?,,
 stop,A2,verb,توقف کردن,X,tavaġġof kardan,ایستادنِ حرکت برای مدتی کوتاه,X,لطفاً اینجا توقف کن.,Please stop here.,,
 "birthday, birth",A1,noun,تولد,X,tavallod,روزی که به دنیا آمده‌ای,X,امروز تولد بابا است.,Today is Dad’s birthday.,,
+production,B1,noun,تولید,X,towlid,,X,کارخانه تولید خودروهای برقی را به زودی آغاز می‌کند.,The factory will start the production of electric cars soon.,,
+produce,B2,verb,تولید کردن,X,towlid kardan,,X,این نیروگاه خورشیدی پیشرفته می‌تواند هر روز برق کافی برای ده هزار خانه تولید کند.,This advanced solar plant can produce enough electricity for ten thousand homes every day.,,
 sharp,B1,adjective,تیز,X,tiz,ویژگیِ لبه‌ی چاقو یا سوزن که به راحتی می‌بُرد,X,این چاقو آن‌قدر تیز است که حتی پوست نرم گوجه‌فرنگی را بدون هیچ فشاری به‌راحتی می‌برد.,This knife is so sharp that it easily cuts even the soft skin of a tomato without any pressure.,,
 T-shirt,A1,noun,تی‌شرت,X,ti-šert,لباسِ کوتاه برای بالاتنه,X,تی‌شرت را در تابستان می‌پوشم.,I wear a T-shirt in summer.,,
+"razor, blade",B1,noun,تیغ,X,tiġ,,X,مراقبِ این تیغ بسیار تیز و خطرناک باش.,Be careful of this very sharp and dangerous blade.,,
 TV,A1,noun,تی‌وی,X,ti-vi,نام کوتاه برای دستگاهی که برنامه و فیلم را نشان می‌دهد,X,تی‌وی در اتاق نشیمن است.,The TV is in the living room.,,
 second,A2,noun,ثانیه,X,sâniye,یک قسمت خیلی کوتاه از زمان,X,یک ثانیه دیر شد.,One second was late.,,
 "wealthy, rich",A2,adjective,ثروتمند,X,servatmand,فردی که دارایی و پولِ بسیار زیادی دارد,X,او آن‌قدر ثروتمند است که سه هواپیمای شخصی و یک کشتی دارد.,He is so wealthy that he owns three private jets and a ship.,,
 "space, place",A1,noun,"جا, جای",X,jâ,مکانی که یک چیز در آن جا می‌گیرد,X,برای این صندلی جا نداریم.,We don’t have space for this chair.,,
 road,A1,noun,جاده,X,jâdde,راهی برای رفتن از یک جا به جای دیگر,X,این جاده به شهر می‌رود.,This road goes to the city.,,
+gravity,B1,noun,جاذبه,X,jâzebe,,X,نیروی جاذبه همه چیز را روی زمین نگه می‌دارد.,The force of gravity keeps everything on the ground.,,
 broom,A2,noun,"جاروب, جارو",X,jârub,وسیله‌ای برای تمیز کردن زمین,X,مادر با یک جارو تمام آشغال‌های روی زمین را جمع کرد.,Mother swept up all the garbage on the floor with a broom.,,
 interesting,A2,adjective,جالب,X,jâleb,جوری که آدم دوست دارد بداند,X,این فیلم جالب است.,This movie is interesting.,,
 "society, community",B1,noun,جامعه,X,jâme'e,گروه بزرگِ مردم,X,جامعه بدون اعتماد دوام نمی‌آورد.,A society cannot last without trust.,,
@@ -452,10 +505,14 @@ sociology,C,noun,جامعه‌شناسی,X,jâme'e-šenâsi,دانشِ بررس�
 serious,A1,adjective,جدی,X,jeddi,,X,او اصلاً نمی‌خندد و خیلی جدی است.,He doesn't laugh at all and is very serious.,,
 new,A1,adjective,جدید,X,jadid,تازه و نو,X,این تلفن همراه جدید است.,This cell phone is new.,,
 attractive,B1,adjective,جذاب,X,jazzâb,زیبا و دل‌پسند,X,او با حرف‌های آرام و نگاه مستقیمش برای خیلی‌ها جذاب بود.,"With his calm words and direct gaze, he was attractive to many people.",,
+surgeon,B2,noun,جراح,X,jarrâh,,X,این جراح ماهر عمل ظریف پیوند قلب را در طول چندین ساعت انجام داد.,This skilled surgeon performed the delicate heart transplant operation over several hours.,,
+surgery,B1,noun,جراحی,X,jarrâhi,,X,او بعد از جراحی قلب خیلی سریع خوب شد.,He recovered very quickly after heart surgery.,,
 detail,B1,noun,جزئیات,X,joz'iyyât,ریزترین بخش‌ها و نکته‌ها,X,در این گزارش، جزئیات زمان و مکان هم نوشته شده است.,"In this report, the details of time and place are also written.",,
 island,A2,noun,جزیره,X,jazire,تکهٔ خشکی در میانِ آب,X,ما در یک جزیره کوچک بودیم.,We were on a small island.,,
 "search, quest",B1,noun,جستجو,X,jostoju,تلاش و گشتن برای پیدا کردنِ یک فرد یا شیء,X,دانشمندان در جستجوی یافتن راهی برای درمان این بیماری سخت در تمام آزمایشگاه‌های جهان هستند.,Scientists are in a quest to find a way to cure this difficult disease in all laboratories around the world.,,
 search,B1,verb,جستجو کردن,X,jostoju kardan,گشتنِ دقیق برای یافتنِ چیزی که پنهان یا گم شده,X,من تمام کشوهای میز را برای پیدا کردن پاسپورتم جستجو کردم، اما هیچ اثری از آن نبود.,"I searched all the desk drawers to find my passport, but there was no sign of it.",,
+"celebration, festival",A2,noun,جشن,X,jašn,,X,جشن عروسی آن‌ها بسیار بزرگ و باشکوه بود.,Their wedding celebration was very large and magnificent.,,
+celebrate,A1,verb,جشن گرفتن,X,jašn gereftan,,X,ما امشب روز تولد مادرم را جشن می‌گیریم.,We celebrate my mother's birthday tonight.,,
 geography,B1,noun,جغرافیا,X,joġrâfiyâ,دانشِ زمین و نقشه,X,در مدرسه جغرافیا را دوست داشتم چون دربارهٔ کشورها یاد می‌گرفتم.,At school I liked geography because I learned about countries.,,
 "colleague, workmate, associate",B1,noun,جلسه,X,hamkâr,نشستی رسمی برای گفتگو,X,تمام کارمندان باید در جلسه ساعت ده شرکت کنند.,All employees must attend the ten o’clock meeting.,,
 "ahead, forward",A2,adverb,جلو,X,jelow,به سمتِ جلو,X,من جلوتر می‌روم.,I go forward.,,
@@ -506,6 +563,7 @@ fork,A1,noun,چنگال,X,čangâl,وسیله‌ای برای خوردن غذا 
 who (formal),A1,pronoun,چه کسی,X,če kasi,برای پرسیدن هویتِ یک نفر به شکل رسمی,X,چه کسی اینجا است؟,Who is here?,,
 four,A1,numeral,چهار,X,čahâr,عدد ۴,X,چهار یعنی دو و دو.,Four means two and two.,,
 fourteen,A1,numeral,چهارده,X,čahârdah,عدد ۱۴,X,چهارده یعنی ده و چهار.,Fourteen means ten and four.,,
+crossroads,A2,noun,چهارراه,X,čahâr-râh,,X,وقتی به چهارراه رسیدی به سمت چپ بپیچ.,Turn left when you reach the crossroads.,,
 Wednesday,A1,noun,چهارشنبه,X,čahâršanbe,روز چهارمِ هفته در ایران,X,چهارشنبه کلاس دارم.,On Wednesday I have class.,,
 fourth,A1,adjective,چهارم,X,čahârom,رتبهٔ ۴,X,امروز روز چهارمِ ماه است.,Today is the fourth day of the month.,,
 forty,A1,numeral,چهل,X,čehel,عدد ۴۰,X,چهل یعنی چهار تا ده.,Forty means four tens.,,
@@ -522,6 +580,7 @@ Chinese,A1,adjective,چینی,X,čini,مربوط به آن کشور در شرق 
 ruler,B2,noun,حاکم,X,hâkem,فرمانروای یک کشور یا شهر,X,حاکمِ شهر دستور داد دروازه‌ها را شب‌ها ببندند.,The ruler of the city ordered the gates to be closed at night.,,
 "condition, health",A2,noun,حال,X,hâl,وضعیتِ بدن یا احساسِ امروز,X,حال تو چطور است؟,How are you?,,
 "state, condition, case",B1,noun,حالت,X,hâlat,وضعیتِ جسم یا دل,X,حالتِ من امروز بهتر است.,I feel better today.,,
+pregnant,B1,adjective,حامله,X,hâmele,,X,زنِ حامله برای معاینه به بیمارستان رفت.,The pregnant woman went to the hospital for an examination.,,
 "hijab, cover, screen, veil",B1,noun,حجاب,X,hejâb,پوششی برای سر یا بدن,X,او حجابش را مرتب کرد و وارد اتاق شد.,She adjusted her hijab and entered the room.,,
 "haram, forbidden",B1,adjective,حرام,X,harâm,ممنوع از نظرِ دین,X,این کار در دین ما حرام است، پس انجامش نمی‌دهم.,"This is forbidden in our religion, so I won’t do it.",,
 bastard,C,noun,حرام‌زاده,X,harâm-zâde,ناسزای بسیار توهین‌آمیز برای کسی با نسب نامعلوم,X,در دادگاه، قاضی به او اخطار داد که به‌جای گفتن «حرام‌زاده»، دربارهٔ رفتارِ طرف مقابل حرف بزند.,"In court, the judge warned him that instead of saying “bastard,” he should talk about the other party’s behavior.",,
@@ -537,6 +596,7 @@ accountant,B1,noun,حسابدار,X,hesâbdâr,کسی که مسئولِ ثبتِ
 salary,B1,noun,حقوق,X,hoquq,پولی که ماهیانه برای کار دریافت می‌کنیم,X,او در پایان ماه حقوق خود را دریافت کرد.,He received his salary at the end of the month.,,
 "fact, truth, reality",B2,noun,حقیقت,X,haġiġat,چیزِ درست و واقعی,X,حقیقت را نمی‌شود برای همیشه پنهان کرد.,The truth can’t be hidden forever.,,
 "real, actual",B2,adjective,حقیقی,X,haqiqi,واقعی و درست,X,این مشکل واقعی است و با حرف حل نمی‌شود.,This problem is real and it won’t be solved by talk.,,
+wisdom,B2,noun,حکمت,X,hekmat,,X,پیرمرد حکمت خود را با نسل جوان به اشتراک گذاشت تا به آن‌ها در دوری از اشتباهات کمک کند.,The old man shared his wisdom with the younger generation to help them avoid mistakes.,,Duplicate
 government,B1,noun,حکومت,X,hokumat,قدرتِ اداره کردنِ کشور,X,حکومت اعلام کرد که فردا تعطیل رسمی است.,The government announced that tomorrow is an official holiday.,,
 "rule, govern",B2,verb,حکومت کردن,X,hokumat kardan,اداره کردنِ یک کشور,X,اگر یک گروه بدون پاسخ‌گویی حکومت کند، فساد سریع‌تر رشد می‌کند.,"If a group governs without accountability, corruption grows faster.",,
 resolution,B1,noun,حل,X,hal,پاسخِ یک مسئله,X,برای این مشکل یک حل پیدا کردیم.,We found a solution for this problem.,,
@@ -564,12 +624,14 @@ goodbye,A1,interjection,خداحافظ,X,xodâhâfez,کلمه‌ای برای پ
 "lord, master",B1,noun,خداوند,X,xodâvand,صاحب و فرمانروای برتر,X,او در سختی‌ها به خداوند پناه می‌برد.,"In hardship, he seeks refuge in God.",,
 divine,B2,adjective,خدایی,X,xodâyi,وابسته به خدا یا امر مقدس,X,در آن نقاشی، نورِ خدایی طوری کشیده شده که انگار از جهانِ دیگری می‌آید.,"In that painting, the divine light is drawn in a way that looks like it comes from another world.",,
 crab,A2,noun,خرچنگ,X,xarčang,جانوری دریایی با پوستهٔ سخت و چنگال,X,در ساحل یک خرچنگ دیدم.,I saw a crab on the beach.,,
-wisdom,B2,noun,خرد,X,xerad,عقل و شعورِ عمیق,X,او در تصمیم‌گیری‌های حساس خود همیشه از خرد و تجربه پیران بهره می‌گیرد.,He always uses the wisdom and experience of the elders in his sensitive decisions.,,
+wisdom,B2,noun,خرد,X,xerad,عقل و شعورِ عمیق,X,او در تصمیم‌گیری‌های حساس خود همیشه از خرد و تجربه پیران بهره می‌گیرد.,He always uses the wisdom and experience of the elders in his sensitive decisions.,,Duplicate
 mustard,B1,noun,خردل,X,xardal,,X,من ساندویچِ سوسیس را با سُسِ خردل می‌خورم.,I am eating a sausage sandwich with mustard sauce.,,
 "rabbit, hare",A2,noun,خرگوش,X,xarguš,حیوانی کوچک با گوش‌های بلند,X,یک خرگوش در باغ دیدم.,I saw a rabbit in the garden.,,
+exit,B1,noun,خروجی,X,xoruji,,X,تابلوی سبز را برای پیدا کردن راه خروجی دنبال کن.,Follow the green sign to find the exit way.,,
 "rooster, cock",A2,noun,خروس,X,xorus,پرندهٔ نر که صبح صدا می‌کند,X,هر صبح صدای خروس را می‌شنوم.,Every morning I hear the sound of a rooster.,,
 purchase,A1,noun,خرید,X,xarid,گرفتن کالا با پول,X,این خرید من است.,This purchase is mine.,,
 buy,A1,verb,خریدن,X,xaridan,گرفتن کالا با پول,X,من نان می‌خرم.,I buy bread.,,
+"damage, loss",B1,noun,خسارت,X,xasârat,,X,طوفان خسارت زیادی به سقفِ خانه وارد کرد.,The storm caused much damage to the house's roof.,,
 tired,A2,adjective,خسته,X,xaste,بدون انرژی و با نیاز به استراحت,X,امروز خیلی خسته هستم.,I’m very tired today.,,
 dry,A2,adjective,خشک,X,xošk,چیزی که اصلاً آب، رطوبت یا نم ندارد,X,چند ماه است که باران نباریده و خاک مزرعه کاملاً خشک است.,It hasn't rained for several months and the farm soil is completely dry.,,
 drought,B1,noun,خشکسالی,X,xošksâli,زمانِ کم‌بارانیِ طولانی,X,به دلیل کمبود باران در سال جاری، کشور با خشکسالی شدیدی روبروست.,"Due to the lack of rain this year, the country is facing a severe drought.",,
@@ -606,6 +668,7 @@ sun,A1,noun,خورشید,X,xoršid,چیزی روشن در آسمان که روز
 like,B1,verb,خوش آمدن,X,xoš âmadan,پسندیدن و دوست داشتن,X,از دیدن تو خوشم آمد و دوست دارم بیشتر صحبت کنیم.,"I was happy to see you, and I’d like to talk more.",,
 welcome,A1,interjection,خوش آمدید,X,xoš âmadid,برای گفتنِ ورود به یک جا,X,خوش آمدید به خانهٔ من.,Welcome to my home.,,
 fortunately,B1,adverb,خوشبختانه,X,xošbaxtâne,اتفاقی که از روی شانسِ خوب می‌افتد,X,تصادف شدیدی بود اما خوشبختانه کسی آسیب ندید.,"It was a serious accident, but fortunately no one was hurt.",,
+nice to meet you,A1,interjection,خوشبختم,X,xošbaxtam,,X,من علی هستم و از دیدن شما بسیار خوشبختم.,I am Ali and I am very nice to meet you.,,
 handsome,B1,adjective,خوش‌تیپ,X,xoš-tip,مرتب و شیک در لباس,X,او همیشه مرتب لباس می‌پوشد و خیلی خوش‌تیپ به نظر می‌رسد.,He always dresses neatly and looks very well-dressed.,,
 happy,A1,adjective,خوشحال,X,xoš-hâl,دارای حسِ شادی,X,من امروز خوشحال هستم.,I am happy today.,,
 "beautiful, pretty",A2,adjective,خوشگل,X,xošgel,زیبا و قشنگ,X,او خیلی خوشگل است.,She is very pretty.,,
@@ -655,6 +718,7 @@ study,A2,verb,درس خواندن,X,dars xândan,برای مدرسه کتاب خ
 teach,A2,verb,درس دادن,X,dars dâdan,درس را به دیگران یاد دادن,X,من به بچه‌ها فارسی درس می‌دهم.,I teach Persian to children.,,
 "correct, right",A1,adjective,درست,X,dorost,درست و بدون اشتباه,X,این جواب درست است.,This answer is correct.,,
 valley,A2,noun,دره,X,"dare, darre",زمینِ گودِ میان دو کوه,X,روستای ما پایین کوه و در یک دره زیبا قرار دارد.,Our village is located at the bottom of a mountain in a beautiful valley.,,
+gate,B1,noun,دروازه,X,darvâze,,X,نگهبان دروازه بزرگ را برای کامیون‌ها باز کرد.,The guard opened the large gate for the trucks.,,
 liar,B1,noun,دروغگو,X,doruġgu,کسی که حرفِ اشتباه می‌زند,X,هیچ‌کس به حرف‌های یک دروغگو اعتماد نمی‌کند.,No one trusts the words of a liar.,,
 "sea, ocean",A1,noun,دریا,X,daryâ,حجمِ بسیار پهناوری از آب‌هایِ شور,X,دریا بزرگ است.,The sea is big.,,
 lake,A2,noun,دریاچه,X,daryâče,,X,ما در دریاچه قایق‌سواری کردیم.,We went boating on the lake.,,
@@ -666,6 +730,7 @@ December,A1,noun,دسامبر,X,desâmbr,ماهِ دوازدهمِ سالِ می
 bracelet,B1,noun,"دست‌بند, دستبند",X,dast-band,,X,او یک دستبند نقره به مچِ دستش بسته است.,He is wearing a silver bracelet on his wrist.,,
 "restroom, bathroom, toilet, sink",A1,noun,دستشویی,X,dastšuyi,جایی برای دست شستن و کارهای بهداشتی,X,دستشویی آنجاست.,The restroom is over there.,,
 gloves,A2,noun,دستکش,X,dastkeš,,X,در برف باید دستکش بپوشیم تا دستمان گرم بماند.,We have to wear gloves in the snow to keep our hands warm.,,
+"napkin, tissue, handkerchief",A2,noun,دستمال,X,dastmâl,,X,لطفاً میز را با این دستمال سفید پاک کن.,Please clean the table with this white napkin.,,
 "order, command",A2,noun,دستور,X,dastur,قانون یا فرمان,X,دستورِ پخت را از اینترنت گرفتم.,I got the cooking instructions from the internet.,,
 grammar,B1,noun,دستور زبان,X,dastur-e zabân,قواعدِ یک زبان,X,اگر دستور زبان را خوب یاد بگیری، راحت‌تر صحبت می‌کنی.,"If you learn grammar well, you can speak more easily.",,
 enemy,B1,noun,دشمن,X,došman,کسی یا گروهی که با تو مخالف است,X,او دشمنِ من نیست و فقط با من مخالف است.,"He isn’t my enemy, he just disagrees with me.",,
@@ -675,6 +740,8 @@ minute,A2,noun,دقیقه,X,daġiġe,شصت ثانیه,X,یک دقیقه صبر 
 button,A2,noun,دکمه,X,dokme,چیزی کوچک برای فشار دادن,X,این دکمه را فشار بده.,Press this button.,,
 "heart, mind",A1,noun,دل,X,del,,X,دلم می‌خواهد امروز بستنی بخورم.,I want to eat ice cream today.,,
 "reason, cause",B1,noun,دلیل,X,dalil,چرایی و علتِ اصلیِ وقوعِ یک ماجرا,X,اصلی‌ترین دلیل ترافیک در این ساعت، تصادف شدیدی است که در ابتدای بزرگراه رخ داده است.,The main reason for traffic at this hour is the severe accident that occurred at the beginning of the highway.,,
+temperature,B1,noun,دما,X,damâ,,X,دمای آب برای شنا کردن خیلی بالا است.,The water temperature is too high for swimming.,,
+thermometer,A2,noun,دماسنج,X,damâsanj,,X,دماسنج میزان دمای بدن بیمار را نشان می‌دهد.,The thermometer shows the patient's body temperature.,,
 nose,A2,noun,دماغ,X,damâġ,بینیِ صورت,X,دماغ من گرفته است.,My nose is congested.,,
 slipper,A2,noun,دمپایی,X,dampâyi,کفشِ راحتِ خانه,X,دمپایی‌ام را در خانه می‌پوشم.,I wear my slippers at home.,,
 democratic,B2,adjective,دموکراتیک,X,demokrâtik,مربوط به مردم‌سالاری,X,نظام دموکراتیک بدون انتخاباتِ آزاد معنی ندارد.,A democratic system has no meaning without free elections.,,
@@ -688,6 +755,7 @@ dentist,B1,noun,دندان‌پزشک,X,dandân-pezešk,پزشکِ دندان,X,
 world,A1,noun,دنیا,X,donyâ,,X,در این دنیا کشورهای بسیار زیادی وجود دارد.,There are so many countries in this world.,,
 ten,A1,numeral,ده,X,dah,عدد ۱۰,X,ده یعنی پنج و پنج.,Ten means five and five.,,
 mouth,A1,noun,دهان,X,dahân,جایی برای خوردن و حرف زدن,X,دهانِ من خشک است.,My mouth is dry.,,
+decade,B2,noun,دهه,X,dahe,,X,رشد سریع فناوری در دهه گذشته نحوه ارتباط مردم را کاملاً تغییر داده است.,The rapid technological growth of the last decade has completely transformed how people communicate.,,
 two,A1,numeral,دو,X,do,عدد ۲,X,دو یعنی یک و یک.,Two means one and one.,,
 twelve,A1,numeral,دوازده,X,davâzdah,عدد ۱۲,X,دوازده یعنی ده و دو.,Twelve means ten and two.,,
 "again, twice",A1,adverb,دوباره,X,dobâre,یک بار دیگر,X,این فیلم را دوباره می‌بینم.,I watch this movie again.,,
@@ -708,6 +776,8 @@ see,A1,verb,دیدَن,X,didan,نگاه کردن با چشم,X,من فیلم ر�
 worth seeing,B1,adjective,دیدنی,X,didani,که دیدنش ارزش دارد,X,این موزه واقعاً دیدنی است.,This museum is really worth seeing.,,
 visit,B1,noun,دیدنی,X,didani,جایی یا چیزی که دیدنش ارزش دارد,X,در سفر، از چند جای دیدنی بازدید کردیم.,"On the trip, we visited a few sights.",,
 yesterday,A1,adverb,دیروز,X,diruz,روزِ قبل از امروز,X,دیروز در خانه بودم.,Yesterday I was at home.,,
+dictator,B1,noun,دیکتاتور,X,diktâtor,,X,دیکتاتور تمام قوانین کشور را کنترل می‌کرد.,The dictator controlled all the country's laws.,,
+dictatorship,B2,noun,دیکتاتوری,X,diktâtori,,X,زندگی در یک دیکتاتوری به این معناست که شهروندان هیچ حقی برای بیان نظرات سیاسی ندارند.,Living under a dictatorship means that citizens have no right to express political opinions.,,
 "other, another",A2,adjective,دیگر,X,digar,غیر از این,X,من یک اتاق دیگر می‌خواهم.,I want another room.,,
 religion,A2,noun,دین,X,din,باورهای مذهبی,X,دین موضوع مهمی است.,Religion is an important issue.,,
 wall,A1,noun,دیوار,X,divâr,بخشِ عمودی و محکمِ دورِ اتاق یا حیاط,X,دیوار سفید است.,The wall is white.,,
@@ -726,14 +796,17 @@ walk,A1,verb,راه رفتن,X,râh raftan,حرکت کردن با پاها رو�
 "hallway, corridor",B1,noun,راهرو,X,râhro,راهِ باریکِ داخلِ خانه یا ساختمان,X,در راهرو منتظر ماندم تا او از کلاس بیرون بیاید.,I waited in the hallway until he came out of the class.,,
 guide,A2,noun,راهنما,X,râhnamâ,کسی که راه را نشان می‌دهد,X,این راهنما به من کمک کرد راه را پیدا کنم.,This guide helped me find the way.,,
 "free, for free",A1,adjective,رایگان,X,râyegân,بدون پرداخت پول,X,این آب رایگان است.,This water is free.,,
+quarter,A1,noun,ربع,X,rob',,X,الان ساعت دقیقاً پنج و ربع است.,It is exactly five and a quarter now.,,
 "regime, diet",B1,noun,رژیم,X,režim,نوعی برنامه برای غذا یا حکومت,X,پزشک گفت رژیم من باید کم‌نمک باشد.,The doctor said my diet must be low in salt.,,
 "go on a diet, diet",A2,verb,رژیم گرفتن,X,režim gereftan,کم خوردن برای کم کردنِ وزن,X,برای سلامتی رژیم می‌گیرم.,I’m going on a diet for my health.,,
 restaurant,A1,noun,رستوران,X,restorân,جایی که غذا می‌فروشد و می‌پزیند,X,این آب در رستوران رایگان است.,This water is free in the restaurant.,,
 growth,B1,noun,رشد,X,rošd,فرآیندِ بزرگ شدن و افزایشِ حجمِ یک موجود,X,نور کافی و خاک خوب، دو عامل اصلی برای رشد سریع گیاهان در گلخانه هستند.,Adequate light and good soil are the two main factors for the fast growth of plants in a greenhouse.,,
 grow,B1,verb,رشد کردن,X,rošd kardan,بزرگ‌تر شدنِ طبیعیِ گیاه، حیوان یا انسان,X,این درختان در مناطق گرمسیری خیلی سریع رشد می‌کنند و در عرض یک سال به ارتفاع دو متر می‌رسند.,These trees grow very fast in tropical regions and reach a height of two meters within a year.,,
+"humidity, moisture",B2,noun,رطوبت,X,rotubat,,X,رطوبت بالای هوا در جنگل‌های گرمسیری باعث می‌شود هوا بسیار گرم‌تر از دمای واقعی به نظر برسد.,High humidity in tropical forests makes the air feel much hotter than the actual temperature.,,
 "go, leave",A1,verb,رفتن,X,raftan,حرکت کردن به یک جای دیگر,X,من به خانه می‌روم.,I go home.,,
 "dance, dancing",A1,noun,رقص,X,raġs,حرکت با موسیقی,X,رقص در این کلاس خوب است.,Dancing is good in this class.,,
 dance,A1,verb,رقصیدن,X,raġsidan,حرکت کردن با موسیقی,X,در عروسی می‌رقصم.,I dance at weddings.,,
+"vein, artery",B1,noun,رگ,X,rag,,X,خون از طریق رگ به سمت قلب حرکت می‌کند.,The blood moves through the vein toward the heart.,,
 Rome,A1,noun,رم,X,rom,پایتختِ ایتالیا,X,رم در ایتالیا است.,Rome is in Italy.,,
 code,B1,noun,رمز,X,ramz,کدِ محرمانه,X,برای ورود به برنامه، یک رمز لازم است.,"To enter the program, a code is required.",,
 password,B1,noun,رمز عبور,X,ramz-e obur,رمز برای ورود به حساب,X,رمز عبورم را هر چند ماه عوض می‌کنم.,I change my password every few months.,,
@@ -753,6 +826,7 @@ day,A1,noun,روز,X,ruz,زمانِ ۲۴ ساعت,X,هر روز صبحانه م�
 newspaper,A1,noun,روزنامه,X,ruznâme,کاغذی که خبرهای روز را دارد,X,روزنامه را صبح می‌خوانم.,I read the newspaper in the morning.,,
 village,A2,noun,روستا,X,rustâ,منطقه‌ای برای زندگی که کوچک‌تر از شهر است,X,در این روستا فقط ده خانواده زندگی می‌کنند و مغازه وجود ندارد.,Only ten families live in this village and there are no shops.,,
 "headscarf, hijab",A2,noun,روسری,X,rusari,,X,او یک روسری ابریشمیِ زیبا به سر دارد.,He wears a beautiful silk scarf.,,
+method,B1,noun,روش,X,raveš,,X,استفاده از این روش علمی جدید به پژوهشگران اجازه داد تا آزمایش را سریع‌تر تمام کنند.,Using this new scientific method allowed the researchers to finish the experiment faster.,,
 "bright, light",A2,adjective,روشن,X,rowšan,مکانی که نورِ کافی برای دیدنِ اجسام دارد,X,لامپ را روشن کن چون اتاق خیلی تاریک است و نمی‌توانم ببینم.,Turn on the light because the room is very dark and I cannot see.,,
 oil,A2,noun,روغن,X,rowġan,مایع برای پختن یا سالاد,X,برای سالاد کمی روغن می‌ریزم.,"For the salad, I pour in a little oil.",,
 "on, upon, above, over",A1,preposition,روی,X,ruy,حرف اضافه برای روی یک سطح,X,لیوان روی میز است.,The glass is on the table.,,
@@ -767,6 +841,8 @@ gold,C,noun,زر,X,zar,فلز گران‌بها با رنگ زرد,X,زر در �
 yellow,A1,adjective,زرد,X,zard,دارای رنگِ موز,X,زرد رنگِ موز است.,Yellow is the color of a banana.,,
 "clever, smart",B1,adjective,زرنگ,X,zerang,باهوش و سریع در کار,X,او دانش‌آموز زرنگی است و همیشه مسائل سخت ریاضی را سریع حل می‌کند.,He is a smart student and always solves difficult math problems quickly.,,
 ugly,A2,adjective,زشت,X,zešt,زشت و بدشکل,X,آن فیلم خیلی زشت بود.,That movie was very ugly.,,
+saffron,B1,noun,زعفران,X,za'farân,,X,آشپز برای دادن رنگ طلایی و عطر عالی به برنج از زعفران استفاده کرد.,The cook used saffron to give the rice a golden color and a great aroma.,,
+earthquake,B1,noun,زلزله,X,zelzele,,X,لرزش شدید زمین نشان داد که یک زلزله بزرگ در حال وقوع است.,The intense shaking of the ground showed that a major earthquake was occurring.,,
 time,A2,noun,زمان,X,zamân,وقتی که ساعت نشان می‌دهد,X,در زمان قدیم مردم ساده‌تر بودند.,"In ancient times, people were simpler.",,
 earth,A1,noun,زمین,X,zamin,جایی که روی آن زندگی می‌کنیم,X,زمین زیر پای ما است.,The earth is under our feet.,,
 "woman, wife",A1,noun,زن,X,zan,آدمِ بزرگِ مونث,X,آن زن مادر است.,That woman is a mother.,,
@@ -781,7 +857,8 @@ live,A1,verb,زندگی کردن,X,zendegi kardan,بودن و کار کردن د
 biography,B1,noun,زندگی‌نامه,X,zendegi-nâme,کتابِ زندگیِ یک شخص,X,من زندگی‌نامهٔ او را خواندم و فهمیدم چرا این‌قدر سخت‌کوش است.,I read his biography and understood why he is so hardworking.,,
 early,A1,adverb,زود,X,zud,,X,من فردا زود بیدار می‌شوم.,I will wake up early tomorrow.,,
 force,B1,noun,زور,X,zur,قدرتِ فیزیکی برای تکان دادن یا فشار به چیزی,X,این کار با زور درست نمی‌شود.,This won’t work by force.,,
-"a lot of, much, many",A1,adjective,زیاد,X,ziyâd,به مقدارِ زیاد,X,شکر در چای زیاد است.,There is too much sugar in the tea.,,
+"a lot of, much, many",A1,adjective,زیاد,X,ziyâd,به مقدارِ زیاد,X,شکر در چای زیاد است.,There is a lot of sugar in tea.,,
+"beautiful, pretty",A1,adjective,زیبا,X,zibâ,,X,این خانه قدیمی در اصفهان خیلی زیبا است.,This old house in Isfahan is very beautiful.,,
 zipper,A2,noun,زیپ,X,zip,وسیله‌ای برای بستن لباس,X,زیپ کاپشن من خراب شده است و دیگر بسته نمی‌شود.,The zipper on my jacket is broken and won't close anymore.,,
 olive,A2,noun,زیتون,X,zeytun,میوهٔ کوچک و شور,X,زیتون را با پنیر می‌خورم.,I eat olives with cheese.,,
 "under, underneath, below, beneath",A1,preposition,زیر,X,zir,حرف اضافه برای پایینِ یک چیز,X,کفش زیر تخت است.,The shoes are under the bed.,,
@@ -800,6 +877,8 @@ question,A1,noun,سؤال,X,so'âl,چیزی که برای دانستن می‌پ
 "beach, shore",A2,noun,ساحل,X,sâhel,زمینِ شنی یا سنگی که دقیقاً کنارِ دریاست,X,ما روی شن‌های ساحل نشستیم و به موج‌های دریا نگاه کردیم.,We sat on the beach sands and looked at the sea waves.,,
 building,A2,noun,ساختمان,X,sâxtemân,جای بزرگ با دیوار و سقف,X,این ساختمان خیلی قدیمی است.,This building is very old.,,
 "make, build",A2,verb,ساختن,X,sâxtan,چیزی را درست کردن,X,او برای خانه یک میز ساخت.,He made a table for the house.,,
+"simplicity, ease",B1,noun,سادگی,X,sâdegi,,X,او به دلیل سادگی بیش از حد این نرم‌افزار توانست به راحتی با آن کار کند.,He was able to work easily with this software because of its extreme simplicity.,,
+"simple, easy",A1,adjective,ساده,X,sâde,,X,این امتحان ریاضی برای من خیلی ساده بود.,This math exam was very simple for me.,,
 builder,B2,noun,سازنده,X,sâzande,کسی که چیزی را می‌سازد,X,سازنده قول داد تا آخر ماه همهٔ نقص‌ها را برطرف کند.,The builder promised to fix all the defects by the end of the month.,,
 "clock, time, hour, watch",A1,noun,ساعت,X,sâ'at,چیزی برای دانستن زمان,X,ساعت روی دیوار است.,The clock is on the wall.,,
 year,A1,noun,سال,X,sâl,۱۲ ماه,X,امسال یک سال خوب است.,This year is a good year.,,
@@ -844,8 +923,10 @@ dog,A1,noun,سگ,X,sag,حیوانی که واق‌واق می‌کند,X,سگ پ
 hello,A1,interjection,سلام,X,salâm,برای سلام کردن,X,وقتی وارد می‌شوی، می‌گویم «سلام».,"When you enter, I say “hello.”",,
 healthy,A2,adjective,سلامت,X,salâmat,حالتِ خوبِ بدن,X,این غذا برای بدن سلامت است.,This food is healthy for the body.,,Duplicate
 health,A2,noun,سلامتی,X,salâmati,حالِ خوب و سلامتِ بدن,X,سلامتی از همه چیز مهم‌تر است.,Health is more important than everything.,,
+cell,B1,noun,سلول,X,sellul,,X,دانشمند زیر میکروسکوپ به هسته کوچک یک سلول گیاهی نگاه کرد.,The scientist looked at the small nucleus of a plant cell under the microscope.,,
 age,A2,noun,سن,X,senn,سال‌های عمر,X,سن تو چند است؟,How old are you?,,
 tradition,B1,noun,سنت,X,sonnat,,X,چیدنِ سفره‌ی هفت‌سین یک سنت قدیمیِ ایرانی است.,Setting the Haftsin table is an old Iranian tradition.,,
+document,B1,noun,سند,X,sanad,,X,این سند رسمی ثابت می‌کند که این خانه متعلق به برادر من است.,This official document proves that this house belongs to my brother.,,
 heavy,A2,adjective,سنگین,X,sangin,با وزنِ زیاد,X,این کیف خیلی سنگین است.,This bag is very heavy.,,
 heaviness,B1,noun,سنگینی,X,sangini,حالتِ سنگین بودن,X,سنگینی هوا قبل از باران همیشه من را بی‌حوصله می‌کند.,The heaviness in the air before rain always makes me irritable.,,
 three,A1,numeral,سه,X,se,عدد ۳,X,سه یعنی یک و دو.,Three means one and two.,,
@@ -874,20 +955,26 @@ CD,A1,noun,سی‌دی,X,si di,دیسک برای موسیقی یا داده,X,س
 garlic,A2,noun,سیر,X,sir,,X,این غذا به خاطرِ سیر، بویِ خیلی تندی دارد.,This food has a very strong smell because of the garlic.,,
 thirteen,A1,numeral,سیزده,X,sizdah,عدد ۱۳,X,سیزده یعنی ده و سه.,Thirteen means ten and three.,,
 system,B1,noun,سیستم,X,sistem,مجموعه‌ای از بخش‌های مرتبط,X,اگر سیستم درست تنظیم شود، همه‌چیز سریع‌تر کار می‌کند.,"If the system is set correctly, everything works faster.",,
+immune system,B2,noun,سیستم ایمنی,X,sistem-e imani,,X,رژیم غذایی سالم و ورزش منظم برای تقویت سیستم ایمنی بدن انسان ضروری است.,A healthy diet and regular exercise are essential for strengthening the human immune system.,,
+flood,B1,noun,سیل,X,seyl,,X,باران شدید باعث شد آب رودخانه بالا بیاید و یک سیل بزرگ تمام مزارع را خراب کند.,Heavy rain caused the river water to rise and a big flood destroyed all the farms.,,
 "movie theater, cinema",A1,noun,سینما,X,sinamâ,جایی برای دیدن فیلم,X,سینما آنجا است، بلیت بگیر.,"The movie theater is there, buy a ticket.",,
+"chest, breast, boob, bosom",A2,noun,سینه,X,sine,,X,من در ناحیه سینه احساس درد شدیدی دارم.,I feel a severe pain in my chest area.,,
 "scarf, shawl",A2,noun,شال,X,šâl,پارچهٔ بلند برای گردن,X,در زمستان شال می‌پوشم.,In winter I wear a scarf.,,
 "dinner, supper",A1,noun,شام,X,šâm,غذای شب,X,امشب شام می‌خوریم.,Tonight we eat dinner.,,
+shampoo,A1,noun,شامپو,X,šâmpu,,X,من یک شامپوی جدید برای موهایم خریدم.,I bought a new shampoo for my hair.,,
 sixteen,A1,numeral,شانزده,X,šânzdah,عدد ۱۶,X,شانزده یعنی ده و شش.,Sixteen means ten and six.,,
 sixteenth,A2,adjective,شانزدهم,X,šânzdahom,روزِ بعد از پانزدهم در ماه,X,شانزدهم این ماه امتحان دارم.,On the sixteenth of this month I have an exam.,,
 comb,A2,noun,شانه,X,šâne,وسیله‌ای برای مرتب کردنِ مو,X,موهایم را با شانه مرتب می‌کنم.,I comb my hair.,,
 comb,A2,verb,شانه کردن,X,šâne kardan,مرتب کردنِ مو با شانه,X,هر صبح موهایم را شانه می‌کنم.,Every morning I comb my hair.,,
 king,A2,noun,شاه,X,šâh,مردِ اولِ یک پادشاهی,X,شاه در قصر زندگی می‌کرد.,The king lived in the palace.,,
+witness,B2,noun,شاهد,X,šâhed,,X,پلیس از شاهد عینی خواست تا چهره سارق را برای نقاش توصیف کند.,The police asked the eyewitness to describe the thief's face for the painter.,,
 "maybe, perhaps",A2,adverb,شاید,X,šâyad,برای گفتنِ احتمال,X,شاید فردا باران بیاید.,Maybe it will rain tomorrow.,,
 night,A1,noun,شب,X,šab,زمانِ بعد از غروب,X,شب سرد است.,The night is cold.,,
 good night,A1,interjection,شب بخیر,X,šab bexeyr,برای گفتنِ خداحافظی قبل از خواب,X,شب بخیر، فردا می‌بینمت.,"Good night, see you tomorrow.",,
 nocturnal,B1,adjective,شبانه,X,šabâne,مربوط به شب,X,او شیفت شبانه دارد و صبح‌ها می‌خوابد.,He has the night shift and sleeps in the mornings.,,
 peninsula,B1,noun,شبه‌جزیره,X,šebhe-jazire,زمینِ متصل به آب از ۳ طرف,X,عربستان بزرگترین شبه‌جزیره در جهان است که از سه طرف با آب احاطه شده است.,"Saudi Arabia is the largest peninsula in the world, surrounded on three sides by water.",,
 "brave, courageous",B1,adjective,شجاع,X,šojâ',کسی که از ترس نمی‌ترسد,X,سرباز شجاع برای نجات مردم به میدان جنگ رفت.,The brave soldier went to the battlefield to save people.,,
+"bravery, courage",B1,noun,شجاعت,X,"šojâ'at, šajâ'at",,X,او برای نجات دادن آن کودک از داخل آتش شجاعت زیادی نشان داد.,He showed great bravery in saving that child from inside the fire.,,
 person,B1,noun,شخص,X,šaxs,یک فرد,X,او شخص محترمی است و به وقت دیگران اهمیت می‌دهد.,He is a respectable person and values other people’s time.,,
 personal,B1,adjective,شخصی,X,šaxsi,مربوط به یک فرد,X,لطفاً این سؤال را نپرس؛ موضوع شخصی است.,"Please don’t ask this question, it’s personal.",,
 "personality, character",B2,noun,شخصیت,X,šaxsiyat,ویژگی‌های رفتاری و فکریِ یک فرد,X,شخصیتِ او در جمع آرام است، اما در کار بسیار جدی و دقیق می‌شود.,"His personality is calm in groups, but at work he becomes very serious and precise.",,
@@ -904,6 +991,9 @@ six,A1,numeral,شش,X,šeš,عدد ۶,X,شش یعنی سه و سه.,Six means th
 sixth,A1,adjective,ششم,X,šešom,رتبهٔ ۶,X,امروز روز ششم است.,Today is the sixth day.,,
 sixty,A1,numeral,شصت,X,šast,عدد ۶۰,X,شصت یعنی شش تا ده.,Sixty means six tens.,,
 job,A1,noun,شغل,X,šoġl,,X,برادر من پلیس است؛ این شغل اوست.,My brother is a policeman; that's his job.,,
+"transparent, see-through, lucid",B2,adjective,شفاف,X,šaffâf,,X,ما از یک شیشه شفاف استفاده کردیم تا نور خورشید تمام اتاق را روشن کند.,We used a transparent glass so that the sunlight would light up the whole room.,,
+complaint,B1,noun,شکایت,X,šekâyat,,X,او به دلیل سر و صدای زیاد همسایه‌ها یک شکایت رسمی به پلیس ارائه داد.,He submitted an official complaint to the police due to the loud noise from the neighbors.,,
+complain,B1,verb,شکایت کردن,X,šekâyat kardan,,X,مشتریان حق دارند در صورت نارضایتی از کیفیت غذا شکایت کنند.,Customers have the right to complain if they are dissatisfied with the quality of the food.,,
 sugar,A1,noun,شکر,X,šakar,چیزی شیرین برای چای و کیک,X,شکر را در چای می‌ریزم.,I put sugar in the tea.,,
 break,A2,verb,شکستن,X,šekastan,جدا شدنِ اجزایِ یک چیزِ سخت بر اثرِ ضربه,X,مواظب باش لیوان شیشه‌ای از دستت نیفتد و نشکند.,Be careful that the glass cup doesn't fall from your hand and break.,,
 broken,A2,adjective,شکسته,X,šekaste,ویژگیِ ظرف یا وسیله‌ای که دیگر یک‌پارچه نیست,X,من نمی‌توانم با این مداد شکسته که نوک ندارد بنویسم.,I cannot write with this broken pencil that has no point.,,
@@ -943,6 +1033,7 @@ glass,A2,noun,شیشه,X,šiše,,X,مراقب باش؛ شیشه‌ی پنجره 
 chemistry,B1,noun,شیمی,X,šimi,,X,آزمایش‌های شیمی در آزمایشگاهِ مدرسه انجام می‌شود.,Chemistry experiments are done in the school laboratory.,,
 soap,A1,noun,صابون,X,sâbun,چیزی برای شستنِ دست و صورت,X,دست‌هایت را با آب و صابون بشور.,Wash your hands with soap and water.,,
 "truthful, true, honest",B1,adjective,صادق,X,sâdeq,کسی که همیشه حقیقت را می‌گوید,X,او همیشه با دوستانش صادق است و راست می‌گوید.,He is always honest with his friends and tells the truth.,,
+"lightning, thunderbolt",B1,noun,صاعقه,X,sâ'eġe,,X,جرقه درخشان صاعقه در یک ثانیه آسمان تاریک را کاملاً روشن کرد.,The bright flash of lightning completely lit up the dark sky for a second.,,
 morning,A1,noun,صبح,X,sobh,زمانِ اولِ روز,X,صبح زود بیدار می‌شوم.,I wake up early in the morning.,,
 good morning,A1,interjection,صبح بخیر,X,sobh bexeyr,برای سلام کردن در اولِ روز,X,صبح بخیر، امروز مدرسه داریم.,"Good morning, today we have school.",,
 breakfast,A1,noun,صبحانه,X,sobhâne,غذای اولِ روز,X,صبحانه را قبل از کار می‌خورم.,I eat breakfast before work.,,
@@ -952,6 +1043,7 @@ speak,A1,verb,صحبت کردن,X,sohbat kardan,حرف زدن با زبان,X,ب
 hundred,A1,numeral,صد,X,sad,عدد ۱۰۰,X,صد یعنی ده تا ده.,One hundred means ten tens.,,
 "sound, voice",A2,noun,صدا,X,sedâ,ارتعاشی که در هوا پخش می‌شود و ما می‌شنویم,X,رادیو روشن است، اما من نمی‌توانم هیچ صدایی بشنوم.,"The radio is on, but I cannot hear any sound.",,
 "call, shout",A2,verb,صدا زدن,X,sedâ zadan,به کار بردنِ نامِ کسی برای جلبِ توجهِ او,X,من خیلی دور هستم؛ لطفاً مرا بلند صدا بزن.,I am very far away; please call me loudly.,,
+honesty,B1,noun,صداقت,X,sedâġat,,X,من به حرف‌های او اعتماد دارم چون صداقت او برای همه ثابت شده است.,I trust his words because his honesty has been proven to everyone.,,
 page,A1,noun,صفحه,X,safhe,قسمتی از کتاب,X,صفحهٔ ۱۰ کتاب را باز کن.,Open page ten of the book.,,
 keyboard,A2,noun,صفحه‌کلید,X,safhe-kelid,صفحه دکمه‌های کامپیوتر,X,دکمه‌های این صفحه‌کلید خیلی نرم هستند و تایپ کردن با آن راحت است.,The keys on this keyboard are very soft and it's comfortable to type on.,,
 zero,A1,numeral,صفر,X,sefr,عدد ۰,X,صفر یعنی هیچ.,Zero means none.,,
@@ -967,16 +1059,19 @@ pronoun,B1,noun,ضمیر,X,zamir,کلمه‌هایی مثلِ من و تو,X,د�
 nature,A2,noun,طبیعت,X,tabi'at,دنیایِ بیرون شاملِ جنگل، کوه و موجوداتِ زنده,X,ما برای دیدن کوه‌ها و رودخانه‌ها به دل طبیعت رفتیم.,We went into the heart of nature to see the mountains and rivers.,,
 natural,B1,adjective,طبیعی,X,tabi'i,غیرساختگی و از طبیعت,X,نور این اتاق طبیعی است و چشم را خسته نمی‌کند.,The light in this room is natural and doesn’t tire the eyes.,,
 gold,A2,noun,طلا,X,talâ,فلزِ زرد و گران,X,این انگشتر طلا است.,This ring is gold.,,
+divorce,B1,noun,طلاق,X,talâq,,X,آن زوج پس از سال‌ها اختلاف تصمیم گرفتند با طلاق به زندگی مشترک خود پایان دهند.,"After years of dispute, that couple decided to end their common life with a divorce.",,
 rope,A2,noun,طناب,X,tanâb,وسیله‌ای برای بستن و کشیدن,X,او با یک طناب محکم، وسایل را بالای ماشین بست.,He tied the things to the top of the car with a strong rope.,,
 storm,B1,noun,طوفان,X,tufân,بادِ شدید همراهِ باران,X,دیشب طوفان چند درخت را شکست.,Last night the storm broke several trees.,,
+length,B1,noun,طول,X,tul,,X,من باید طول این فرش را اندازه بگیرم تا مطمئن شوم در اتاق جا می‌شود.,I must measure the length of this carpet to ensure it fits in the room.,,
 dish,A2,noun,ظرف,X,zarf,چیزی برای گذاشتنِ غذا,X,این ظرف‌ها را بشوی، لطفاً.,Please wash these dishes.,,
-"kitchen sink, basin",A1,noun,ظرف‌شویی,X,zarf-šuyi,لگنی در آشپزخانه که برای شستنِ ظروف است,X,ظرف‌شویی تمیز است.,The dishwasher is clean.,,
+"dishwasher, kitchen sink, basin",A1,noun,ظرف‌شویی,X,zarf-šuyi,لگنی در آشپزخانه که برای شستنِ ظروف است,X,ظرف‌شویی تمیز است.,The dishwasher is clean.,,
 "fair, just",B2,adjective,عادل,X,âdel,منصف و درستکار,X,او را عادل می‌دانند چون بین دوستانش فرق نمی‌گذارد.,People consider him fair because he doesn’t treat his friends differently.,,
 "excellent, great, awesome",A1,adjective,عالی,X,âli,خیلی خوب و بهتر از معمول,X,غذای مامان عالی است.,Mom’s food is excellent.,,
 "passing, crossing",B2,noun,عُبور,X,obur,عبور از یک مرز یا مسیر,X,عُبورِ از مرز بدون گذرنامه ممکن نیست.,Crossing the border without a passport is not possible.,,
 "pass, cross over",B1,verb,عبور کردن,X,obur kardan,رد شدن از یک جا,X,برای عبور کردن از خیابان، اول به چپ و راست نگاه کن.,"To cross the street, first look left and right.",,
 justice,B2,noun,عدالت,X,edâlat,دادگری و برابریِ حقوق,X,اجرای عدالت در جامعه مستلزم وجود قضات مستقل و قوانین منصفانه است.,The implementation of justice in society requires independent judges and fair laws.,,
 "numeral, number",B1,noun,عدد,X,adad,نمادِ عدد,X,این عدد را اشتباه نوشتی.,You wrote this number incorrectly.,,
+"width, breadth",B1,noun,عرض,X,arz,,X,این کوچه برای عبور دو ماشین در کنار هم عرض کافی ندارد.,This alley does not have enough width for two cars to pass side by side.,,
 sweat,B1,noun,عرق,X,araq,آبی که هنگامِ گرما یا ورزش از پوستِ بدن می‌آید,X,او بعد از یک ساعت دویدن در زیر آفتاب، تمام بدنش از عرق خیس شده بود.,"After running for an hour under the sun, his whole body was wet with sweat.",,
 doll,A2,noun,عروسک,X,arusak,اسباب‌بازیِ شبیه بچه,X,این عروسک برای خواهرم است.,This doll is for my sister.,,
 honey,A2,noun,عسل,X,asal,چیزی شیرین که زنبور می‌سازد,X,چای را با عسل شیرین می‌کنم.,I sweeten tea with honey.,,
@@ -992,17 +1087,20 @@ membership,B2,noun,عضویت,X,ozviyat,عضو بودن در یک گروه یا 
 "picture, pictographic, illustrated",B1,adjective,عکسی,X,aksi,دارای عکس,X,این کتاب عکسی است و برای بچه‌ها هم مناسب است.,"This is a picture book, and it’s suitable for children too.",,
 science,B1,noun,علم,X,elm,مجموعه‌ی دانشِ بشر درباره‌ی قوانینِ جهان,X,پیشرفت‌های علم در قرن اخیر باعث شده است که بسیاری از بیماری‌های مرگبار درمان شوند.,Advancements in science in the last century have caused many deadly diseases to be cured.,,
 scientific,B1,adjective,علمی,X,elmi,چیزی که بر اساسِ تجربه و دانشِ دقیق است,X,برای اثبات این ادعا، شما باید شواهد علمی و آزمایشگاهی معتبری ارائه دهید.,"To prove this claim, you must provide valid scientific and laboratory evidence.",,
+"public, general",A2,adjective,عمومی,X,omumi,,X,سیگار کشیدن در مکان‌های عمومی ممنوع است.,Smoking is forbidden in public places.,,
 deep,B1,adjective,عمیق,X,amiq,چاه یا آبی که کفِ آن با سطح، فاصله‌ی زیادی دارد,X,این قسمت از رودخانه بسیار عمیق است و حتی شناگران ماهر هم نباید در آنجا شنا کنند.,"This part of the river is very deep, and even skilled swimmers should not swim there.",,
 element,B2,noun,عنصر,X,onsor,مادهٔ سازندهٔ یک ترکیب,X,اکسیژن یک عنصر است و بدون آن زندگی ممکن نیست.,"Oxygen is an element, and without it life is not possible.",,
 "glasses, spectacles",A1,noun,عینک,X,eynak,وسیله‌ای برای بهتر دیدن,X,من برای مطالعه کتاب به عینک نیاز دارم.,I need glasses to read a book.,,
 food,A1,noun,غذا,X,ğazâ,چیزی که می‌خوریم,X,غذا روی میز است.,The food is on the table.,,
 west,A2,noun,غرب,X,ġarb,سمتِ غروبِ خورشید,X,دوست من در غرب شهر زندگی می‌کند.,My friend lives in the west of the city.,,
 western,A2,adjective,غربی,X,ġarbi,مربوط به سمتِ غرب,X,این یک فیلم غربی است.,This is a Western movie.,,
+"dusk, sunset",B1,noun,غروب,X,ġorub,,X,تماشای ناپدید شدن خورشید در افق هنگام غروب واقعاً زیباست.,Watching the sun disappear on the horizon at sunset is truly beautiful.,,
 "pride, arrogance",B2,noun,غرور,X,ġorur,حسِ بیش از حد بزرگ دانستنِ خود,X,غرور کاذب او مانع از پذیرفتن اشتباهاتش می‌شد.,His false pride prevents him from admitting his mistakes.,,
 sad,A2,adjective,غمگین,X,ġamgin,وقتی کسی حسِ خوبی ندارد,X,او بعد از دیدن فیلم درام، خیلی غمگین شد.,She was very sad after watching the drama.,,
 sadness,B1,noun,غمگینی,X,ġamgini,حسِ درونیِ ناشی از غصه و اندوه,X,پس از رفتن او، حس غمگینی در خانه جاری شد.,"After he left, there was a feeling of sadness in the house.",,
 impossible,B1,adjective,غیرممکن,X,ġeyr-e-momken,نشدنی,X,بدونِ ابزار درست، این کار غیرممکن است.,"Without the right tools, this task is impossible.",,
 Persian,A1,noun,فارسی,X,fârsi,زبانی که در ایران صحبت می‌شود,X,من فارسی می‌فهمم.,I understand Persian.,,
+distance,B1,noun,فاصله,X,fâsele,,X,رانندگان باید برای امنیت در بزرگراه فاصله خود را با ماشین جلویی حفظ کنند.,Drivers must maintain their distance from the car in front for safety on the highway.,,
 "bill, invoice",B1,noun,فاکتور,X,fâktur,لیست خرید و قیمت,X,لطفا پس از خرید، فاکتور وسایل را برای حسابداری شرکت بیاورید.,Please bring the invoice for the company’s accounting after the purchase.,,
 oven,A2,noun,فر,X,fer,محفظه‌ای داغ و بسته برای پختنِ نان و شیرینی,X,پیتزا را داخل فر بگذار تا پنیرش کاملاً آب شود.,Put the pizza inside the oven so its cheese melts completely.,,
 forget,A2,verb,فراموش کردن,X,farâmôš kardan,یادِ چیزی نماندن,X,من همیشه نام‌ها را فراموش می‌کنم.,I always forget names.,,
@@ -1023,12 +1121,19 @@ airport,A2,noun,فرودگاه,X,forudgâh,جایی برای پرواز و فر�
 "yell, shout, scream, cry",B1,noun,فریاد,X,faryâd,صدای بلند,X,از داخل خانه صدای فریاد آمد و همه ترسیدند.,A shout came from inside the house and everyone got scared.,,
 "yell, shout, scream, cry",B1,verb,فریاد زدن,X,faryâd zadan,داد زدن با صدای بلند,X,او آن‌قدر عصبانی شد که شروع به فریاد زدن کرد.,He got so angry that he started shouting.,,
 corruption,B2,noun,فساد,X,"fasâd, fesâd",انحراف از درستی و قانون,X,مبارزه با فساد اداری و مالی برای رشد اقتصادی هر کشوری ضروری است.,The fight against administrative and financial corruption is essential for the economic growth of any country.,,
+fossil,B2,noun,فسیل,X,fosil,,X,دانشمندان یک فسیل سنگی از صدف‌های قدیمی در اعماق این کوه پیدا کردند.,Scientists found a stone fossil of old shells deep within this mountain.,,
+pressure,B1,noun,فشار,X,fešâr,,X,پزشک دستگاه را دور بازوی بیمار بست تا میزان فشار خون او را اندازه بگیرد.,The doctor tied the device around the patient's arm to measure his blood pressure.,,
+press,A2,verb,فشردن,X,fešordan,,X,برای شروع کار ماشین این دکمه را بفشار.,Press this button to start the machine.,,
 season,A1,noun,فصل,X,fasl,یکی از چهار زمانِ سال,X,پاییز یک فصل است.,Autumn is a season.,,
+space,A2,noun,فضا,X,fazâ,,X,در این اتاق کوچک فضایی برای مبل جدید نیست.,There is no space for a new sofa in this small room.,,
+astronaut,B2,noun,فضانورد,X,fazâ-navard,,X,این فضانورد ماهر برای انجام ماموریت علمی جدید خود به ایستگاه بین‌المللی رفت.,This skilled astronaut went to the international station to perform his new scientific mission.,,
+spatial,B2,adjective,فضایی,X,fazâyi,,X,تلسکوپ جدید عکس‌های بسیار دقیقی از اجرام دوردست فضایی به زمین فرستاد.,The new telescope sent very precise photos of distant spatial objects to Earth.,,
 "only, just",A2,adverb,فقط,X,faġat,فقط و نه بیشتر,X,من فقط یک سؤال دارم.,I have only one question.,,
 poor,A2,adjective,فقیر,X,faġir,بدون پولِ زیاد,X,روی شن راه می‌روم.,I’m walking on sand.,,
 thought,A2,noun,فکر,X,fekr,چیزی که در ذهن می‌آید,X,این فکرِ خوب است.,This is a good thought.,,
 think,A2,verb,فکر کردن,X,fekr kardan,کارِ ذهن برای فکر,X,قبل از خواب زیاد فکر می‌کنم.,"Before sleep, I think a lot.",,
 metal,A1,noun,فلز,X,felez,,X,کلیدها معمولاً از جنسِ فلز هستند.,Keys are usually made of metal.,,
+philosophy,B2,noun,فلسفه,X,falsafe,,X,مطالعه فلسفه به ما در درک بهتر مفاهیم عمیق و پیچیده زندگی کمک می‌کند.,Studying philosophy helps us in better understanding the deep and complex concepts of life.,,
 pepper,A2,noun,فلفل,X,felfel,ادویهٔ تند برای غذا,X,لطفاً فلفل را به غذا اضافه کن.,Please add pepper to the food.,,
 cup,A1,noun,فنجان,X,fenjân,ظرف کوچک برای چای یا قهوه,X,یک فنجان چای می‌خواهم.,I want a cup of tea.,,
 Finland,A2,noun,فنلاند,X,fanlând,کشوری در شمالِ اروپا,X,فنلاند زمستان‌های سرد دارد.,Finland has cold winters.,,
@@ -1051,6 +1156,7 @@ boat,A1,noun,قایق,X,ġâyeġ,وسیله‌ای روی آب برای رفتن
 "grave, tomb",B1,noun,قبر,X,ġabr,جایی در خاک برای دفنِ مرده,X,قبرِ پدربزرگم در یک قبرستانِ قدیمی است.,My grandfather’s grave is in an old cemetery.,,Duplicate
 "cemetery, graveyard",B2,noun,قبرستان,X,ġabrestân,جایی که مرده‌ها را دفن می‌کنند,X,قبرستانِ شهر در یک تپهٔ آرام بیرون از مرکز است.,The city’s cemetery is on a quiet hill outside the center.,,Duplicate
 before,A1,preposition,قبل از,X,qabl az,حرف اضافه برای نشان دادنِ زمانِ جلوتر,X,قبل از خواب مسواک می‌زنم.,Before sleep I brush my teeth.,,
+height,B1,noun,قد,X,qadd,,X,او برای استخدام در تیم بسکتبال باید قد بلندی داشته باشد.,He must have a tall height to be hired for the basketball team.,,
 "power, authority, strength",B1,noun,قدرت,X,ġodrat,توانایی و اختیار,X,قدرتِ تصمیم‌گیری در این پرونده با مدیر است.,The decision-making power in this case is with the manager.,,
 powerful,B1,adjective,قدرتمند,X,qodratmand,دارای قدرتِ زیاد,X,این موتور آن‌قدر قدرتمند است که از تپه هم بالا می‌رود.,This engine is so powerful that it goes up the hill too.,,
 old,A2,adjective,قدیمی,X,qadimi,,X,ما در یک خانه‌ی قدیمی و بزرگ زندگی می‌کنیم.,We live in a big old house.,,Duplicate
@@ -1064,12 +1170,14 @@ century,B1,noun,قرن,X,qarn,یک دوره‌ی زمانی که صد سال ط�
 train,A2,noun,قطار,X,ġatâr,وسیلهٔ رفتن روی ریل,X,من با قطار به تهران می‌روم.,I go to Tehran by train.,,
 pole,B2,noun,قطب,X,qotb,مرکزِ شمال یا جنوبِ زمین,X,یخ‌های قطب شمال به دلیل گرمایش زمین با سرعت نگران‌کننده‌ای در حال ذوب شدن هستند.,The Arctic ice is melting at an alarming rate due to global warming.,,
 compass,B1,noun,قطب‌نما,X,ġotb-namâ,ابزارِ جهت‌یابی,X,کوهنوردان در جنگل با استفاده از قطب‌نما مسیر شمال را پیدا کردند.,The hikers in the forest found the north using a compass.,,
+"cupboard, shelf",A2,noun,قفسه,X,ġafase,,X,لطفاً کتاب‌ها را در قفسه بالای کتابخانه بگذار.,Please put the books on the top shelf of the bookcase.,,
 lock,A2,noun,قفل,X,qofl,وسیله برای بسته نگه داشتنِ در,X,قفلِ در خراب است.,The door lock is broken.,,
 be locked,B1,verb,قفل شدن,X,qofl šodan,خودبه‌خود قفل شدن,X,درِ اتاق ناگهان قفل شد و کلید داخل ماند.,The room door suddenly locked and the key stayed inside.,,
 lock,B1,verb,قفل کردن,X,qofl kardan,با کلید یا دکمه قفل کردن,X,لطفاً بعد از خروج در را قفل کن.,Please lock the door after you leave.,,
 heart,A2,noun,قلب,X,ġalb,عضوِ بدن برای عشق,X,قلب من تند می‌زند.,My heart is beating fast.,,
 cardiac,B2,adjective,قلبی,X,qalbi,مربوط به قلب,X,پزشک گفت مشکل قلبیِ او فعلاً خطرناک نیست، اما باید پیگیری شود.,"The doctor said his heart problem isn’t dangerous for now, but it needs follow-up.",,
 pen,A1,noun,قلم,X,ġalam,وسیله‌ای برای نوشتن روی کاغذ,X,با قلم نامم را می‌نویسم.,I write my name with a pen.,,
+"champion, hero",B1,noun,قهرمان,X,qahramān,,X,او با شکست دادن تمام حریفان خود به عنوان قهرمان مسابقات مدال طلا گرفت.,He won the gold medal as the champion of the tournament by defeating all his rivals.,,
 coffee,A1,noun,قهوه,X,qahve,نوشیدنیِ گرم و تلخ که از دانه درست می‌شود,X,صبح قهوه می‌نوشم.,In the morning I drink coffee.,,
 brown,A1,adjective,قهوه‌ای,X,qahve-yi,دارای رنگِ شکلات,X,کفش من قهوه‌ای است.,My shoes are brown.,,
 frog,A2,noun,قورباغه,X,ġurbâġe,حیوانی سبز که می‌پرد,X,یک قورباغه کنار رودخانه نشسته بود.,A frog was sitting by the river.,,
@@ -1107,13 +1215,16 @@ library,A2,noun,کتابخانه,X,ketâbxâne,جایی برای کتاب‌ها
 librarian,B1,noun,کتابدار,X,ketâbdâr,فردی که مسئولِ نگهداریِ کتاب‌ها در کتابخانه است,X,وقتی کتاب را به کتابخانه برگرداندم، کتابدار آن را اسکن کرد و در قفسه مخصوص گذاشت.,"When I returned the book to the library, the librarian scanned it and put it on the specific shelf.",,
 dirty,A2,adjective,کثیف,X,kasif,نه تمیز و پر از چرک,X,این لیوان کثیف است.,This glass is dirty.,,
 where,A1,adverb,کجا,X,kojâ,کلمه برای پرسیدنِ مکان,X,دستشویی کجا است؟,Where is the restroom?,,
+which,A1,pronoun,کدام,X,kodâm,,X,کدام کتاب را برای مطالعه دوست داری؟,Which book do you like for studying?,,
 "tie, necktie",A2,noun,کراوات,X,kerâvât,پارچهٔ رسمی برای گردن,X,او برای مهمانی کراوات زد.,He wore a tie for the party.,,
 "make, do",A1,verb,کردن,X,kardan,انجام دادنِ یک کار,X,امروز شام درست می‌کنم.,Today I make dinner.,,
 butter,A1,noun,کره,X,kare,چیزی چرب از شیر برای نان,X,کره روی نان است.,Butter is on the bread.,,
 Croatia,A2,noun,کرواسی,X,korovâsi,کشوری در اروپا,X,کرواسی کشور زیبایی است.,Croatia is a beautiful country.,,
 Christmas,A1,noun,کریسمس,X,kerismas,جشنِ زمستانی در پایانِ سال,X,کریسمس در دسامبر است.,Christmas is in December.,,
+boring,B1,adjective,کسل‌کننده,X,kesel-konande,,X,این فیلم آن‌قدر کسل‌کننده بود که من در وسط سینما خوابم برد.,This movie was so boring that I fell asleep in the middle of the cinema.,,
 "someone, somebody, some",A1,numeral,کسی,X,kasi,یک نفر نامشخص,X,کسی اینجا نیست.,There is nobody here.,,
 kill,B1,verb,کشتن,X,koštan,گرفتنِ جانِ یک انسان یا حیوان,X,هیچ‌کس حق ندارد کسی را بکشد.,No one has the right to kill someone.,,
+drawer,A2,noun,کشو,X,kešow,,X,گذرنامه من در کشوی بالای میز است.,My passport is in the top drawer of the desk.,,
 "country, land",A1,noun,کشور,X,kešvar,جایی که مردم با قانون زندگی می‌کنند,X,ایران یک کشور است.,Iran is a country.,,
 pull,A2,verb,کشیدن,X,kašidan,کشیدنِ چیزی به سمت خود,X,من در را می‌کشم تا بسته شود.,I pull the door so it will close.,,
 priest,B1,noun,کشیش,X,kašiš,روحانیِ مسیحی,X,آن کشیش در کلیسا برای صلح دعا کرد.,That priest prayed for peace in the church.,,
@@ -1131,6 +1242,7 @@ kidney,B2,noun,کلیه,X,kolye,اندامِ دفعِ ادرار و تصفیه �
 "not much, little, few",A1,adjective,کم,X,kam,به مقدارِ کم,X,در یخچال شیر کم است.,There is little milk in the fridge.,,
 less,A1,adjective,کمتر,X,kamtar,,X,عدد دو کمتر از عدد پنج است.,The number two is less than the number five.,,
 "closet, wardrobe",A2,noun,کمد,X,komod,جایی برای گذاشتنِ لباس,X,لباس‌هایم در کمد است.,My clothes are in the closet.,,
+waist,A2,noun,کمر,X,kamar,,X,این کمربند برای کمر من خیلی تنگ است.,This belt is too tight for my waist.,,
 belt,A2,noun,کمربند,X,kamarband,نوار برای بستنِ شلوار,X,او کمربند مشکی دارد.,He has a black belt.,,
 "help, aid",A2,noun,کمک,X,komak,یاری برای یک کار,X,از تو کمک می‌خواهم.,I want your help.,,
 "help, aid",A1,verb,کمک کردن,X,komak kardan,دادنِ کمک به یک نفر,X,لطفاً به من کمک کن.,Please help me.,,
@@ -1171,6 +1283,7 @@ passport,B1,noun,گذرنامه,X,gozarnâme,مدرک شناساییِ بین‌
 the past,B1,noun,گذشته,X,gozašte,خاطرات و اتفاقاتی که قبلاً رخ داده است,X,ما نباید در گذشته زندگی کنیم؛ باید از اشتباهات قبلی درس بگیریم و به فکر حال باشیم.,We should not live in the past; we must learn from previous mistakes and think about the present.,,
 expensive,A2,adjective,گران,X,gerân,با قیمتِ زیاد,X,این هتل خیلی گران است.,This hotel is very expensive.,,
 cat,A1,noun,گربه,X,gorbe,حیوانی کوچک که میو میو می‌کند,X,گربه زیر میز خوابیده است.,The cat is sleeping under the table.,,
+"tornado, hurricane",B1,noun,گردباد,X,gerdbâd,,X,ستون بزرگی از باد و خاک که به آن گردباد می‌گویند تمام درختان را از ریشه درآورد.,The massive column of wind and dust called a tornado uprooted all the trees.,,
 neck,A2,noun,گردن,X,gardan,بخشی از بدن که سر را به تنه وصل می‌کند,X,او یک شال‌گردن پشمی دور گردن خود بسته است تا سرما نخورد.,He has tied a wool scarf around his neck so he doesn't catch a cold.,,
 necklace,B1,noun,گردنبند,X,gardanband,,X,او یک گردنبند طلا با پلاکی زیبا به گردن دارد.,She wears a gold necklace with a beautiful plaque around her neck.,,
 hungry,A1,adjective,گرسنه,X,gorosne,نیاز داشتن به غذا,X,من گرسنه‌ام و نان می‌خواهم.,I’m hungry and I want bread.,,
@@ -1234,10 +1347,12 @@ mom,A1,noun,مامان,X,mâmân,مادرِ تو,X,مامان در آشپزخا�
 "stay, remain",A2,verb,ماندن,X,mândan,در یک جا باقی ماندن,X,من دو روز در هتل می‌مانم.,I’m staying at the hotel for two days.,,
 monitor,A1,noun,مانیتور,X,mânitor,صفحه نمایشِ کامپیوتر,X,عکس‌ها را در مانیتور نگاه کن.,Look at the photos on the monitor.,,
 "month, moon",A1,noun,ماه,X,mâh,واحدِ زمان بین دو ماهِ پشت سر هم,X,این ماه نوامبر است.,This month is November.,,
+satellite,B2,noun,ماهواره,X,mâhvâre,,X,این ماهواره جدید برای پیش‌بینی دقیق وضعیت آب و هوا به مدار زمین پرتاب شد.,This new satellite was launched into Earth's orbit for precise weather forecasting.,,
 fish,A1,noun,ماهی,X,mâhi,جانوری که در آب زندگی می‌کند,X,ماهی در آب است.,The fish is in the water.,,
 frying pan,B1,noun,"ماهی‌تابه, ماهیتابه",X,mâhi-tâbe,ظرفی فلزی و دسته‌دار برای سرخ کردنِ غذا,X,کمی روغن در ماهی‌تابه بریز تا داغ شود و بعد پیازها را سرخ کن.,"Pour some oil into the frying pan until it gets hot, and then fry the onions.",,
 muscle,B1,noun,ماهیچه,X,mâhiče,بافتِ بدن برای حرکت,X,بعد از ورزش، ماهیچه‌های پایم درد گرفت.,"After exercising, the muscles in my legs started to hurt.",,
 fishing,A2,noun,ماهیگیری,X,mâhi-giri,گرفتنِ ماهی با قلاب,X,آخر هفته برای ماهیگیری می‌رویم.,On the weekend we go fishing.,,
+"sofa, armchair",A2,noun,مبل,X,mobl,,X,روی این مبل نرم بنشین و استراحت کن.,Sit on this soft sofa and rest.,,
 unfortunately,B1,adverb,متأسفانه,X,mota'assefâne,با بدشانسی یا در موقعیتِ ناراحت‌کننده,X,متأسفانه به دلیل ترافیک، به پرواز هواپیما نرسیدم.,"Unfortunately, I missed the flight due to traffic.",,
 "specialist, expert",B2,noun,متخصص,X,motaxasses,کسی با دانش و مهارتِ ویژه در یک حوزه,X,برای این موضوع بهتر است با یک متخصص صحبت کنی، نه با حدس و گمان.,"For this, it’s better to talk to a specialist rather than guess.",,
 "meter, metre",A1,noun,متر,X,metr,واحدِ طول برابر با صد سانتی‌متر,X,این میز یک متر است.,This table is one meter.,,
@@ -1247,10 +1362,13 @@ different,B1,adjective,متفاوت,X,motafâvet,یکسان نبودن,X,نظر�
 example,A1,noun,مثال,X,mesâl,نمونه برای نشان دادنِ یک چیز,X,این یک مثال است.,This is an example.,,
 positive,B1,adjective,مثبت,X,mosbat,خوب و امیدوارکننده,X,با اینکه خسته بودم، سعی کردم مثبت فکر کنم.,"Even though I was tired, I tried to think positively.",,
 like,A2,preposition,مثل,X,mesl-e,برای نشان دادنِ شباهت,X,من قهوه را مثل چای نمی‌خورم.,I don’t drink coffee like tea.,,
+ankle,B1,noun,مچ پا,X,moč-e pâ,,X,او هنگام دویدن زمین خورد و مچ پایش به شدت پیچ خورد.,He fell while running and his ankle twisted severely.,,
 wrist,B1,noun,مچ دست,X,moč-e dast,جایی که کفِ دست به ساعد وصل می‌شود,X,او وقتی داشت وزنه‌های سنگین بلند می‌کرد، ناگهان مچ دستش رگ‌به‌رگ شد.,"When he was lifting heavy weights, his wrist suddenly got sprained.",,
 "protection, conservation",B2,noun,محافظت,X,mohâfezat,نگهداری و جلوگیری از آسیب,X,محافظت از جنگل یعنی جلوگیری از قطعِ غیرقانونیِ درخت‌ها.,Protecting the forest means preventing illegal tree cutting.,,
 "popular, beloved, dear",B1,adjective,محبوب,X,mahbub,دوست‌داشتنی,X,این برنامه در بین دانشجوها خیلی محبوب است.,This program is very popular among students.,,
 product,B1,noun,محصول,X,mahsul,چیزی که تولید می‌شود,X,این محصول کیفیت خوبی دارد و قیمتش هم مناسب است.,This product has good quality and its price is also reasonable.,,
+"place, location",A1,noun,محل,X,mahall,,X,اینجا محل برگزاری جلسه امروز است.,This is the place for holding today's meeting.,,
+neighborhood,A2,noun,محله,X,mahalle,,X,من تمام مردم این محله را دوست دارم.,I like all the people of this neighborhood.,,
 environment,B1,noun,محیط,X,mohit,فضای اطراف,X,محیط این اتاق برای مطالعه خیلی مناسب است.,The environment of this room is very suitable for studying.,,
 "natural environment, environment",B2,noun,محیط زیست,X,mohit-e zist,طبیعت و پیرامونِ زیستیِ انسان و جانوران,X,برای محیط زیست، کم کردنِ پلاستیک از خریدهای روزانه هم مهم است.,"For the environment, reducing plastic in daily shopping is also important.",,
 different,B1,adjective,مختلف,X,moxtalef,یکسان نبودن,X,مردم در این شهر مختلف‌اند و از جاهای گوناگون آمده‌اند.,"People in this city are different, and they have come from various places.",,Duplicate
@@ -1258,8 +1376,13 @@ different,B1,adjective,مختلف,X,moxtalef,یکسان نبودن,X,مردم د
 "hidden, secret",B1,adjective,مخفی,X,maxfi,چیزی که طوری قرار گرفته که دیده نشود,X,پلیس در پشت دیوارهای خانه یک در مخفی پیدا کرد که به یک اتاق زیرزمینی راه داشت.,The police found a hidden door behind the house walls that led to an underground room.,,
 hide,B1,verb,مخفی کردن,X,maxfi kardan,گذاشتنِ یک چیز در جایی که کسی آن را نبیند,X,او سعی کرد کیف پولش را زیر صندلی ماشین مخفی کند تا دزدها آن را نبینند.,He tried to hide his wallet under the car seat so the thieves wouldn't see it.,,
 pencil,A1,noun,مداد,X,medâd,چیزی برای نوشتن و پاک کردن,X,با مداد نقاشی می‌کنم.,I draw with a pencil.,,
+"orbit, tropic",B2,noun,مدار,X,madâr,,X,ماه به دلیل نیروی جاذبه همیشه در یک مدار مشخص به دور سیاره زمین می‌چرخد.,The moon always rotates in a specific orbit around the planet Earth due to the force of gravity.,,
 school,A1,noun,مدرسه,X,madrase,جایی برای درس خواندن کودک‌ها,X,من به مدرسه می‌روم.,I go to school.,,
+"document, evidence",B1,noun,مدرک,X,madrak,,X,پلیس به دنبال یک مدرک قاطع برای دستگیری سارق می‌گردد.,The police are looking for definitive evidence to arrest the thief.,,
+"manager, director, boss",A2,noun,مدیر,X,modir,,X,او مدیر لایقِ این کارخانه بزرگ است.,He is the capable manager of this big factory.,,
+management,B2,noun,مدیریت,X,modiriyyat,,X,مدیریت موثر یک تیم نیازمند مهارت‌های رهبری و همدلی عمیق است.,The effective management of a team requires leadership skills and deep empathy.,,
 Morocco,A2,noun,مراکش,X,marâkeš,کشوری در شمالِ آفریقا,X,مراکش کشور زیبایی است.,Morocco is a beautiful country.,,
+jam,A2,noun,مربا,X,morabbâ,,X,من برای صبحانه نان با کره و مربا می‌خورم.,I eat bread with butter and jam for breakfast.,,
 "relevant, pertinent",B2,adjective,مربوط,X,marbut,مرتبط و به موضوع وصل,X,لطفاً فقط اطلاعاتِ مربوط را بفرست تا وقت تلف نشود.,Please send only the relevant information so time isn’t wasted.,,
 "clean up, tidy up",A2,verb,مرتب کردن,X,morattab kardan,مرتب و تمیز کردنِ خانه,X,بعد از شام اتاق را مرتب می‌کنم.,After dinner I tidy the room.,,
 man,A1,noun,مرد,X,mard,آدمِ بزرگِ مذکر,X,آن مرد کلاه دارد.,That man has a hat.,,
@@ -1281,24 +1404,31 @@ death,A2,noun,مرگ,X,marg,پایانِ زندگی,X,مرگِ آن پیرمرد
 "taste, flavor",A2,noun,مزه,X,maze,طعمِ غذا در دهان,X,این غذا مزه خوبی دارد.,This food tastes good.,,
 eyelash,B1,noun,مژه,X,može,,X,یک مژه به داخلِ چشمِ او رفت و باعثِ سوزش شد.,An eyelash got into her eye and caused irritation.,,
 copper,B1,noun,مس,X,mes,فلزِ سرخ‌رنگ و رسانا,X,ظروف ساخته شده از مس گرما را خیلی سریع و یکنواخت منتقل می‌کنند.,Copper utensils transfer heat very quickly and evenly.,,
+responsibility,B2,noun,مسئولیت,X,mas'uliyat,,X,راننده مسئولیت قانونی امنیت تمام مسافران داخل وسیله نقلیه را بر عهده دارد.,The driver bears the legal responsibility for the safety of all passengers in the vehicle.,,
 match,A2,noun,مسابقه,X,mosâbeġe,بازیِ رسمی با امتیاز,X,مسابقه امروز ساعت پنج است.,The match is today at five o’clock.,,
 passenger,A2,noun,مسافر,X,mosâfer,کسی که در سفر است,X,تمام مسافران هواپیما باید کمربندهای خود را ببندند.,All passengers on the plane must fasten their seat belts.,,
 armed,B2,adjective,مسلح,X,mosallah,دارای سلاح,X,نیروهای مسلح وارد ساختمان شدند و همه را بیرون آوردند.,Armed forces entered the building and escorted everyone out.,,
 armed,C,adjective,مسلحانه,X,mosallahâne,به شکلِ مسلح و با سلاح,X,ورود مسلحانه به اماکن عمومی، طبق قانون جرم سنگینی محسوب می‌شود.,Armed entry into public places is considered a serious crime under the law.,,
-"Muslim, Muslim person",A2,noun,مسلمان,X,mosalmân,پیروِ دینِ اسلام,X,او یک مسلمان است.,He is a Muslim.,,
+Muslim,A2,noun,مسلمان,X,mosalmân,پیروِ دینِ اسلام,X,او یک مسلمان است.,He is a Muslim.,,
 toothbrush,A1,noun,مسواک,X,mesvâk,وسیله‌ای برای تمیز کردن دندان,X,مسواک در حمام است.,The toothbrush is in the bathroom.,,
 electric toothbrush,A2,noun,مسواک برقی,X,mesvâk-e barqi,مسواک با برق,X,من از مسواک برقی استفاده می‌کنم.,I use an electric toothbrush.,,
 customer,A2,noun,مشتری,X,moštari,خریدارِ کالا یا خدمات,X,این مغازه همیشه شلوغ است و مشتری‌های زیادی دارد.,This store is always busy and has many customers.,,
 "busy, occupied",A2,adjective,مشغول,X,mašġul,درگیرِ کار و وقت نداشتن,X,الان مشغولم و نمی‌توانم حرف بزنم.,I’m busy right now and I can’t talk.,,
 problem,A2,noun,مشکل,X,moškel,چیزی که کار را سخت می‌کند,X,من یک مشکل دارم.,I have a problem.,,
+famous,A1,adjective,مشهور,X,mašhur,,X,حافظ یک شاعر بسیار مشهور در ایران است.,Hafez is a very famous poet in Iran.,,
 interview,B1,noun,مصاحبه,X,mosâhebe,گفتگویِ رسمی برای شناختِ فرد,X,او برای استخدام باید در یک مصاحبه شرکت کند.,He has to attend an interview for a job.,,
+addicted,B1,adjective,معتاد,X,mo'tâd,,X,او متأسفانه به مصرف مواد مخدر معتاد است و باید به مرکز درمان برود.,"Unfortunately, he is addicted to drugs and must go to a treatment center.",,
 stomach,B1,noun,معده,X,me'de,اندامِ هضمِ غذا,X,او بعد از خوردن غذای تند، دچار سوزش شدید در ناحیه معده شد.,He suffered from severe heartburn after eating spicy food.,,
 "famous, known",A2,adjective,معروف,X,ma'ruf,شناخته شده توسط مردم,X,این رستوران خیلی معروف است.,This restaurant is very famous.,,
 teacher,A1,noun,معلم,X,mo'allem,کسی که در مدرسه درس می‌دهد,X,معلم در کلاس است.,The teacher is in the class.,,
 usually,A2,adverb,معمولاً,X,ma'mulan,بیشتر وقت‌ها,X,من معمولاً صبح زود بیدار می‌شوم.,I usually wake up early in the morning.,,
 "shop, store",A1,noun,مغازه,X,maġâze,جایی کوچک برای خرید,X,این مغازه از فروشگاه کوچک‌تر است.,This shop is smaller than a department store.,,
+nutritious,B1,adjective,مغذی,X,moġazzi,,X,خوردن سبزیجات و میوه‌های تازه یک عادت غذایی بسیار مغذی برای کودکان است.,Eating fresh vegetables and fruits is a very nutritious eating habit for children.,,
 brain,B1,noun,مغز,X,maġz,اندامِ فکر کردن در سر,X,مغز باید استراحت کند تا بهتر کار کند.,The brain needs to rest so it can work better.,,
 detailed,B2,adjective,مفصل,X,mofassal,دارای جزئیات زیاد,X,پلیس یک گزارش مفصل از حادثه نوشت، با زمان‌بندی و شاهدها.,"The police wrote a detailed report about the incident, with a timeline and witnesses.",,
+useful,B1,adjective,مفید,X,mofid,,X,این کتاب آموزشی برای یادگیری سریع گرامر زبان فارسی بسیار مفید است.,This educational book is very useful for learning Persian grammar quickly.,,
+comparison,B1,noun,مقایسه,X,moqâyese,,X,این جدول شامل یک مقایسه دقیق بین قیمت‌های دو فروشگاه مختلف است.,This table includes a detailed comparison between the prices of two different stores.,,
+compare,B1,verb,مقایسه کردن,X,moqâyese kardan,,X,تو نباید هرگز توانایی‌های خود را با دیگران مقایسه کنی.,You should never compare your abilities with others.,,
 "amount, quantity",A2,noun,مقدار,X,meqdâr,اندازهٔ یک چیز,X,من از مرگ می‌ترسم.,I’m afraid of death.,,
 suck,B2,verb,مکیدن,X,mekidan,مکیدنِ مایع یا هوا,X,بچه عادت داشت انگشتش را می‌مکد و ترک کردنش زمان برد.,"The child used to suck his finger, and quitting it took time.",,
 fly,A2,noun,مگس,X,magas,حشرهٔ کوچکِ مزاحم,X,یک مگس روی پنجره نشست.,A fly sat on the window.,,
@@ -1310,15 +1440,21 @@ national,B1,adjective,ملی,X,melli,مربوط به کشور,X,در روز مل
 nationalist,B2,noun,ملی‌گرا,X,melli-garâ,طرفدارِ برتریِ ملتِ خود,X,او ملی‌گراست و همیشه از اولویتِ ملت حرف می‌زند.,He is a nationalist and always talks about the priority of the nation.,,
 nationalism,C,noun,ملی‌گرایی,X,melli-garâyi,باور به برتریِ ملت و هویت ملی,X,ملی‌گرایی وقتی به معیارِ شهروندی تبدیل شود، اختلاف را طبیعی و بی‌اعتمادی را دائمی می‌کند.,"When nationalism becomes a standard of citizenship, it makes division seem natural and distrust permanent.",,
 possible,B1,adjective,ممکن,X,momken,شدنی,X,اگر وقت داشته باشیم، انجامش ممکن است.,"If we have time, doing it is possible.",,
+"thankful, thank you",A1,adjective,ممنون,X,mamnun,,X,بابت هدیه خوب شما خیلی ممنون هستم.,I am very thankful for your good gift.,,
 I,A1,pronoun,من,X,man,ضمیر برای خودت,X,من اینجا هستم.,I am here.,,
 "source, spring",B1,noun,منبع,X,manba',جایی که چیزی از آن می‌آید,X,منبع این خبر یک روزنامه معتبر است.,The source of this news is a reputable newspaper.,,
 origin,B2,noun,منشأ,X,manša',جایی که چیزی از آن آغاز می‌شود,X,منشأ این شایعه معلوم نیست، چون هر کس آن را از دیگری شنیده است.,"The origin of this rumor is not known, because everyone heard it from someone else.",,
+logic,B2,noun,منطق,X,manteq,,X,دانشمند از منطق صوری برای شناسایی خطا در آن اثبات ریاضی استفاده کرد.,The scientist used formal logic to identify the error in that mathematical proof.,,
+logical,B1,adjective,منطقی,X,manteqi,,X,تصمیم او برای فروختن ماشین قدیمی و خریدن یک مدل جدید کاملاً منطقی بود.,His decision to sell the old car and buy a new model was completely logical.,,
 menu,A1,noun,منو,X,menu,کاغذِ غذا در رستوران,X,منو را به من بده.,Give me the menu.,,
 May,A1,noun,مه,X,me,ماهِ پنجمِ سالِ میلادی,X,مه ماهِ پنج است.,May is the fifth month.,,
+"fog, mist",B1,noun,مه,X,meh,,X,رانندگی در این مه غلیظ به دلیل دید کم بسیار خطرناک است.,Driving in this thick fog is very dangerous due to low visibility.,,
 "immigrant, migrant",B1,noun,مهاجر,X,mohâjer,کسی که به کشور دیگر می‌رود,X,بسیاری از مهاجران برای پیدا کردن کار بهتر به اروپا سفر می‌کنند.,Many immigrants travel to Europe to find better jobs.,,
+skill,B1,noun,مهارت,X,mahârat,,X,نجاری یک مهارت است که به سال‌ها تمرین و تجربه نیاز دارد.,Carpentry is a skill that requires years of practice and experience.,,
 moonlight,B1,noun,مهتاب,X,mahtâb,نورِ ماه در شب,X,شبِ مهتابی بود و خیابان‌ها روشن‌تر از معمول به نظر می‌رسید.,"It was a moonlit night, and the streets looked brighter than usual.",,
 "nice, kind",A1,adjective,مهربان,X,mehrabân,خوش‌رفتار و کمک‌کننده,X,او خیلی مهربان است.,He's very nice.,,
 important,A2,adjective,مهم,X,mohemm,با اهمیت و لازم,X,این موضوع خیلی مهم است.,This topic is very important.,,
+guest,A2,noun,مهمان,X,mehmân,,X,ما امشب برای شام یک مهمان عزیز داریم.,We have a dear guest for dinner tonight.,,
 hair,A1,noun,مو,X,mu,چیزی روی سر که رشد می‌کند,X,موهای من بلند نیست.,My hair is not long.,,
 careful,A2,adjective,مواظب,X,movâzeb,با دقت و احتیاط,X,مواظب باش، زمین خیس است.,"Be careful, the ground is wet.",,
 "motor, engine",B1,noun,موتور,X,motor,دستگاهِ تولید حرکت,X,لرزش شدید ماشین نشان‌دهنده وجود یک مشکل فنی در موتور است.,The machine's severe vibration indicates a mechanical problem with the engine.,,
@@ -1329,6 +1465,7 @@ museum,A1,noun,موزه,X,muze,جایی برای دیدن چیزهای قدیم�
 "mouse, computer mouse",A2,noun,موس,X,mows,وسیله‌ی کنترلِ کامپیوتر,X,برای باز کردن فایل، روی آن با موس دو بار کلیک کنید.,Double-click on the file to open it.,,
 music,A1,noun,موسیقی,X,musiġi,صداهایی که می‌شنوی و دوست داری,X,موسیقی آرام است.,The music is calm.,,
 "mouse, rat",A1,noun,موش,X,muš,حیوانی کوچک و موذی,X,گربه به دنبال یک موش کوچک می‌دود.,The cat is running after a little mouse.,,
+"missile, rocket, muscle",B1,noun,موشک,X,mušak,,X,ارتش یک موشک دوربرد را به سمت هدف در صحرا پرتاب کرد.,The army launched a long-range missile toward the target in the desert.,,
 "topic, subject, theme",B1,noun,موضوع,X,mowzu',چیزی که درباره‌اش حرف می‌زنیم,X,موضوع جلسه دربارهٔ برنامهٔ سفر بود.,The topic of the meeting was the travel plan.,,
 "successful, prosperous",B1,adjective,موفق,X,movaffaġ,کسی که در رسیدن به اهدافش پیروز شده است,X,او یک تاجر بسیار موفق است که توانسته در عرض پنج سال ده شعبه جدید افتتاح کند.,He is a very successful businessman who has managed to open ten new branches within five years.,,
 success,B1,noun,موفقیت,X,movaffaġiyat,به دست آوردنِ نتیجه‌ی خوب در یک کار,X,برای رسیدن به موفقیت، شما نیاز به تلاش مداوم، صبر و برنامه‌ریزی دقیق دارید.,"To achieve success, you need constant effort, patience, and precise planning.",,
@@ -1336,11 +1473,14 @@ success,B1,noun,موفقیت,X,movaffaġiyat,به دست آوردنِ نتیجه
 nail,A2,noun,میخ,X,mix,فلزِ تیز برای اتصال چوب,X,من برای نصب کردن تابلو روی دیوار به یک میخ نیاز دارم.,I need a nail to hang a picture on the wall.,,
 "square, city square",A2,noun,میدان,X,meydân,بخشِ باز و مرکزی در میانِ خیابان‌ها,X,مجسمه بزرگ شهر در مرکز این میدان است.,The big statue of the city is in the center of this square.,,
 "table, desk",A1,noun,میز,X,miz,چیزی برای گذاشتن کتاب و غذا,X,کتاب روی میز است.,The book is on the table.,,
+host,B1,noun,میزبان,X,mizbân,,X,او به عنوان میزبان به استقبال تمام مهمانان در ورودی خانه رفت.,"As the host, he went to welcome all the guests at the entrance of the house.",,
+microscope,B1,noun,میکروسکوپ,X,mikroskop,,X,ما برای دیدن موجودات ریزی که با چشم دیده نمی‌شوند از میکروسکوپ استفاده می‌کنیم.,We use a microscope to see tiny organisms that are not visible to the eye.,,
 shrimp,B1,noun,میگو,X,meygu,,X,ماهیگیران در بنادرِ جنوب، صیدِ میگو انجام می‌دهند.,Fishermen in the southern ports catch shrimp.,,
 fruit,A1,noun,میوه,X,mive,خوراکیِ شیرین از درخت,X,میوه برای بچه خوب است.,Fruit is good for children.,,
 "fruit seller, fruit-seller, fruitmonger",A2,noun,میوه‌فروش,X,mêve-forôš,کسی که میوه می‌فروشد,X,میوه‌فروش نزدیک مدرسه است.,The fruit seller is near the school.,,
 hopeless,B2,adjective,ناامید,X,nâomid,بی‌امید,X,بعد از چند بار شکست، ناامید شد و دیگر تلاش نکرد.,"After failing a few times, he became hopeless and stopped trying.",,
 inequality,B2,noun,نابرابری,X,nâbarâbari,نبودِ برابری,X,نابرابریِ درآمدی در بعضی شهرها خیلی واضح است.,Income inequality is very obvious in some cities.,,
+"insignificant, trifling, trivial",B1,adjective,ناچیز,X,nâčiz,,X,مبلغ تخفیف آن‌قدر ناچیز بود که تأثیری در قیمت نهایی کالا نداشت.,The discount amount was so insignificant that it had no effect on the final price of the goods.,,
 "upset, uncomfortable, sad",A2,adjective,ناراحت,X,nârâhat,کسی که حسِ آرامش یا شادی ندارد,X,کفش‌هایم تنگ است و پاهایم را ناراحت می‌کند.,My shoes are tight and make my feet uncomfortable.,,
 orange,A1,adjective,نارنجی,X,nârenji,دارای رنگِ پرتقال,X,این پرتقال نارنجی است.,This orange is orange-colored.,,
 thin,A2,adjective,نازک,X,nâzok,چیزی که کلفتی و قطرِ آن بسیار کم است,X,یخ روی دریاچه خیلی نازک است، پس روی آن راه نرو.,"The ice on the lake is very thin, so do not walk on it.",,Duplicate
@@ -1370,6 +1510,8 @@ Norwegian,A2,adjective,نروژی,X,norveži,مربوط به نروژ,X,او ز�
 "sign, mark",A2,noun,نشان,X,nešân,علامتی که برای راهنمایی یا شناسایی به کار می‌رود,X,این تابلوی قرمز یک نشان است که جاده در حال تعمیر است.,This red sign is a mark that the road is under repair.,,
 show,A2,verb,نشان دادن,X,nešân dâdan,نمایان کردنِ چیزی برای این که دیگران آن را ببینند,X,او عکس‌های سفرش به شمال را به من نشان داد.,He showed me the photos of his trip to the north.,,
 "sit, sit down",A2,verb,نشستن,X,nešastan,روی صندلی قرار گرفتن,X,لطفاً بنشین.,Please sit down.,,
+half,A1,noun,نصف,X,nesf,,X,لطفاً نصف این پرتقال را به من بده.,Please give me half of this orange.,,
+"theory, opinion, view",B1,noun,نظریه,X,nazariye,,X,انیشتین با ارائه نظریه نسبیت تمام مفاهیم فیزیک را تغییر داد.,Einstein changed all concepts of physics by presenting the theory of relativity.,,
 painter,A2,noun,نقاش,X,naġġâš,کسی که تصویر می‌کشد,X,این نقاش در این شهر معروف است.,This painter is famous in this city.,,
 "painting, drawing",A2,noun,نقاشی,X,naqqâši,کارِ کشیدنِ تصویر,X,این نقاشی را خودم کشیدم.,I drew this painting myself.,,
 cash,A2,noun,نقد,X,naqd,پولِ فیزیکی و کاغذی,X,من کارت ندارم؛ آیا می‌توانم هزینه را به صورت نقد پرداخت کنم؟,I don't have a card; can I pay in cash?,,
@@ -1382,6 +1524,7 @@ silver,A2,adjective,نقره‌ای,X,noġre-i,رنگی براق و خاکستر
 "show, exposition, display, exhibition",B1,noun,نمایش,X,namâyeš,تئاتر یا عرضه عمومی,X,بلیت‌های نمایش تئاتر امشب به طور کامل فروخته شده است.,Tickets for tonight's theater show are sold out.,,
 "monitor, computer monitor",A2,noun,نمایشگر,X,namâyešgar,صفحه خروجی تصویر,X,تصویر در این نمایشگر جدید بسیار واضح و شفاف است.,The image on this new monitor is very clear and crisp.,,
 salt,A1,noun,نمک,X,namak,چیزی سفید برای مزهٔ غذا,X,نمک را روی غذا می‌ریزم.,I put salt on the food.,,
+"damp, moist",B2,adjective,نمناک,X,namnâk,,X,هوای نمناک داخل غار خشک نگه داشتن لباس‌ها را برای کوهنوردان دشوار کرد.,The damp moist air inside the cave made it difficult for the hikers to keep their clothes dry.,,
 show,B2,verb,نمودن,X,namudan,نشان دادن و آشکار کردن,X,تحقیقات جدید به وضوح می‌نماید که ورزش منظم بر سلامت روان تاثیر مستقیم دارد.,New research clearly shows that regular exercise has a direct impact on mental health.,,
 nine,A1,numeral,نه,X,noh,عدد ۹,X,نه یعنی سه و سه و سه.,Nine means three and three and three.,,
 "no, not",A1,adverb,نه,X,na,کلمه برای رد کردن,X,نه، ممنون.,"No, thanks.",,
@@ -1401,6 +1544,7 @@ letter,B1,noun,نِویسِه,X,nevise,نوشته,X,من یک نِویسِه ک�
 transliteration,B2,noun,نویسه‌گردانی,X,nevise-gardâni,نوشتنِ تلفظِ یک زبان با حروفِ زبان دیگر,X,برای این پروژه، نویسه‌گردانیِ نام‌ها باید یکسان باشد تا خواننده گیج نشود.,"For this project, the transliteration of names has to be consistent so the reader doesn’t get confused.",,
 new,B2,adjective,نوین,X,novin,تازه و جدید,X,آن شرکت با فناوری نوین وارد بازار شد و روش قدیمی را کنار گذاشت.,That company entered the market with modern technology and set aside the old method.,,
 "is not, there is not",A1,verb,نیست,X,nêst,نبودنِ یک چیز,X,امروز کلاس نیست.,There is no class today.,,
+midnight,A2,noun,نیمه‌شب,X,nime-šab,,X,من در نیمه‌شب با یک رویای بد بیدار شدم.,I woke up at midnight with a bad dream.,,
 hotel,A1,noun,هتل,X,hotel,جایی برای خواب در سفر,X,این هتل بزرگ است.,This hotel is big.,,
 eighteen,A1,numeral,هجده,X,hejdah,عدد ۱۸,X,هجده یعنی ده و هشت.,Eighteen means ten and eight.,,
 "gift, present",A1,noun,هدیه,X,hadiye,چیزی که برای تولد می‌دهی,X,این هدیه برای تو است.,This gift is for you.,,
@@ -1434,6 +1578,7 @@ everywhere,A2,adverb,همه جا,X,hame jâ,در همهٔ مکان‌ها,X,کل
 everything,A2,pronoun,همه چیز,X,hame čiz,همهٔ چیزها,X,همه چیز آماده است.,Everything is ready.,,
 pantheism,C,noun,همه‌خدایی,X,hame-xodâyi,باوری که خدا را در همهٔ جهان می‌بیند,X,همه‌خدایی خدا را بیرونِ جهان نمی‌بیند؛ جهان را جلوهٔ او می‌داند.,Pantheism does not see God outside the world; it sees the world as God’s manifestation.,,
 always,A1,adverb,همیشه,X,hamiše,در همهٔ وقت‌ها,X,من همیشه زود می‌خوابم.,I always go to sleep early.,,
+watermelon,A1,noun,هندوانه,X,hendevâne,,X,ما در گرمای تابستان هندوانه خنک می‌خوریم.,We eat cool watermelon in the summer heat.,,
 Indian,A1,adjective,هندی,X,hendi,مربوط به هند,X,غذای هندی تند است.,Indian food is spicy.,,
 art,B1,noun,هنر,X,honar,,X,نقاشی و موسیقی دو شاخه‌ی مهم از هنر هستند.,Painting and music are two important branches of art.,,
 "weather, air",A1,noun,هوا,X,havâ,چیزی که بیرون حس می‌کنی مثل گرم و سرد,X,هوا امروز سرد است.,The weather is cold today.,,
@@ -1442,6 +1587,7 @@ art,B1,noun,هنر,X,honar,,X,نقاشی و موسیقی دو شاخه‌ی مه
 crave,B2,verb,هوس کردن,X,havas kardan,میل کردن به چیزی,X,وقتی استرس دارم، بیشتر هوس می‌کنم چیزی بخورم.,"When I’m stressed, I crave eating something more.",,
 identity,B2,noun,هویت,X,hoviyyat,کیستی و ویژگی‌های فردی,X,اثر انگشت و اسکن چشم از ویژگی‌های منحصر به فرد برای تعیین هویت افراد هستند.,Fingerprints and eye scans are unique features for identifying individuals.,,
 carrot,A1,noun,هویج,X,havij,سبزیِ نارنجی برای سوپ,X,هویج در سوپ است.,Carrots are in the soup.,,
+excitement,A2,noun,هیجان,X,hayajân,,X,من برای این سفر هیجان زیادی دارم.,I have a lot of excitement for this trip.,,
 nothing,A1,pronoun,هیچ,X,hič,هیچ چیز,X,هیچ نمی‌خواهم.,I don’t want anything.,,
 nowhere,A1,adverb,هیچ‌جا,X,hič-jâ,در هیچ مکان,X,کلیدم هیچ‌جا نیست.,My key is nowhere.,,
 "none, neither",A2,pronoun,هیچ‌کدام,X,hič-kodâm,هیچ گزینه‌ای از دو تا,X,هیچ‌کدام را نمی‌خواهم.,I don’t want either of them.,,
@@ -1459,6 +1605,9 @@ vaccine,B1,noun,واکسن,X,vâksan,ماده‌ای برای پیشگیری ا�
 loan,B1,noun,وام,X,vâm,اعتبارِ مالیِ بانکی,X,بانک با درخواست او برای دریافت وام مسکن با بهره کم موافقت کرد.,The bank approved his application for a low-interest mortgage.,,
 website,A2,noun,وب‌سایت,X,veb-sâyt,صفحه‌ای در اینترنت که اطلاعات دارد,X,آدرس این وب‌سایت را در مرورگر وارد کن.,Enter the address of this website in the browser.,,
 "sports, sport",A1,noun,ورزش,X,varzeš,حرکتِ بدن برای سلامتی,X,من ورزش می‌کنم.,I do sports.,,
+entrance,B1,noun,ورودی,X,vorudi,,X,نگهبان بلیت‌های ما را در ورودی اصلی ورزشگاه چک کرد.,The guard checked our tickets at the main entrance of the stadium.,,
+weight,B1,noun,وزن,X,vazn,,X,ترازو نشان داد که وزن این چمدان بیش از حد مجاز است.,The scale showed that the weight of this suitcase is over the allowed limit.,,
+weigh,B1,verb,وزن کردن,X,vazn kardan,,X,من باید قبل از پختن کیک تمام مواد اولیه را با دقت وزن کنم.,I must carefully weigh all the raw ingredients before baking the cake.,,
 means,A2,noun,وسیله,X,vasile,چیزی که با آن کاری انجام می‌دهیم,X,این مقدار کافی است.,This amount is enough.,,
 situation,B1,noun,وضعیت,X,vaz'iyat,چگونگیِ قرار گرفتن در یک زمان,X,با توجه به وضعیت بازار، قیمت‌ها افزایش یافته است.,"Due to the market situation, prices have increased.",,
 time,A1,noun,وقت,X,vaġt,,X,من امروز وقت ندارم که با تو بازی کنم.,I don't have time to play with you today.,,
@@ -1468,10 +1617,15 @@ Wales,B1,noun,ولز,X,velz,بخشی از بریتانیا,X,ولز بخشی ا�
 but,A1,conjunction,ولی,X,vali,برای نشان دادنِ مخالفت,X,می‌خواهم بیایم، ولی کار دارم.,"I want to come, but I have work.",,
 "he, she, it (formal)",B1,pronoun,وی,X,vey,ضمیرِ رسمی برای او,X,وی گفت که فردا دیرتر می‌آید و جلسه را باید عقب بیندازیم.,He said he would come later tomorrow and that we should postpone the meeting.,,
 video,A2,noun,ویدئو,X,vidiyo,فایل یا برنامهٔ تصویری برای تماشا,X,من یک ویدئو کوتاه دیدم.,I watched a short video.,,
+virus,B1,noun,ویروس,X,virus,,X,این ویروس خطرناک به سرعت از طریق هوا بین مردم پخش می‌شود.,This dangerous virus spreads quickly among people through the air.,,
+viral,B1,adjective,ویروسی,X,virusi,,X,من به دلیل یک بیماری ویروسی مجبور شدم چند روز در خانه استراحت کنم.,I had to rest at home for a few days due to a viral illness.,,
 visa,B1,noun,ویزا,X,vizâ,اجازه‌ی ورود به کشور دیگر,X,درخواست ویزای او توسط کنسولگری به دلیل ناقص بودن مدارک رد شد.,His visa application was rejected by the consulate due to incomplete documents.,,
+special,B1,adjective,ویژه,X,viže,,X,این فروشگاه یک تخفیف ویژه برای مشتریان همیشگی خود در نظر گرفته است.,This store has considered a special discount for its regular customers.,,
 violin,A2,noun,ویولن,X,viyolon,سازِ زهی با آرشه,X,او ویولن می‌زند.,He plays the violin.,,
 or,A1,conjunction,یا,X,yâ,برای انتخاب بین دو چیز,X,چای یا قهوه؟,Tea or coffee?,,
 learn,A1,verb,یاد گرفتن,X,yâd gereftan,یاد گرفتنِ چیزهای تازه,X,من فارسی یاد می‌گیرم.,I learn Persian.,,
+"remembrance, recollection, commemoration, reminder",B1,noun,یادآوری,X,yâd-âvari,,X,من این یادداشت را فقط برای یادآوری زمان جلسه روی میز گذاشتم.,I put this note on the table only as a reminder of the meeting time.,,
+remind,B1,verb,یادآوری کردن,X,yâd-âvari kardan,,X,لطفا به من یادآوری کن که قبل از رفتن گذرنامه‌ام را بردارم.,Please remind me to pick up my passport before leaving.,,
 eleven,A1,numeral,یازده,X,yâzdah,عدد ۱۱,X,یازده یعنی ده و یک.,Eleven means ten and one.,,
 ice,A1,noun,یخ,X,yax,آبِ سفت و سرد,X,یخ خیلی سرد است.,Ice is very cold.,,
 refrigerator,A1,noun,یخچال,X,yaxčâl,جعبهٔ سرد برای نگه داشتنِ غذا,X,یخچال شیر را سرد نگه می‌دارد.,The refrigerator keeps the milk cold.,,
