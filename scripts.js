@@ -37,7 +37,7 @@ function showLandingCard(show) {
       landingCard.remove();
       main.insertBefore(
         landingCard,
-        document.getElementById("results-container")
+        document.getElementById("results-container"),
       );
     }
     landingCard.style.display = "block";
@@ -121,7 +121,7 @@ function filterResultsByPOS(results, selectedPOS) {
       return (
         r.gender &&
         ["masculine", "feminine", "neuter"].some((genderVal) =>
-          r.gender.toLowerCase().includes(genderVal)
+          r.gender.toLowerCase().includes(genderVal),
         )
       );
     }
@@ -175,14 +175,14 @@ async function fetchAndLoadDictionaryData() {
   } catch (localError) {
     console.error(
       "Error fetching or parsing data from local CSV file:",
-      localError
+      localError,
     );
     console.log("Falling back to Google Sheets.");
 
     // Fallback to Google Sheets CSV
     try {
       const response = await fetch(
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSl2GxGiiO3qfEuVM6EaAbx_AgvTTKfytLxI1ckFE6c35Dv8cfYdx30vLbPPxadAjeDaSBODkiMMJ8o/pub?output=csv"
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSl2GxGiiO3qfEuVM6EaAbx_AgvTTKfytLxI1ckFE6c35Dv8cfYdx30vLbPPxadAjeDaSBODkiMMJ8o/pub?output=csv",
       );
       if (!response.ok)
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -191,7 +191,7 @@ async function fetchAndLoadDictionaryData() {
     } catch (googleSheetsError) {
       console.error(
         "Error fetching or parsing data from Google Sheets:",
-        googleSheetsError
+        googleSheetsError,
       );
     }
   }
@@ -266,7 +266,7 @@ function buildSentenceCorpus() {
     }
   }
   console.log(
-    `[Sentences] Corpus built: ${sentenceCorpus.length} sentence rows`
+    `[Sentences] Corpus built: ${sentenceCorpus.length} sentence rows`,
   );
 }
 
@@ -380,7 +380,7 @@ async function randomWord() {
 
     // Additionally, filter by the selected CEFR level if applicable
     filteredResults = filteredResults.filter(
-      (r) => !selectedCEFR || (r.CEFR && r.CEFR.toUpperCase() === selectedCEFR)
+      (r) => !selectedCEFR || (r.CEFR && r.CEFR.toUpperCase() === selectedCEFR),
     );
   } else if (type === "pronunciation") {
     initPronunciation();
@@ -392,12 +392,12 @@ async function randomWord() {
 
     // Additionally, filter by the selected CEFR level if applicable
     filteredResults = filteredResults.filter(
-      (r) => !selectedCEFR || (r.CEFR && r.CEFR.toUpperCase() === selectedCEFR)
+      (r) => !selectedCEFR || (r.CEFR && r.CEFR.toUpperCase() === selectedCEFR),
     );
 
     // Exclude certain words here
     filteredResults = filteredResults.filter(
-      (r) => !noRandom.includes(r.ord.toLowerCase())
+      (r) => !noRandom.includes(r.ord.toLowerCase()),
     );
   }
 
@@ -454,7 +454,7 @@ async function randomWord() {
     // Clear any existing highlights in the sentence
     const cleanedSentence = selectedSentence.replace(
       /<span style="color: #3c88d4;">(.*?)<\/span>/gi,
-      "$1"
+      "$1",
     );
 
     // Build the sentence HTML
@@ -645,7 +645,7 @@ async function search(queryOverride = null) {
               .split(",")
               .map((s) => s.trim());
             return ordList.includes(base) || engelskList.includes(base);
-          })
+          }),
         ) || originalQuery;
   const isInexactMatch = originalQuery !== query;
 
@@ -671,7 +671,7 @@ async function search(queryOverride = null) {
     if (result.eksempel) {
       result.eksempel = result.eksempel.replace(
         /<span[^>]*>(.*?)<\/span>/gi,
-        "$1"
+        "$1",
       ); // Remove old highlights
     }
     return result;
@@ -768,7 +768,7 @@ async function search(queryOverride = null) {
       } else {
         // fallback: all words must still appear somewhere
         const matchesAll = terms.every(
-          (t) => r.noNorm.includes(t) || r.enNorm.includes(t)
+          (t) => r.noNorm.includes(t) || r.enNorm.includes(t),
         );
         if (matchesAll) {
           partial.push(r);
@@ -829,7 +829,7 @@ async function search(queryOverride = null) {
           .split(",")
           .map((e) => e.trim());
         const englishMatch = englishValues.some(
-          (eng) => exactRegex.test(eng) || partialRegex.test(eng)
+          (eng) => exactRegex.test(eng) || partialRegex.test(eng),
         );
         return wordMatch || englishMatch;
       });
@@ -840,7 +840,7 @@ async function search(queryOverride = null) {
         (!selectedPOS ||
           (selectedPOS === "noun" &&
             ["masculine", "feminine", "neuter"].some((gender) =>
-              r.gender.toLowerCase().includes(gender)
+              r.gender.toLowerCase().includes(gender),
             )) ||
           r.gender.toLowerCase().includes(selectedPOS)) &&
         (!selectedCEFR || r.CEFR === selectedCEFR)
@@ -880,14 +880,14 @@ async function search(queryOverride = null) {
         const matchesInexact = inexactWordQueries.some(
           (inexactQuery) =>
             r.ord.toLowerCase().includes(inexactQuery) ||
-            r.engelsk.toLowerCase().includes(inexactQuery)
+            r.engelsk.toLowerCase().includes(inexactQuery),
         );
         return (
           matchesInexact &&
           (!selectedPOS ||
             (selectedPOS === "noun" &&
               ["masculine", "feminine", "neuter"].some((gender) =>
-                r.gender.toLowerCase().includes(gender)
+                r.gender.toLowerCase().includes(gender),
               )) ||
             r.gender.toLowerCase().includes(selectedPOS)) &&
           (!selectedCEFR || r.CEFR === selectedCEFR)
@@ -1013,16 +1013,16 @@ async function search(queryOverride = null) {
         a.engelsk
           .toLowerCase()
           .split(",")
-          .map((e) => e.trim())
+          .map((e) => e.trim()),
       );
       const bEngelskSet = new Set(
         b.engelsk
           .toLowerCase()
           .split(",")
-          .map((e) => e.trim())
+          .map((e) => e.trim()),
       );
       const commonTranslations = [...aEngelskSet].filter((eng) =>
-        bEngelskSet.has(eng)
+        bEngelskSet.has(eng),
       );
 
       if (commonTranslations.length > 0) {
@@ -1115,7 +1115,7 @@ function checkForSentences(word, pos) {
       const posMatch =
         (pos === "noun" &&
           ["masculine", "feminine", "neuter"].some((gender) =>
-            result.gender.toLowerCase().includes(gender)
+            result.gender.toLowerCase().includes(gender),
           )) ||
         result.gender.toLowerCase().includes(pos.toLowerCase());
       return wordMatch && posMatch; // Ensure both word and POS match
@@ -1145,7 +1145,7 @@ function checkForSentences(word, pos) {
               // Apply the strict match logic for these POS types (perfect match, no special endings)
               const regex = new RegExp(
                 `(^|\\s)${variation}($|[\\s.,!?;])`,
-                "gi"
+                "gi",
               );
               const match = regex.test(result.eksempel);
               return match;
@@ -1154,7 +1154,7 @@ function checkForSentences(word, pos) {
               const match = regex.test(result.eksempel.toLowerCase().trim());
               return match;
             }
-          })
+          }),
       )
     ) {
       sentenceFound = true; // If a sentence is found for any variation, mark as true
@@ -1183,7 +1183,7 @@ function handlePOSChange() {
     // If the search field is empty, generate a random word based on the POS
     if (!query) {
       console.log(
-        "Search field is empty. Generating random word based on selected POS."
+        "Search field is empty. Generating random word based on selected POS.",
       );
       randomWord();
     } else {
@@ -1251,12 +1251,12 @@ function handleTypeChange(type) {
 
   // Container to update and other UI elements
   const searchContainerInner = document.getElementById(
-    "search-container-inner"
+    "search-container-inner",
   ); // The container to update
   const searchBarWrapper = document.getElementById("search-bar-wrapper");
   const randomBtn = document.getElementById("random-btn");
   const gameEnglishFilterContainer = document.querySelector(
-    ".game-english-filter"
+    ".game-english-filter",
   );
   const gameEnglishSelect = document.getElementById("game-english-select");
 
@@ -1454,7 +1454,7 @@ function handleCEFRChange() {
     // If the search field is empty, generate a random word based on the CEFR level
     if (!query) {
       console.log(
-        "Search field is empty. Generating random word based on selected CEFR."
+        "Search field is empty. Generating random word based on selected CEFR.",
       );
       randomWord(); // Ensure randomWord() applies the CEFR filter
     } else {
@@ -1469,7 +1469,7 @@ function makeDefinitionClickable(defText) {
   function wrapToken(token) {
     // Håndter sammensatte ord med parentes, som (språk)gruppe eller språk(gruppe)
     const complexParenMatch = token.match(
-      /^([\p{L}\p{M}\u200C\-']*)\(([\p{L}\p{M}\u200C\-']+)\)([\p{L}\p{M}\u200C\-']*)([.,;!?]*)$/u
+      /^([\p{L}\p{M}\u200C\-']*)\(([\p{L}\p{M}\u200C\-']+)\)([\p{L}\p{M}\u200C\-']*)([.,;!?]*)$/u,
     );
     if (complexParenMatch) {
       const [, before, inside, after, punctuation] = complexParenMatch;
@@ -1477,19 +1477,19 @@ function makeDefinitionClickable(defText) {
 
       if (before) {
         parts.push(
-          `<span class="clickable-definition-word" data-word="${before}">${before}</span>`
+          `<span class="clickable-definition-word" data-word="${before}">${before}</span>`,
         );
       }
 
       parts.push("(");
       parts.push(
-        `<span class="clickable-definition-word" data-word="${inside}">${inside}</span>`
+        `<span class="clickable-definition-word" data-word="${inside}">${inside}</span>`,
       );
       parts.push(")");
 
       if (after) {
         parts.push(
-          `<span class="clickable-definition-word" data-word="${after}">${after}</span>`
+          `<span class="clickable-definition-word" data-word="${after}">${after}</span>`,
         );
       }
 
@@ -1499,7 +1499,7 @@ function makeDefinitionClickable(defText) {
 
     // Opprinnelig logikk for alt annet
     const match = token.match(
-      /^(\()?(?<prefix>[[[\p{L}\p{M}\u200C\-']+)?(\))?(?<base>[\p{L}\p{M}\u200C\-']+)?([:.,;!?]*)$/u
+      /^(\()?(?<prefix>[[[\p{L}\p{M}\u200C\-']+)?(\))?(?<base>[\p{L}\p{M}\u200C\-']+)?([:.,;!?]*)$/u,
     );
 
     if (!match || !match.groups) return token;
@@ -1521,7 +1521,7 @@ function makeDefinitionClickable(defText) {
       parts.push(
         `${open}<span class="clickable-definition-word" data-word="${word}">${word}</span>${
           endsWithHyphen ? "-" : ""
-        }${close}`
+        }${close}`,
       );
     } else if (open || close) {
       parts.push(`${open}${close}`);
@@ -1574,7 +1574,7 @@ function displaySearchResults(results, query = "") {
     {
       const g = (result.gender || "").toLowerCase();
       result.pos = ["masculine", "feminine", "neuter"].some((x) =>
-        g.includes(x)
+        g.includes(x),
       )
         ? "noun"
         : g;
@@ -1588,12 +1588,12 @@ function displaySearchResults(results, query = "") {
     if (result.eksempel) {
       const wordForms = generateWordVariationsForSentences(
         result.ord,
-        result.pos
+        result.pos,
       );
       wordForms.sort((a, b) => b.length - a.length);
       const cleanExample = result.eksempel.replace(
         /<span[^>]*>(.*?)<\/span>/gi,
-        "$1"
+        "$1",
       );
       const pattern = wordForms
         .map((f) => f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
@@ -1645,10 +1645,10 @@ function displaySearchResults(results, query = "") {
   data-pos="${result.pos}" 
   data-engelsk="${result.engelsk}" 
   onclick="if (!window.getSelection().toString()) handleCardClick(event, '${escapedWord}', '${result.gender
-      .replace(/'/g, "\\'")
-      .trim()}', '${result.engelsk
-      .replace(/'/g, "\\'")
-      .trim()}', this.querySelector('.${multipleResultsDefinitionText}')?.textContent?.trim() || '')">
+    .replace(/'/g, "\\'")
+    .trim()}', '${result.engelsk
+    .replace(/'/g, "\\'")
+    .trim()}', this.querySelector('.${multipleResultsDefinitionText}')?.textContent?.trim() || '')">
                 <div class="${multipleResultsDefinitionHeader}">
                 <h2 class="word-gender ${multipleResultsWordgender}">
                   <div class="word-text-block">
@@ -1677,7 +1677,7 @@ function displaySearchResults(results, query = "") {
                     ${
                       result.CEFR
                         ? `<div class="game-cefr-label ${multipleResultsExposedContent} ${getCefrClass(
-                            result.CEFR
+                            result.CEFR,
                           )}">${result.CEFR}</div>`
                         : ""
                     } 
@@ -1705,12 +1705,12 @@ function displaySearchResults(results, query = "") {
                         data-sentence="${result.ord
                           .split(",")[0]
                           .trim()}"></i>                            ${
-                            result.uttale || ""
-                          }
+                          result.uttale || ""
+                        }
                           </p>`
                         : result.uttale
-                        ? `<p class="pronunciation"><i class="fas fa-volume-up"></i> ${result.uttale}</p>`
-                        : ""
+                          ? `<p class="pronunciation"><i class="fas fa-volume-up"></i> ${result.uttale}</p>`
+                          : ""
                     }
                     ${
                       result.etymologi
@@ -1720,19 +1720,19 @@ function displaySearchResults(results, query = "") {
                     ${
                       result.CEFR
                         ? `<p style="display: inline-flex; align-items: center; font-family: 'Noto Sans', sans-serif; font-weight: bold; text-transform: uppercase; font-size: 12px; color: #4F4F4F;"><i class="fa-solid fa-signal" style="margin-right: 5px;"></i><span style="text-align: center; min-width: 15px; display: inline-block; padding: 3px 7px; border-radius: 4px; background-color: ${getCefrColor(
-                            result.CEFR
+                            result.CEFR,
                           )};">${result.CEFR}</span></p>`
                         : ""
                     }
                 </div>
                 <!-- OLD: Check if example sentence exists -->
                 <!-- <div class="${multipleResultsHiddenContent}">${
-      highlightedExample
-        ? `<p class="example">${formatDefinitionWithMultipleSentences(
-            highlightedExample
-          )}</p>`
-        : ""
-    }</div> -->
+                  highlightedExample
+                    ? `<p class="example">${formatDefinitionWithMultipleSentences(
+                        highlightedExample,
+                      )}</p>`
+                    : ""
+                }</div> -->
      
                 </div>
                                 <!-- Show "Show Sentences" button only if sentences exist -->
@@ -1753,7 +1753,7 @@ function displaySearchResults(results, query = "") {
       fetchAndRenderSentences(
         singleResult.ord,
         singleResult.pos,
-        isEnglishVisible
+        isEnglishVisible,
       );
     }, 0);
   } else {
@@ -1774,8 +1774,8 @@ function toggleEnglishTranslations(wordId = null) {
   const sentenceContainer = isButton
     ? wordId.nextElementSibling // Update to directly select the next sibling after the button
     : wordId
-    ? document.querySelector(sentenceContainerSelector)
-    : document; // Global context if no wordId
+      ? document.querySelector(sentenceContainerSelector)
+      : document; // Global context if no wordId
 
   if (!sentenceContainer) return;
 
@@ -1792,7 +1792,7 @@ function toggleEnglishTranslations(wordId = null) {
         isButton
           ? wordId
           : sentenceContainer.previousElementSibling.querySelector(
-              ".english-toggle-btn"
+              ".english-toggle-btn",
             ),
       ]
     : document.querySelectorAll(".english-toggle-btn"); // Global if no wordId
@@ -1817,7 +1817,7 @@ function toggleEnglishTranslations(wordId = null) {
 // Function to find the gender of a word
 function getWordGender(word) {
   const matchingWord = results.find(
-    (result) => result.ord.toLowerCase() === word.toLowerCase()
+    (result) => result.ord.toLowerCase() === word.toLowerCase(),
   );
   return matchingWord ? matchingWord.gender : "unknown"; // Default to 'unknown' if not found
 }
@@ -1933,8 +1933,8 @@ function generateWordVariationsForSentences(word, pos) {
       (auxiliary.endsWith("دن") && pastStem.endsWith("د")
         ? pastStem.slice(0, -1)
         : auxiliary.endsWith("یدن") && pastStem.endsWith("ید")
-        ? pastStem.slice(0, -2)
-        : pastStem);
+          ? pastStem.slice(0, -2)
+          : pastStem);
 
     // Imperative (positive)
     v.add(preVerb + presStem); // نگه دار
@@ -2019,14 +2019,14 @@ function renderSentenceMatchesFromCorpus(rows, query) {
       cefr === "A1"
         ? '<div class="sentence-cefr-label easy">A1</div>'
         : cefr === "A2"
-        ? '<div class="sentence-cefr-label easy">A2</div>'
-        : cefr === "B1"
-        ? '<div class="sentence-cefr-label medium">B1</div>'
-        : cefr === "B2"
-        ? '<div class="sentence-cefr-label medium">B2</div>'
-        : cefr === "C"
-        ? '<div class="sentence-cefr-label hard">C</div>'
-        : "";
+          ? '<div class="sentence-cefr-label easy">A2</div>'
+          : cefr === "B1"
+            ? '<div class="sentence-cefr-label medium">B1</div>'
+            : cefr === "B2"
+              ? '<div class="sentence-cefr-label medium">B2</div>'
+              : cefr === "C"
+                ? '<div class="sentence-cefr-label hard">C</div>'
+                : "";
 
     const noHTML = highlightQuery(row.no, query);
     const enHTML = row.en ? highlightQuery(row.en, query) : "";
@@ -2077,11 +2077,11 @@ function highlightQuery(sentence, query) {
   } else {
     // Try to find POS to generate accurate variations
     const entry = results.find((r) =>
-      r.ord.toLowerCase().includes(query.toLowerCase())
+      r.ord.toLowerCase().includes(query.toLowerCase()),
     );
     const pos = entry
       ? ["masculine", "feminine", "neuter"].some((g) =>
-          (entry.gender || "").toLowerCase().includes(g)
+          (entry.gender || "").toLowerCase().includes(g),
         )
         ? "noun"
         : entry.gender.toLowerCase()
@@ -2132,7 +2132,7 @@ function renderSentencesHTML(sentenceResults, wordVariations) {
 
         // Check if the sentence contains any of the word variations
         let matchedVariation = wordVariations.find((variation) =>
-          sentence.toLowerCase().includes(variation)
+          sentence.toLowerCase().includes(variation),
         );
 
         if (matchedVariation) {
@@ -2140,21 +2140,21 @@ function renderSentencesHTML(sentenceResults, wordVariations) {
           const persianPattern = "[\\wčćđšžČĆĐŠŽ]"; // Pattern including Persian letters
           const regex = new RegExp(
             `(${persianPattern}*${matchedVariation}${persianPattern}*)`,
-            "gi"
+            "gi",
           );
 
           const highlightedSentence = sentence.replace(
             regex,
-            '<span style="color: #3c88d4;">$1</span>'
+            '<span style="color: #3c88d4;">$1</span>',
           );
 
           // Determine if it's an exact match (contains the exact search term as a full word)
           const exactMatchRegex = new RegExp(
             `\\b${matchedVariation.replace(
               /[-\/\\^$*+?.()|[\]{}]/g,
-              "\\$&"
+              "\\$&",
             )}\\b`,
-            "i"
+            "i",
           );
 
           if (exactMatchRegex.test(sentence)) {
@@ -2192,7 +2192,7 @@ function renderSentencesHTML(sentenceResults, wordVariations) {
                     Error <span class="gender">No Matching Sentences</span>
                 </h2>
                 <p>No sentences found for the word "${wordVariations.join(
-                  ", "
+                  ", ",
                 )}".</p>
             </div>
         `;
@@ -2222,11 +2222,11 @@ function renderWordDefinition(word, selectedPOS = "") {
     const posMatch =
       selectedPOS === "noun"
         ? ["masculine", "feminine", "neuter"].some((gender) =>
-            r.gender.toLowerCase().includes(gender)
+            r.gender.toLowerCase().includes(gender),
           )
         : selectedPOS
-        ? r.gender.toLowerCase().includes(selectedPOS)
-        : true;
+          ? r.gender.toLowerCase().includes(selectedPOS)
+          : true;
 
     return wordMatch && posMatch;
   });
@@ -2254,7 +2254,7 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
     .replace(/[\r\n]+/g, ""); // Remove any carriage returns or newlines
   const button = document.querySelector(`button[data-word='${word}']`);
   const sentenceContainer = document.getElementById(
-    `sentences-container-${trimmedWord}`
+    `sentences-container-${trimmedWord}`,
   );
 
   if (!sentenceContainer) {
@@ -2285,7 +2285,7 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
     (result) =>
       result.ord.toLowerCase() === trimmedWord &&
       pos &&
-      result.gender.toLowerCase().includes(pos.toLowerCase())
+      result.gender.toLowerCase().includes(pos.toLowerCase()),
   );
   if (!matchingWordEntry) {
     console.error(`No matching word found for "${trimmedWord}".`);
@@ -2317,8 +2317,8 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
         // For other parts of speech, ensure the word starts a word
         const safe = variation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         const regexStartOfWord = new RegExp(
-          `(^|[^\\p{L}\\p{N}_])${safe}($|[^\\p{L}\\p{N}_])`,
-          "iu"
+          `(^|[^\\p{L}\\p{N}_\\u200C\\u200D\\-\\u2010-\\u2015])${safe}($|[^\\p{L}\\p{N}_\\u200C\\u200D\\-\\u2010-\\u2015])`,
+          "iu",
         );
         return regexStartOfWord.test(r.eksempel);
       }
@@ -2349,11 +2349,11 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
           pos === "numeral"
             ? new RegExp(`(^|\\s)${variation}($|[\\s.,!?;])`, "gi")
             : new RegExp(
-                `(^|[^\\p{L}\\p{N}_])${variation.replace(
+                `(^|[^\\p{L}\\p{N}_\\u200C\\u200D\\-\\u2010-\\u2015])${variation.replace(
                   /[.*+?^${}()|[\]\\]/g,
-                  "\\$&"
-                )}($|[^\\p{L}\\p{N}_])`,
-                "iu"
+                  "\\$&",
+                )}($|[^\\p{L}\\p{N}_\\u200C\\u200D\\-\\u2010-\\u2015])`,
+                "iu",
               );
         return regex.test(sentence);
       });
@@ -2416,7 +2416,7 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
     matchingResults,
     trimmedWord,
     "eksempel",
-    pos
+    pos,
   );
 
   // Apply highlighting using the entire array of variations at once
@@ -2486,7 +2486,7 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
                     : ""
                 }
             </div>
-        `
+        `,
         )
         .join("");
     })
@@ -2498,7 +2498,7 @@ function fetchAndRenderSentences(word, pos, showEnglish = true) {
 
     // Find the button and display it if sentences exist
     const englishButton = sentenceContainer.parentElement.querySelector(
-      ".english-toggle-btn"
+      ".english-toggle-btn",
     );
     if (englishButton) {
       englishButton.style.display = "block"; // Make the button visible
@@ -2531,10 +2531,10 @@ function prioritizeResults(results, query, key, pos) {
 
   // Separate `direct examples` where both `ord` and `pos` match
   const directExamples = results.filter(
-    (r) => r.ord.toLowerCase() === query.toLowerCase() && r.pos === pos
+    (r) => r.ord.toLowerCase() === query.toLowerCase() && r.pos === pos,
   );
   const otherResults = results.filter(
-    (r) => r.ord.toLowerCase() !== query.toLowerCase() || r.pos !== pos
+    (r) => r.ord.toLowerCase() !== query.toLowerCase() || r.pos !== pos,
   );
 
   // Sort the other results with the usual criteria
@@ -2635,7 +2635,7 @@ function updateURL(query, type, selectedPOS, story = null, word = null) {
     document.title = `${decodeURIComponent(story)} - Persian Story`;
   } else if (query) {
     document.title = `${query} - ${capitalizeType(
-      type
+      type,
     )} Search - Persian Dictionary`;
   } else if (type) {
     document.title = `${capitalizeType(type)} - Persian Dictionary`;
@@ -2737,13 +2737,13 @@ function handleCardClick(event, word, pos, engelsk, definisjon) {
   // Filter to count only visible elements with the specific card class
   const visibleCards = Array.from(resultsContainer.children).filter(
     (child) =>
-      child.classList.contains("definition") && child.offsetParent !== null
+      child.classList.contains("definition") && child.offsetParent !== null,
   );
 
   // Log the count of visible cards
   console.log(
     "Number of visible cards in resultsContainer:",
-    visibleCards.length
+    visibleCards.length,
   );
 
   // Prevent activation if only one card is displayed
@@ -2767,7 +2767,7 @@ function handleCardClick(event, word, pos, engelsk, definisjon) {
 
   if (clickedResult.length === 0) {
     console.error(
-      `No result found for word: "${word}" with POS: "${pos}" and English: "${engelsk}"`
+      `No result found for word: "${word}" with POS: "${pos}" and English: "${engelsk}"`,
     );
     return;
   }
@@ -2785,7 +2785,7 @@ function handleCardClick(event, word, pos, engelsk, definisjon) {
 
     // Create the text element
     const text = document.createTextNode(
-      ` Back to Results for "${latestMultipleResults}"`
+      ` Back to Results for "${latestMultipleResults}"`,
     );
 
     // Append icon and text to backDiv
@@ -2926,7 +2926,7 @@ document.addEventListener("click", (event) => {
           .toLowerCase()
           .split(",")
           .map((s) => s.trim())
-          .includes(word)
+          .includes(word),
       );
 
       if (exactMatches.length === 1) {
@@ -2943,7 +2943,7 @@ document.addEventListener("click", (event) => {
           "words",
           exactMatches[0].gender.toLowerCase(),
           null,
-          word
+          word,
         );
       } else {
         search(word); // fallback to regular multi-result search
